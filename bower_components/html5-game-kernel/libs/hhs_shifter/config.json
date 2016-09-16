@@ -1,0 +1,33 @@
+{
+    "name": "Libs for application",
+    "type": "libs",
+    "libs": {
+        "HHSShifter": {
+            "path": "shifter.js",
+            "init": {
+                "titleGame" : "buffer::TITLE",
+                "template": "script::new HHSShifterTemplates()",
+                "trace": "script::new HHSShifterTraceLog()",
+                "traceDOM": "script::new HHSShifterDOMTraceLog()",
+                "getCheats": "http://betlabel-sharks.dev.booongo.com/play/?name={0}",
+                "addCheats": "http://betlabel-sharks.dev.booongo.com/cheat/add/"
+            },
+            "instanceName": "$_shifter",
+            "onlyTestDev": true,
+            "with": ["HHSShifterTemplates","HHSShifterTraceLog","HHSShifterDOMTraceLog", "doT", "jquery"]
+        },
+        "HHSShifterTemplates": {
+            "path": "shifter_templates.js",
+            "onlyTestDev": true
+        },
+        "HHSShifterTraceLog": {
+            "path": "shifter_trace_log.js",
+            "onlyTestDev": true
+        },
+        "HHSShifterDOMTraceLog": {
+            "path": "shifter_dom_trace_log.js",
+            "onlyTestDev": true
+        }
+    }
+
+}

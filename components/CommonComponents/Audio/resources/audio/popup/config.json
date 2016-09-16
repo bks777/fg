@@ -1,0 +1,22 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "popup_": {
+            "path": "popup.wav"
+        },
+        "popup": {
+            "path": "pop_up.wav"
+        },
+        "popup_text": {
+            "path": "popup_text.wav"
+        },
+        "sound_multiplier": {
+            "path": "sound_multipier.wav"
+        },
+        "sound_numbers": {
+            "path": "sound_numbers.wav"
+        }
+    }
+}

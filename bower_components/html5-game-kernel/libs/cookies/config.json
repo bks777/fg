@@ -1,0 +1,11 @@
+{
+    "name": "Cookies Library",
+    "type": "libs",
+    "libs": {
+        "cookie": {
+            "path": "js.cookie.min.js",
+            "always": true
+        }
+    }
+
+}

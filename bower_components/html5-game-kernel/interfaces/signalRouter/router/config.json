@@ -1,0 +1,13 @@
+{
+    "name": "Signal router",
+    "type": "classes",
+    "classes": {
+        "SignalRouter": {
+            "path": "signalRouter.es6.js",
+            "instanceName": "$_signal",
+            "init": {
+                "_getRouter": "script::$_signal_init.getRouter"
+            }
+        }
+    }
+}

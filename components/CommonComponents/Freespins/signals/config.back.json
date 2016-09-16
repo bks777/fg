@@ -1,0 +1,96 @@
+{
+    "name": "Router for freespins component",
+    "alias": "freespins",
+    "type": "states",
+    "states": {
+
+        "initLayout": {
+            "methods": [
+                ["self::Handler::initHandler"]
+            ]
+        },
+
+        "intro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Controller::showStartFreeSpinsPopup"]
+                    ],
+                    "executeStates": [
+                        ["freespins.game.init"]
+                    ],
+                    "executeOrders": ["methods", "executeStates"]
+                },
+
+                "end": {
+                    "methods": [
+                        ["self::Controller::endFreeSpinsIntro"],
+                        ["self::Handler::showSelectedHeader"]
+                    ],
+                    "executeStates": [
+                        ["control.freespins.init"]
+                    ]
+                }
+            }
+        },
+
+        "game": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["control.freespins.init"],
+                        ["reels.freespins.init"],
+                        ["lines.freespins.init"],
+                        ["background.freespins"],
+                        ["audio.background.change", ["freespins"]]
+                    ],
+                    "flags": [
+                        ["freeSpinsEnabled", [true]]
+                    ],
+                    "methods": [
+                        ["self::Handler::showLayout"],
+                        ["self::Handler::showSelectedHeader"]
+                    ],
+                    "executeOrders": ["flags", "executeStates", "methods"]
+                },
+
+                "resume": {
+                    "methods": [
+                        ["self::Controller::resumeFreeSpins"]
+                    ],
+                    "executeStates": [
+                        ["freespins.game.init"]
+                    ],
+                    "executeOrders": ["executeStates", "methods"]
+                },
+
+                "start": {
+                    "methods": [
+                        ["self::Controller::startFreeSpins"]
+                    ]
+                },
+
+                "play": {
+                    "executeStates": [
+                        ["control.freespins.play"]
+                    ]
+                }
+            }
+        },
+
+        "outro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Handler::showEndPopup"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["self::Handler::hideLayout"]
+                    ]
+                }
+            }
+        }
+    }
+}

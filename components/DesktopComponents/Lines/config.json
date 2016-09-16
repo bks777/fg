@@ -1,0 +1,13 @@
+{
+    "name": "Lines",
+    "typeLoading": "main",
+    "alias": "lines",
+    "type": "component",
+    "partition": ["desktop"],
+    "viewHandlers": {
+        "DesktopLinesViewHandler": {
+            "path": "desktopLinesViewHandler.es6.js",
+            "extend": "LinesViewHandler"
+        }
+    }
+}

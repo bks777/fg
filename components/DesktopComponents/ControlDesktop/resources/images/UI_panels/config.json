@@ -1,0 +1,34 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "UI_panel_autogame": {
+            "path": "UI_panel_autogame_rus.png"
+        },
+        "UI_panel_autogame_custom": {
+            "path": "UI_panel_autogame_custom_rus.png"
+        },
+        "UI_panel_autogame_value": {
+            "path": "UI_panel_autogame_value.png"
+        },
+        "UI_panel_autogame_value_arrow": {
+            "path": "UI_panel_autogame_value_arrow.png"
+        },
+        "UI_panel_check": {
+            "path": "UI_panel_check.png"
+        },
+        "UI_panel_checkbox": {
+            "path": "UI_panel_checkbox.png"
+        },
+        "UI_panel_currencybox": {
+            "path": "UI_panel_currencybox.png"
+        },
+        "UI_panel_settings": {
+            "path": "UI_panel_settings.png"
+        },
+        "UI_panel_checkbox-sprite": {
+            "path": "UI_panel_checkbox-sprite.png"
+        }
+    }
+
+}

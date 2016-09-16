@@ -1,0 +1,13 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "reel_stop": {
+            "path": "reel_stop_v5.wav"
+        },
+        "reel_short": {
+            "path": "reel_short.wav"
+        }
+    }
+}

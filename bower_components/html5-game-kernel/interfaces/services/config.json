@@ -1,0 +1,67 @@
+{
+    "name": "Services Classes",
+    "type": "classes",
+    "classes": {
+        "ServiceInterface": {
+            "path": "serviceInterface.es6.js"
+        },
+        "SlotMachineService": {
+            "path": "slotMachineService.es6.js"
+        },
+        "ProtocolService": {
+            "path": "protocolService.es6.js"
+        },
+        "MemoryService": {
+            "path": "memoryService.es6.js"
+        },
+        "BetService": {
+            "path": "betService.es6.js"
+        },
+        "LinesService": {
+            "path": "linesService.es6.js"
+        },
+        "SoundService": {
+            "path": "soundService.es6.js"
+        },
+        "GameSettingsService": {
+            "path": "gameSettingsService.es6.js"
+        },
+        "BonusService": {
+            "path": "bonusService.es6.js"
+        },
+        "AutoPlayService": {
+            "path": "autoPlayService.es6.js"
+        },
+        "FreeSpinService": {
+            "path": "freeSpinService.es6.js"
+        },
+        "GameActionService": {
+            "path": "gameActionService.es6.js"
+        },
+        "PayTableService": {
+            "path": "payTableService.es6.js"
+        },
+        "PopupService": {
+            "path": "popupService.es6.js"
+        },
+        "ServiceFabric": {
+            "path": "serviceFabric.es6.js",
+            "instanceName": "$_services"
+        },
+        "TickerTapeService": {
+            "path": "tickerTapeService.es6.js",
+            "instanceName": "$_service_ticker_tape",
+            "init": {
+                "instanceName": "$_service_ticker_tape"
+            }
+        },
+        "FlagsService": {
+            "path": "flagService.es6.js",
+            "instanceName": "HelperFlags",
+            "init": {
+                "instanceName": "HelperFlags"
+            }
+        }
+
+    }
+}

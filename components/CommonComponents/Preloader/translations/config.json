@@ -1,0 +1,10 @@
+{
+    "name": "Translations for Component",
+    "type": "translations",
+    "files": {
+        "translation" : {
+            "path": "translations.json",
+            "setTo": "$_t.set"
+        }
+    }
+}

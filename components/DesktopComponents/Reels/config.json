@@ -1,0 +1,16 @@
+{
+    "name": "Reels Component",
+    "typeLoading": "main",
+    "alias": "reels",
+    "partition": ["desktop"],
+    "type": "component",
+    "viewHandlers": {
+        "DesktopReelHandler": {
+            "path": "desktopReelHandler.es6.js",
+            "extend": "ReelHandler"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    }
+}

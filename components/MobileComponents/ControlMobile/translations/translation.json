@@ -1,0 +1,296 @@
+{
+    "data": {
+        "max_bet": {
+            "en": {
+                "text": "Max \nBet"
+            },
+            "ru": {
+                "text": "Mакс. \nСтавка"
+            },
+            "tr": {
+                "text": "Maksimum \nBahis"
+            },
+            "it": {
+                "text": "Scommessa \nmassima"
+            },
+            "es": {
+                "text": "Apuesta \nMáxima"
+            },
+            "fr": {
+                "text": "Pari \nMax."
+            },
+            "zh": {
+                "top": "54%",
+                "text": "最大赌注"
+            }
+        },
+        "USD": {
+            "en": {
+                "text": "$"
+            }
+        },
+        "info_scatter": {
+            "en": {
+                "text": "3 or more Scatters trigger 8 Free Spins. Spinning reel Bet lines change the route to give more winnings!"
+            }
+        },
+        "info_wild": {
+            "en": {
+                "text": "Substitutes for all symbols except Scatter. During Free Spins Wild symbols on reels 3 and 4 expand on the whole reel."
+            }
+        },
+        "SPIN SETTINGS": {
+            "en": {
+                "text": "SPIN SETTINGS"
+            },
+            "ru": {
+                "text": "НАСТРОЙКА ВРАЩЕНИЙ"
+            },
+            "it": {
+                "text": "IMPOSTAZIONI SPIN"
+            },
+            "zh": {
+                "text": "转盘设置"
+            },
+            "tr": {
+                "text": "ÇEVİRME AYARLARI"
+            },
+            "es": {
+                "text": "OPCIONES DE GIRO"
+            },
+            "fr": {
+                "text": "PARAMÈTRES DU TOUR"
+            }
+        },
+        "Autoplay": {
+            "en": {
+                "text": "Autoplay"
+            },
+            "ru": {
+                "text": "Автоигра"
+            },
+            "it": {
+                "text": "Gioco automatico"
+            },
+            "zh": {
+                "text": "自动模式"
+            },
+            "tr": {
+                "text": "Otomatik Oyun"
+            },
+            "es": {
+                "text": "Juego Automático"
+            },
+            "fr": {
+                "text": "Jeu Auto"
+            }
+        },
+        "SOUND SETTINGS": {
+            "en": {
+                "text": "SOUND SETTINGS"
+            },
+            "ru": {
+                "text": "НАСТРОЙКИ ЗВУКА"
+            },
+            "it": {
+                "text": "IMPOSTAZIONI AUDIO"
+            },
+            "zh": {
+                "text": "声音设置"
+            },
+            "tr": {
+                "text": "SES AYARLARI"
+            },
+            "es": {
+                "text": "OPCIONES DE SONIDO"
+            },
+            "fr": {
+                "text": "PARAMÈTRES DU SON"
+            }
+        },
+        "Game Sound": {
+            "en": {
+                "text": "Game Sound"
+            },
+            "ru": {
+                "text": "Звук игры"
+            },
+            "it": {
+                "text": "Audio del gioco"
+            },
+            "zh": {
+                "text": "游戏声音"
+            },
+            "tr": {
+                "text": "Oyun Sesi"
+            },
+            "es": {
+                "text": "Sonido del Juego"
+            },
+            "fr": {
+                "text": "Son du jeu"
+            }
+        },
+        "Game Effects": {
+            "en": {
+                "text": "Game Effects"
+            },
+            "ru": {
+                "text": "Эффекты игры"
+            },
+            "it": {
+                "text": "Effetti di gioco"
+            },
+            "zh": {
+                "text": "游戏效果"
+            },
+            "tr": {
+                "text": "Oyun Efektleri"
+            },
+            "es": {
+                "text": "Efectos del Juego"
+            },
+            "fr": {
+                "text": "Effets du jeu"
+            }
+        },
+        "PAYTABLE": {
+            "en": {
+                "text": "PAYTABLE"
+            },
+            "ru": {
+                "text": "ТАБЛИЦА ВЫПЛАТ"
+            },
+            "it": {
+                "text": "TABELLA DELLE VINCITE"
+            },
+            "zh": {
+                "text": "赔付表"
+            },
+            "tr": {
+                "text": "ÖDEME TABLOSU"
+            },
+            "es": {
+                "text": "TABLA DE PAGOS"
+            },
+            "fr": {
+                "text": "TABLE DES GAINS"
+            }
+        },
+        "BET SETTINGS": {
+            "en": {
+                "text": "BET SETTINGS"
+            },
+            "ru": {
+                "text": "НАСТРОЙКА СТАВКИ"
+            },
+            "it": {
+                "text": "IMPOSTAZIONI SCOMMESSA"
+            },
+            "zh": {
+                "text": "赌注设置"
+            },
+            "tr": {
+                "text": "BAHIS AYARLARI"
+            },
+            "es": {
+                "text": "OPCIONES DE APUESTA"
+            },
+            "fr": {
+                "text": "PARAMÈTRES DU PARI"
+            }
+        },
+        "Bet_": {
+            "en": {
+                "text": "Bet"
+            },
+            "ru": {
+                "text": "Ставка"
+            },
+            "it": {
+                "text": "Scommessa"
+            },
+            "zh": {
+                "text": "赌注"
+            },
+            "tr": {
+                "text": "Bahis"
+            },
+            "es": {
+                "text": "Apuesta"
+            },
+            "fr": {
+                "text": "Pari"
+            }
+        },
+        "Total bet_": {
+            "en": {
+                "text": "Total Bet"
+            },
+            "ru": {
+                "text": "Общая ставка"
+            },
+            "it": {
+                "text": "Totale scommessa"
+            },
+            "zh": {
+                "text": "总赌注"
+            },
+            "tr": {
+                "text": "Toplam Bahis"
+            },
+            "es": {
+                "text": "Apuesta Total"
+            },
+            "fr": {
+                "text": "Pari Total"
+            }
+        },
+        "Total win: {0}": {
+            "ru": {
+                "text": "Общий выигрыш: {0}"
+            },
+            "en": {
+                "text": "Total win: {0}"
+            },
+            "it": {
+                "text": "Vincita totale: {0}"
+            },
+            "zh": {
+                "text": "总奖金: {0}"
+            },
+            "tr": {
+                "text": "Toplam kazanç: {0}"
+            },
+            "es": {
+                "text": "Ganancia total: {0}"
+            },
+            "fr": {
+                "text": "Gain total: {0}"
+            }
+        },
+        "WIN_":{
+            "ru": {
+                "text": "Выигрыш"
+            },
+            "en": {
+                "text": "Win"
+            },
+            "it": {
+                "text": "Vincita"
+            },
+            "zh": {
+                "text": "奖金"
+            },
+            "tr": {
+                "text": "Kazan"
+            },
+            "es": {
+                "text": "Gana"
+            },
+            "fr": {
+                "text": "Gain"
+            }
+        }
+    }
+}

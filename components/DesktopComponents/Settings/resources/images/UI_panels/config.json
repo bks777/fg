@@ -1,0 +1,19 @@
+{
+  "name": "Images for settings",
+  "type": "images",
+  "images": {
+    "UI_panel_check": {
+      "path": "UI_panel_check.png"
+    },
+    "UI_panel_checkbox": {
+      "path": "UI_panel_checkbox.png"
+    },
+    "UI_top_tools_game_settings": {
+      "path": "UI_top_tools_game_settings.png"
+    },
+    "UI_panel_checkbox-sprite": {
+      "path": "UI_panel_checkbox-sprite.png"
+    }
+  }
+
+}

@@ -1,0 +1,804 @@
+{
+    "data": {
+        "TOTAL WIN": {
+            "ru": {
+                "text": "ТЕКУЩИЙ ВЫИГРЫШ"
+            },
+            "en": {
+                "text": "TOTAL WIN"
+            },
+            "it": {
+                "text": "VINCITA TOTALE"
+            },
+            "zh": {
+                "text": "总奖金"
+            },
+            "tr": {
+                "text": "TOPLAM KAZANÇ"
+            },
+            "es": {
+                "text": "GANANCIA TOTAL"
+            },
+            "fr": {
+                "text": "GAIN TOTAL"
+            }
+        },
+        "desktop_control_max_bet": {
+            "en": {
+                "text": "MAX\nBET"
+            },
+            "ru": {
+                "text": "MАКС.\nСТАВКА"
+            },
+            "tr": {
+                "text": "MAKSIMUM\nBAHIS",
+                "font": "bold 15px Calibri"
+            },
+            "it": {
+                "text": "SCOMMESSA\nMASSIMA",
+                "font": "bold 15px Calibri"
+            },
+            "es": {
+                "text": "APUESTA\nMÁXIMA",
+                "font": "bold 14px Calibri"
+            },
+            "fr": {
+                "text": "PARI\nMAX."
+            },
+            "zh": {
+                "top": "54%",
+                "text": "最大赌注"
+            }
+        },
+        "auto_play_key": {
+            "en": {
+                "text": "AUTO\nPLAY"
+            },
+            "ru": {
+                "text": "АВТО\nИГРА"
+            },
+            "tr": {
+                "text": "OTOMATIK\nOYUN",
+                "font": "bold 15px Calibri"
+            },
+            "it": {
+                "text": "AUTO\nPLAY",
+                "font": "bold 15px Calibri"
+            },
+            "es": {
+                "text": "JUEGO\nAUTOMÁTICO",
+                "font": "bold 14px Calibri"
+            },
+            "fr": {
+                "text": "JEU\nAUTO"
+            },
+            "zh": {
+                "top": "54%",
+                "text": "自动模式"
+            }
+        },
+        "auto_play_head": {
+            "en": {
+                "text": " Autoplay"
+            },
+            "ru": {
+                "text": " Автоигра"
+            },
+            "tr": {
+                "text": " Otomatik Oyun"
+            },
+            "it": {
+                "text": " Autoplay"
+            },
+            "es": {
+                "text": " Juego Automático"
+            },
+            "fr": {
+                "text": " Jeu Auto"
+            },
+            "zh": {
+                "text": "自动模式"
+            }
+        },
+        "auto_play_stop": {
+            "en": {
+                "text": "STOP"
+            },
+            "ru": {
+                "text": "СТОП"
+            },
+            "tr": {
+                "text": "STOP"
+            },
+            "it": {
+                "text": "STOP"
+            },
+            "es": {
+                "text": "DETENER"
+            },
+            "fr": {
+                "text": "ARRÊTEZ"
+            },
+            "zh": {
+                "text": "停止"
+            }
+        },
+        "BET": {
+            "en": {
+                "text": "BET"
+            },
+            "ru": {
+                "text": "СТАВКА"
+            },
+            "tr": {
+                "text": "BAHIS"
+            },
+            "it": {
+                "text": "SCOMMESSA"
+            },
+            "es": {
+                "text": "APUESTA"
+            },
+            "fr": {
+                "text": "PARI"
+            },
+            "zh": {
+                "text": "赌注"
+            }
+        },
+        "LINES": {
+            "en": {
+                "text": "LINES"
+            },
+            "ru": {
+                "text": "ЛИНИИ"
+            },
+            "tr": {
+                "text": "HATLAR"
+            },
+            "it": {
+                "text": "Linee"
+            },
+            "es": {
+                "text": "Líneas"
+            },
+            "fr": {
+                "text": "Lignes"
+            },
+            "zh": {
+                "text": "线数"
+            }
+        },
+        "TOTAL BET": {
+            "en": {
+                "text": "TOTAL BET"
+            },
+            "ru": {
+                "text": "ОБЩАЯ СТАВКА"
+            },
+            "tr": {
+                "text": "Toplam Bahis"
+            },
+            "it": {
+                "text": "Totale scommessa"
+            },
+            "es": {
+                "text": "Apuesta Total"
+            },
+            "fr": {
+                "text": "Pari Total"
+            },
+            "zh": {
+                "text": "总赌注"
+            }
+        },
+        "WIN": {
+            "en": {
+                "text": "WIN"
+            },
+            "ru": {
+                "text": "ВЫИГРЫШ"
+            },
+            "tr": {
+                "text": "Kazan"
+            },
+            "it": {
+                "text": "Vincita"
+            },
+            "es": {
+                "text": "Gana"
+            },
+            "fr": {
+                "text": "Gain"
+            },
+            "zh": {
+                "text": "奖金"
+            }
+        },
+        "BALANCE": {
+            "en": {
+                "text": "BALANCE"
+            },
+            "ru": {
+                "text": "СЧЕТ"
+            },
+            "tr": {
+                "text": "Bakiye"
+            },
+            "it": {
+                "text": "Saldo"
+            },
+            "es": {
+                "text": "Saldo"
+            },
+            "fr": {
+                "text": "Solde"
+            },
+            "zh": {
+                "text": "余额"
+            }
+        },
+        "Quick spin": {
+            "en": {
+                "text": "Quick spin"
+            },
+            "ru": {
+                "text": "Быстрая игра"
+            },
+            "tr": {
+                "text": "Hızlı Çevir"
+            },
+            "it": {
+                "text": "Spin veloce"
+            },
+            "es": {
+                "text": "Giro rápido"
+            },
+            "fr": {
+                "text": "Tour Rapide"
+            },
+            "zh": {
+                "text": "快速转盘	"
+            }
+        },
+        "free_bets_head": {
+            "en": {
+                "text": "FREE BETS"
+            },
+            "ru": {
+                "text": "ПОДАРОЧНЫЕ СТАВКИ"
+            },
+            "tr": {
+                "text": "ÜCRETSİZ BAHİSLER"
+            },
+            "it": {
+                "text": "SCOMMESSE LIBERE"
+            },
+            "es": {
+                "text": "APUESTAS GRATIS"
+            },
+            "fr": {
+                "text": "PARIS GRATUITS"
+            },
+            "zh": {
+                "text": "免费赌注"
+            }
+        },
+        "Free Bets left: {0}": {
+            "en": {
+                "text": "Free Bets left: {0}."
+            },
+            "ru": {
+                "text": "Подарочных ставок осталось: {0}."
+            },
+            "tr": {
+                "text": "Kalan Ücretsiz Bahisler: {0}."
+            },
+            "it": {
+                "text": "Scommesse libere rimaste: {0}."
+            },
+            "es": {
+                "text": "Apuestas Gratuitas restantes: {0}."
+            },
+            "fr": {
+                "text": "Paris gratuits restants: {0}."
+            },
+            "zh": {
+                "text": "剩余免费赌注：{0}。"
+            }
+        },
+        "free_bets_start": {
+            "en": {
+                "text": "You have {0} free bets!\nGood luck!"
+            },
+            "ru": {
+                "top": -10,
+                "text": "У вас есть {0} Подарочных Ставок.\nУдачи!"
+            },
+            "tr": {
+                "text": "Tebrikler!\n{0} Ücretsiz Bahsiniz var\nİyi şanslar!"
+            },
+            "it": {
+                "text": "Complimenti!\nHai {0} scommesse libere.\nBuona fortuna!"
+            },
+            "es": {
+                "text": "Felicidades!\nCuentas con {0} Apuestas Gratis.\nBuena suerte!"
+            },
+            "fr": {
+                "text": "Félicitations !\nVous disposez de {0} paris gratuits.\nBonne chance !"
+            },
+            "zh": {
+                "text": "恭喜！\n您有 {0} 免费赌注。\n祝您好运！"
+            }
+        },
+        "free_bets_end": {
+            "en": {
+                "text": "Free Bets have finished.\nFuture rounds will use your account credits.\nGood luck!"
+            },
+            "ru": {
+                "text": "Подарочные Ставки закончились.\nПоследующие раунды будут использовать средства вашего аккаунта.\nУдачи!"
+            },
+            "tr": {
+                "text": "Ücretsiz Bahisler bitti.\nGelecekteki turlarda hesabınızın kredileri kullanılacak.\nİyi şanslar!"
+            },
+            "it": {
+                "text": "Le scommesse libere sono terminate.\nI giri successivi utilizzeranno i crediti del tuo conto.\nBuona fortuna!"
+            },
+            "es": {
+                "text": "Se han terminado las Apuestas Gratuitas.\nLas siguientes rondas usarán los créditos de su cuenta.\nBuena suerte!"
+            },
+            "fr": {
+                "text": "Les paris gratuits se sont terminés.\nLes tours futurs utiliseront les crédits de votre compte.\nBonne chance !"
+            },
+            "zh": {
+                "text": "免费赌注已用完。\n您的账户积分将在后续回合中进行扣除。\n祝您好运！"
+            }
+        },
+        "free_bets_end_{0}": {
+            "ru": {
+                "text": "Подарочные Ставки закончились. \nВы выиграли {0}."
+            },
+            "en": {
+                "text": "Free Bets have finished. \nYou win {0}."
+            },
+            "it": {
+                "text": "Le scommesse libere sono terminate. \nHai vinto: {0}."
+            },
+            "zh": {
+                "text": "免费赌注已用完。\n您赢得： {0}。"
+            },
+            "tr": {
+                "text": "Ücretsiz Bahisler bitti. \nKazandığınız tutar: {0}."
+            },
+            "es": {
+                "text": "Se han terminado las Apuestas Gratuitas. \nHas ganado: {0}"
+            },
+            "fr": {
+                "text": "Les Paris Gratuits ont pris fin. \nVous avez gagné : {0}."
+            }
+
+        },
+        "free_bets_end_no_win": {
+            "ru": {
+                "text": "Подарочные Ставки закончились.\nПовезёт в следующий раз."
+            },
+            "en": {
+                "text": "Free Bets finished. \nBetter luck next time."
+            },
+            "it": {
+                "text": "Le scommesse libere sono terminate. \nBuona fortuna."
+            },
+            "zh": {
+                "text": "免费赌注已用完。 \n祝您好运"
+            },
+            "tr": {
+                "text": "Ücretsiz Bahisler bitti. \nİyi şanslar."
+            },
+            "es": {
+                "text": "Se han terminado las Apuestas Gratuitas. \nBuena suerte."
+            },
+            "fr": {
+                "text": "Les paris gratuits se sont terminés. \nBonne chance."
+            }
+        },
+        "free_bets_deleted": {
+            "ru": {
+                "text": "Это предложение Подарочных Ставок было удалено."
+            },
+            "en": {
+                "text": "These Free Bets were deleted."
+            },
+            "it": {
+                "text": "Queste scommesse libere sono state cancellate."
+            },
+            "zh": {
+                "text": "这些免费赌注已删除。"
+            },
+            "tr": {
+                "text": "Bu Ücretsiz Bahisler silindi."
+            },
+            "es": {
+                "text": "Estas Apuestas Gratuitas fueron eliminadas."
+            },
+            "fr": {
+                "text": "Ces paris gratuits ont été supprimés."
+            }
+        },
+        "free_bets_start_button": {
+            "en": {
+                "text": "Close"
+            },
+            "ru": {
+                "text": "Закрыть"
+            },
+            "tr": {
+                "text": "Kapat"
+            },
+            "it": {
+                "text": "Chiudi"
+            },
+            "es": {
+                "text": "Cerrar"
+            },
+            "fr": {
+                "text": "Fermer"
+            },
+            "zh": {
+                "text": "结束"
+            }
+        },
+        "Number of waves": {
+            "ru": {
+                "text": "Количество вращений",
+                "font": "10pt Calibri"
+            },
+            "en": {
+                "text": "Number of waves"
+            },
+            "it": {
+                "text": "Numero di serie"
+            },
+            "zh": {
+                "text": "波纹数目"
+            },
+            "tr": {
+                "text": "Dalga sayısı"
+            },
+            "es": {
+                "text": "Número de olas"
+            },
+            "fr": {
+                "text": "Nombre de vagues"
+            }
+        },
+        "Select to start": {
+            "ru": {
+                "text": "Выберите, чтобы начать",
+                "font": "10pt Calibri"
+            },
+            "en": {
+                "text": "Select to start"
+            },
+            "it": {
+                "text": "Seleziona per iniziare"
+            },
+            "zh": {
+                "text": "选择开始"
+            },
+            "tr": {
+                "text": "Başlangıcı seçin"
+            },
+            "es": {
+                "text": "Seleccionar para empezar"
+            },
+            "fr": {
+                "text": "Sélectionner pour commencer",
+                "font": "10pt Calibri"
+            }
+        },
+        "Advanced settings": {
+            "ru": {
+                "text": "Дополнительные настройки",
+                "font": "10pt Calibri",
+                "left": -38
+            },
+            "en": {
+                "text": "Advanced settings",
+                "left": -5
+            },
+            "it": {
+                "text": "Impostazioni avanzate",
+                "left": -33
+            },
+            "zh": {
+                "text": "高级设置",
+                "left": -5
+            },
+            "tr": {
+                "text": "Gelişmiş ayarlar",
+                "left": -15
+            },
+            "es": {
+                "text": "Ajustes avanzados",
+                "left": -15
+            },
+            "fr": {
+                "text": "Paramètres avancés",
+                "left": -15
+            }
+        },
+        "Stop autoplay:": {
+            "ru": {
+                "text": "Остановить автоигру"
+            },
+            "en": {
+                "text": "Stop autoplay"
+            },
+            "it": {
+                "text": "Termina Autoplay"
+            },
+            "zh": {
+                "text": "停止自动模式"
+            },
+            "tr": {
+                "text": "Otomatik Oyunu durdur"
+            },
+            "es": {
+                "text": "Detener juego automático"
+            },
+            "fr": {
+                "text": "Arrêter le jeu auto"
+            }
+
+        },
+        "Stop": {
+            "ru": {
+                "text": "Стоп"
+            },
+            "en": {
+                "text": "Stop"
+            },
+            "it": {
+                "text": "Termina"
+            },
+            "zh": {
+                "text": "停止"
+            },
+            "tr": {
+                "text": "Durdur"
+            },
+            "es": {
+                "text": "Detener"
+            },
+            "fr": {
+                "text": "Arrêter"
+            }
+        },
+        "on any win": {
+            "ru": {
+                "text": "на любом выигрыше",
+                "font": "12px Calibri"
+            },
+            "en": {
+                "text": "on any win"
+            },
+            "it": {
+                "font": "13px Calibri",
+                "text": "su ogni vincita"
+            },
+            "zh": {
+                "text": "对于任何奖金"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "Herhangi bir kazançta"
+            },
+            "es": {
+                "text": "en cualquier ganancia",
+                "font": "13px Calibri"
+            },
+            "fr": {
+                "font": "13px Calibri",
+                "text": "sur n’importe quel gain"
+            }
+        },
+        "if free waves is won": {
+            "ru": {
+                "text": "если выиграл бесплатные\nвращения",
+                "font": "12px Calibri",
+                "top": 7,
+                "lineHeight": 10
+            },
+            "en": {
+                "text": "if free waves is won"
+            },
+            "it": {
+                "font": "13px Calibri",
+                "text": "se vengono vinte serie libere"
+            },
+            "zh": {
+                "text": "若自由波获胜"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "bedava dalga kazanılırsa"
+            },
+            "es": {
+                "text": "si se ganan olas gratuitas",
+                "font": "13px Calibri"
+            },
+            "fr": {
+                "font": "13px Calibri",
+                "text": "si des vagues gratuites sont gagnées"
+            }
+        },
+        "if single win exceeds": {
+            "ru": {
+                "top": 7,
+                "lineHeight": 10,
+                "text": "если одиночный \nвыигрыш превышает",
+                "font": "12px Calibri"
+            },
+            "en": {
+                "text": "if single win exceeds"
+            },
+            "it": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "se la vincita \nsingola supera"
+            },
+            "zh": {
+                "top": 5,
+                "lineHeight": 12,
+                "font": "12px Calibri",
+                "text": "若单次奖金超过"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "tek kazanç aşarsa"
+            },
+            "es": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si la ganancia\nindividual excede"
+            },
+            "fr": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si un gain \nunique dépasse"
+            }
+        },
+        "if cash increases by": {
+            "ru": {
+                "top": 7,
+                "lineHeight": 10,
+                "font": "12px Calibri",
+                "text": "если наличные \nувеличиваются"
+            },
+            "en": {
+                "text": "if cash increases by"
+            },
+            "it": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "se il denaro \naumenta di"
+            },
+            "zh": {
+                "top": 6,
+                "lineHeight": 15,
+                "text": "若增加现金"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "oranında nakit artarsa"
+            },
+            "es": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si el efectivo\naumenta en"
+            },
+            "fr": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si l’argent liquide \naugmente de"
+            }
+        },
+        "if cash decreases by": {
+            "ru": {
+                "top": 7,
+                "lineHeight": 10,
+                "font": "12px Calibri",
+                "text": "если наличные \nуменьшаются"
+            },
+            "en": {
+                "text": "if cash decreases by"
+            },
+            "it": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "se il denaro \ndiminuisce di"
+            },
+            "zh": {
+                "top": 6,
+                "lineHeight": 15,
+                "text": "若减少现金"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "oranında nakit azalırsa"
+            },
+            "es": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si el efectivo\ndisminuye en"
+            },
+            "fr": {
+                "top": 6,
+                "lineHeight": 10,
+                "font": "13px Calibri",
+                "text": "si l’argent liquide \ndiminue de"
+            }
+        },
+        "if bonus is won": {
+            "ru": {
+                "font": "12px Calibri",
+                "text": "если выиграл бонус"
+            },
+            "en": {
+                "text": "if bonus is won"
+            },
+            "it": {
+                "font": "13px Calibri",
+                "text": "se viene vinto un bonus"
+            },
+            "zh": {
+                "text": "若 bonus 获胜"
+            },
+            "tr": {
+                "font": "13px Calibri",
+                "text": "Bonus kazanılırsa"
+            },
+            "es": {
+                "font": "13px Calibri",
+                "text": "si se gana el bonus"
+            },
+            "fr": {
+                "font": "13px Calibri",
+                "text": "si le bonus est gagné"
+            }
+        },
+        "FREE BETS WIN": {
+            "ru": {
+                "text": "ПОДАРОЧНЫЙ ВЫИГРЫШ"
+            },
+            "en": {
+                "text": "FREE BETS WIN"
+            },
+            "it": {
+                "text": "VINCITA SCOMMESSE LIBERE"
+            },
+            "zh": {
+                "text": "赢得的免费赌注"
+            },
+            "tr": {
+                "text": "ÜCRETSİZ BAHİSLER KAZANCI",
+                "font": "15px Calibri"
+            },
+            "es": {
+                "text": "GANANCIA DE APUESTAS GRATUITAS",
+                "font": "13px Calibri"
+            },
+            "fr": {
+                "text": "GAIN DE PARIS GRATUITS"
+            }
+        }
+    }
+}

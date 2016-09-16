@@ -1,0 +1,25 @@
+{
+  "resources": [
+    "au_sp_overload_background.ogg",
+    "au_sp_overload_background.m4a",
+    "au_sp_overload_background.mp3",
+    "au_sp_overload_background.ac3"
+  ],
+  "spritemap": {
+    "mainform_bonus": {
+      "start": 0,
+      "end": 29.31299319727891,
+      "loop": false
+    },
+    "mainform_freespin": {
+      "start": 31,
+      "end": 61.73172335600907,
+      "loop": false
+    },
+    "mainform_mainform": {
+      "start": 63,
+      "end": 121.62596371882086,
+      "loop": false
+    }
+  }
+}

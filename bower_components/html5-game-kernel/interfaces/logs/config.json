@@ -1,0 +1,10 @@
+{
+    "name": "Logs Interface",
+    "type": "classes",
+    "classes": {
+        "LogApplication": {
+            "path": "logs.es6.js",
+            "instanceName": "$_log"
+        }
+    }
+}

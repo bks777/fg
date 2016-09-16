@@ -1,0 +1,27 @@
+{
+    "name": "Control Panel for Novomatic games",
+    "typeLoading": "main",
+    "alias": "control",
+    "type": "component",
+    "partition": ["mobile"],
+    "controllers": {
+        "ControlMobileController": {
+            "path": "controlMobileController.es6.js"
+        }
+    },
+    "events": {
+        "ControlMobileEvent": {
+            "path": "controlMobileEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "ControlMobileViewHandler": {
+            "path": "controlMobileViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    },
+    "signals": true,
+    "translations": true
+}

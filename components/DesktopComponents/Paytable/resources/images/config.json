@@ -1,0 +1,46 @@
+{
+  "name": "Images for paytable",
+  "type": "images",
+  "images": {
+
+    "paytableAtlas": {
+      "path": "paytableAtlas.png"
+    },
+
+    "background": {
+      "path": "paytable_back.png"
+    },
+    "mini_background": {
+      "path": "el_frame_new.png" //"mini_paytable_back.png"
+    },
+    "miniSimpleShadow": {
+        "path": "shadow_circle.png"
+    },
+    "miniBlockShadow": {
+        "path": "shadow_squire.png"
+    },
+    "point_white": {
+      "path": "piont_white.png"
+    },
+    "point_blue": {
+      "path": "point_blue.png"
+    },
+    "x5": {
+      "path": "x5yellow.png"
+    },
+    "equal": {
+      "path": "equal.png"
+    },
+    "paylines": {
+      "path": "paylines.png"
+    },
+
+    "lines_bonus": {
+      "path": "lines_bonus.png"
+    },
+    "screen_1": {
+        "path": "bonus_screen.png"
+    }
+  }
+
+}

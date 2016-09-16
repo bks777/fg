@@ -1,0 +1,13 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "background_music": "background_music",
+        "bonus_game": "bonus_game",
+        "buttons_game_interface": "buttons_game_interface",
+        "element_combination_sound": "element_combination_sound",
+        "freespin": "freespin",
+        "popup": "popup"
+    }
+
+}

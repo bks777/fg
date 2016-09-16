@@ -1,0 +1,13 @@
+{
+    "name": "Component interface",
+    "type": "classes",
+    "classes": {
+        "ComponentInstanceCache": {
+            "path": "componentInstanceCache.es6.js",
+            "instanceName": "$_component_instances"
+        },
+        "ComponentInterface": {
+            "path": "componentInterface.es6.js"
+        }
+    }
+}

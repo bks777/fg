@@ -1,0 +1,34 @@
+{
+    "name": "Blending images for reel",
+    "type": "images",
+    "images": {
+        "scatterBlendReel": {
+            "path": "MG_reel_FX_Scatter.png",
+            "typeLoading": "main"
+        },
+        "bonusBlendReel": {
+            "path": "MG_reel_FX_Bonus.png",
+            "typeLoading": "main"
+        },
+        "Wild_X2_BlendReel": {
+            "path": "FS_reel_FX_x2_green.png",
+            "typeLoading": "main"
+        },
+        "Wild_X3_BlendReel": {
+            "path": "FS_reel_FX_x3_red.png",
+            "typeLoading": "main"
+        },
+        "Wild_X5_BlendReel": {
+            "path": "FS_reel_FX_x5_gold.png",
+            "typeLoading": "main"
+        },
+        "bonusElementBlend": {
+            "path": "bonus_reel_stop.png",
+            "typeLoading": "main"
+        },
+        "scatterElementBlend": {
+            "path": "scatter_reel_stop.png",
+            "typeLoading": "main"
+        }
+    }
+}

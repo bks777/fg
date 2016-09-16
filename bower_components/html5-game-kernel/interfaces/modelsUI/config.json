@@ -1,0 +1,84 @@
+{
+    "name": "Model UI",
+    "type": "classes",
+    "classes": {
+        "BetSelector": {
+            "path": "BetSelector.es6.js"
+        },
+        "Bitmap": {
+            "path": "Bitmap.es6.js"
+        },
+        "BitmapText": {
+            "path": "BitmapText.es6.js"
+        },
+        "Button": {
+            "path": "Button.es6.js"
+        },
+        "Checkbox": {
+            "path": "Checkbox.es6.js"
+        },
+        "CheckboxContainer": {
+            "path": "CheckboxContainer.es6.js"
+        },
+        "Container": {
+            "path": "Container.es6.js"
+        },
+        "Fullscreen": {
+            "path": "Fullscreen.es6.js"
+        },
+        "Popup": {
+            "path": "Popup.es6.js"
+        },
+        "Reel": {
+            "path": "Reel.es6.js"
+        },
+        "ReelElement": {
+            "path": "ReelElement.es6.js"
+        },
+        "RichText": {
+            "path": "RichText.es6.js"
+        },
+        "Scrollable": {
+            "path": "Scrollable.es6.js"
+        },
+        "Scroller": {
+            "path": "Scroller.es6.js"
+        },
+        "Shape": {
+            "path": "Shape.es6.js"
+        },
+        "SlotMachine": {
+            "path": "SlotMachine.es6.js"
+        },
+        "Sprite": {
+            "path": "Sprite.es6.js"
+        },
+        "SpriteSheet": {
+            "path": "SpriteSheet.es6.js"
+        },
+        "Stage": {
+            "path": "Stage.es6.js"
+        },
+        "Text": {
+            "path": "Text.es6.js"
+        },
+        "View": {
+            "path": "View.es6.js"
+        },
+        "Label": {
+            "path": "Label.es6.js"
+        },
+        "Slider": {
+            "path": "Slider.es6.js"
+        },
+        "Swiper": {
+            "path": "Swiper.es6.js"
+        },
+        "Switcher": {
+            "path": "Switcher.es6.js"
+        },
+        "ProtonEmitter": {
+            "path": "ProtonEmitter.es6.js"
+        }
+    }
+}

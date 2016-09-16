@@ -1,0 +1,22 @@
+{
+    "name": "Router for reels component",
+    "alias": "background",
+    "type": "signals",
+    "signals": {
+        "main": {
+            "methods": [
+                ["self::Handler::showMainBackground"]
+            ]
+        },
+        "freespins": {
+            "methods": [
+                ["self::Handler::showFreeSpinBackground"]
+            ]
+        },
+        "bonus": {
+            "methods": [
+                ["self::Handler::showBonusBackground"]
+            ]
+        }
+    }
+}

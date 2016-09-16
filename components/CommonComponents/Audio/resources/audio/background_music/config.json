@@ -1,0 +1,17 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "typeLoading": "overload",
+    "groupSpriteName": "background",
+    "audio": {
+        "mainform_bonus": {
+            "path": "mainform_bonus.wav"
+        },
+        "mainform_freespin": {
+            "path": "mainform_freespin.wav"
+        },
+        "mainform_track": {
+            "path": "mainform_mainform.wav"
+        }
+    }
+}

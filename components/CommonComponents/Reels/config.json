@@ -1,0 +1,17 @@
+{
+    "name": "Reels Component",
+    "typeLoading": "main",
+    "alias": "reels",
+    "type": "component",
+    "events": {
+        "InitReels": {
+            "path": "initReels.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "ReelHandler": {
+            "path": "reelHandler.es6.js"
+        }
+    },
+    "signals": true
+}

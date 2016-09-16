@@ -1,0 +1,9 @@
+{
+    "name": "Events Interface",
+    "type": "classes",
+    "classes": {
+        "Events": {
+            "path": "Events.es6.js"
+        }
+    }
+}

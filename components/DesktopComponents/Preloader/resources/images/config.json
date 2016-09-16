@@ -1,0 +1,50 @@
+{
+    "name": "Images for preloader",
+    "type": "images",
+    "images": {
+        "logo": {
+            "path": "boongo_logo.png"
+        },
+        "progressbar": {
+            "path": "progressbar_1.png"
+        },
+        "progressbar_background": {
+            "path": "progressbar_2.png"
+        },
+
+        "background": {
+            "path": "start_screen_half_back.jpg"
+        },
+        "loader": {
+            "path": "Lucky_line_logo.png"
+        },
+        "start_screen_arrow": {
+            "path": "start.png"
+        },
+        "start_screen_button": {
+            "path": "start.png"
+        },
+        "star": {
+            "path": "star.png"
+        },
+        "bonus": {
+            "path": "bonus.png"
+        },
+        "scatter": {
+            "path": "scatter.png"
+        },
+        "wild_2": {
+            "path": "wild_2.png"
+        },
+        "wild_3": {
+            "path": "wild_3.png"
+        },
+        "wild_5": {
+            "path": "wild_5.png"
+        },
+        "columns_wilds": {
+            "path": "columns_wilds.jpg"
+        }
+    }
+
+}

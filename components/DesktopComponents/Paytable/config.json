@@ -1,0 +1,27 @@
+{
+    "name": "Paytable for slot LL games",
+    "typeLoading": "main",
+    "alias": "paytable",
+    "type": "component",
+    "partition": ["desktop"],
+    "controllers": {
+        "PaytableDesktopController": {
+            "path": "PaytableDesktopController.es6.js"
+        }
+    },
+    "events": {
+        "PaytableDesktopEvent": {
+            "path": "PaytableDesktopEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "PaytableDesktopViewHandler": {
+            "path": "PaytableDesktopViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    },
+    "signals": true,
+    "translations": true
+}

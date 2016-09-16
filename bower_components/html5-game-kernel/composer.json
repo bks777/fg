@@ -1,0 +1,25 @@
+{
+    "name" : "html5/game-kernel",
+    "description" : "The game engine for html5 games",
+    "version" : "1.0.0",
+    "type" : "library",
+    "keywords": [],
+    "homepage": "http://clonefish.com",
+    "license": "Clonefish",
+    "authors": [
+        {
+            "name": "Anton Lavrenko",
+            "email": "lavrenkolearnnice@gmail.com",
+            "homepage": "http://webgin.kiev.ua/",
+            "role": "Author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "target-dir": "vendor/",
+    "autoload": false,
+    "extra" : {
+        "branch-alias" : {
+            "dev-master": "0.3-dev"
+        }
+    }
+}

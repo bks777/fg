@@ -1,0 +1,28 @@
+{
+    "name": "Router for Big Win component",
+    "alias": "win",
+    "type": "signals",
+    "signals": {
+        "lines": {
+            "subStates": {
+                "checkBigWin": {
+                    "arguments": ["executeNextState"],
+                    "methods": [
+                        //["self::Controller::checkBigWin", ["executeNextState"]]
+                    ]
+                }
+            }
+        },
+        "bigWin": {
+            "arguments": ["resolve"],
+            "methods": [
+                //["self::Handler::showBigWin", ["resolve"]]
+            ]
+        },
+        "hideBigWin": {
+            "methods": [
+                //["self::Handler::hideBigWin"]
+            ]
+        }
+    }
+}

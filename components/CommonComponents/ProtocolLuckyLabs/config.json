@@ -1,0 +1,27 @@
+{
+    "name": "Protocol Lucky Labs",
+    "typeLoading": "main",
+    "alias": "protocol",
+    "type": "component",
+    "controllers": {
+        "ProtocolLuckyController": {
+            "path": "protocolLuckyController.es6.js"
+        }
+    },
+    "events": {
+        "ProtocolLuckyEvent": {
+            "path": "protocolLuckyEvent.es6.js"
+        }
+    },
+    "required": {
+        "Crypto": {
+            "path": "2.5.3-crypto-md5.js"
+        },
+        "ProtocolConnect": {
+            "path": "connect.es6.js"
+        }
+    },
+    "signals": true,
+    "states": true,
+    "translations": true
+}

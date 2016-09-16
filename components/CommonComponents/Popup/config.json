@@ -1,0 +1,23 @@
+{
+    "name": "Popups for slot LL games",
+    "typeLoading": "preloader",
+    "alias": "popup",
+    "type": "component",
+    "controllers": {
+        "PopupController": {
+            "path": "PopupController.es6.js"
+        }
+    },
+    "events": {
+        "PopupInitEvent": {
+            "path": "PopupInitEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "PopupViewHandler": {
+            "path": "PopupViewHandler.es6.js"
+        }
+    },
+    "signals": true,
+    "translations": true
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Images for reel",
+    "type": "images",
+    "images": {
+        "atlas": {
+            "path": "atlas.png",
+            "typeLoading": "main",
+            "onload": ""
+        },
+        "atlasMini": {
+            "path": "atlasMini.png",
+            "typeLoading": "main"
+        },
+        "atlasFreespinsDisable": {
+            "path": "atlasFreespinsDisable.png",
+            "typeLoading": "main"
+        }
+    }
+
+}

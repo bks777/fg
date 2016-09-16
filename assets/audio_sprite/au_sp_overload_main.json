@@ -1,0 +1,70 @@
+{
+  "resources": [
+    "au_sp_overload_main.ogg",
+    "au_sp_overload_main.m4a",
+    "au_sp_overload_main.mp3",
+    "au_sp_overload_main.ac3"
+  ],
+  "spritemap": {
+    "bg_choice": {
+      "start": 0,
+      "end": 0.5,
+      "loop": false
+    },
+    "bg_final": {
+      "start": 2,
+      "end": 4.269750566893424,
+      "loop": false
+    },
+    "bg_final_win": {
+      "start": 6,
+      "end": 8.751043083900226,
+      "loop": false
+    },
+    "bg_item_show v2": {
+      "start": 10,
+      "end": 11.25,
+      "loop": false
+    },
+    "bg_live_found": {
+      "start": 13,
+      "end": 14.5,
+      "loop": false
+    },
+    "bg_live_lost": {
+      "start": 16,
+      "end": 17,
+      "loop": false
+    },
+    "bg_live_plus": {
+      "start": 18,
+      "end": 20.25,
+      "loop": false
+    },
+    "bg_move v2": {
+      "start": 22,
+      "end": 24,
+      "loop": false
+    },
+    "bg_mummy": {
+      "start": 25,
+      "end": 27.25,
+      "loop": false
+    },
+    "bg_win": {
+      "start": 29,
+      "end": 30.75,
+      "loop": false
+    },
+    "btn_select_popup": {
+      "start": 32,
+      "end": 33.14845804988662,
+      "loop": false
+    },
+    "freespin_numbers": {
+      "start": 35,
+      "end": 35.5,
+      "loop": false
+    }
+  }
+}

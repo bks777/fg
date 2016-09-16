@@ -1,0 +1,158 @@
+{
+    "name": "Router for lines component",
+    "alias": "lines",
+    "type": "signals",
+    "signals": {
+        "initRestoreWin": {
+            "methods": [
+                ["self::Handler::playStartWinLines"]
+            ]
+        },
+        "hideLines": {
+            "arguments": ["isQSTrigger"],
+            "methods": [
+                ["LinesViewHandler::hideAllWinLines", ["isQSTrigger"]]
+            ]
+        },
+        "interruptAnimations": {
+            "methods": [
+                ["LinesViewHandler::interruptAnimations"]
+            ]
+        },
+        "showNext": {
+            "methods": [
+                ["LinesViewHandler::showNextWinLine"]
+            ]
+        },
+        "showAllWinLines": {
+            "methods": [
+                ["LinesViewHandler::showAllWinLines"]
+            ]
+        },
+        "enableLines": {
+            "methods": [
+                ["LinesViewHandler::enableBetLinesShow"]
+            ]
+        },
+
+        "ended": {
+            "subStates": {
+                "subscribe": {
+                    "arguments": ["executeWaitState"],
+                    "methods": [
+                        ["LinesViewHandler::subscribeEnded", ["executeWaitState"]]
+                    ]
+                },
+                "execute": {
+                    "methods": [
+                        ["self::Handler::checkAnimationEnded"]
+                    ]
+                },
+                "clear": {
+                    "methods": [
+                        ["LinesViewHandler::clearAnimationEnded"]
+                    ]
+                }
+            }
+        },
+
+        "spin": {
+            "subStates": {
+                "start": {
+                    "methods": [
+                        ["LinesViewHandler::startSpinAction"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["LinesViewHandler::stopSpinAction"]
+                    ]
+                }
+            }
+        },
+
+        "spins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["LinesViewHandler::showLayout"],
+                        ["LinesViewHandler::checkBetLinesShow"],
+                        ["self::Handler::checkAnimationEnded"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["LinesViewHandler::hideLayout"]
+                    ]
+                }
+            }
+        },
+        "freespins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["LinesViewHandler::showLayout"]
+                    ]
+                },
+                "stop":{
+                    "methods": [
+                        ["LinesViewHandler::stopFreeSpinsAction"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["LinesViewHandler::hideLayout"]
+                    ]
+                }
+            }
+        },
+        "autoSpins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["LinesViewHandler::showLayout"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["LinesViewHandler::stopAutoSpinAction"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["LinesViewHandler::hideLayout"]
+                    ]
+                }
+            }
+        },
+        "bonus": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["LinesViewHandler::hideLayout"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["LinesViewHandler::showLayout"],
+                        ["LinesViewHandler::enableBetLinesShow"]
+                    ]
+                }
+            }
+        },
+        "respins": {
+            "subStates": {
+                "stop": {
+                    "methods": [
+                        ["LinesViewHandler::stopRespinAction"]
+                    ]
+                },
+                "next": {
+                    "services": [
+                        ["GameActionService::next", ["play", "respins"]]
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "background": {
+            "path": "background.jpg"
+        },
+        "background_top": {
+            "path": "top.png"
+        },
+        "background_bottom": {
+            "path": "bottom.png"
+        },
+        "background_win": {
+            "path": "bottom_win.png"
+        }
+
+    }
+
+}

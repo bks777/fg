@@ -1,0 +1,10 @@
+{
+    "name": "Translate Interface",
+    "type": "classes",
+    "classes": {
+        "Translations": {
+            "path": "Translations.es6.js",
+            "instanceName": "$_t"
+        }
+    }
+}

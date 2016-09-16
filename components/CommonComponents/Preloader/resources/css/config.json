@@ -1,0 +1,30 @@
+{
+    "name": "Css for application",
+    "type": "css",
+    "css": {
+        "style": {
+            "path": "style.css"
+        },
+        "calibri_1": {
+            "path": "calibri_1.woff",
+            "main": false,
+            "clone": true
+        },
+        "calibrib_1": {
+            "path": "calibrib_1.woff",
+            "main": false,
+            "clone": true
+        },
+        "calibrii_1": {
+            "path": "calibrii_1.woff",
+            "main": false,
+            "clone": true
+        },
+        "calibriz_1": {
+            "path": "calibriz_1.woff",
+            "main": false,
+            "clone": true
+        }
+    }
+
+}

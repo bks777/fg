@@ -1,0 +1,624 @@
+{
+    "name": "Router for control component",
+    "alias": "control",
+    "type": "signals",
+    "signals": {
+        "async": {
+            "subStates": {
+                "wait": {},
+                "changeBalance": {
+                    "methods": [
+                        ["self::Handler::changeBalanceValue"]
+                    ]
+                }
+            }
+        },
+        "bigWin": {
+            "subStates": {
+                "play": {
+                    "methods": [
+                        ["self::Handler::hideSpinButton"],
+                        ["self::Handler::hideSettingsButton"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["self::Handler::showSpinButton"],
+                        ["self::Handler::showSettingsButton"]
+                    ]
+                }
+            }
+        },
+        "spin": {
+            "subStates": {
+                "play": {
+                    "methods": [
+                        ["self::Handler::changeWinValue", [null]],
+                        ["self::Handler::changeBalanceValueBeforeSpin"],
+                        ["self::Handler::hideSpinButton"],
+                        ["self::Handler::hideSettingsButton"]
+                    ],
+                    "executeStates": [
+                        ["+protocol.spins.play"],
+                        ["reels.spins.spin"],
+                        ["lines.spin.start"],
+                        ["settings.toolbar.fastMessage", ["fast_click_spin_message"]]
+                    ],
+                    "events": [
+                        ["spinAction"]
+                    ],
+                    "services": [
+                        ["SoundService::stopGroup", ["main"]],
+                        ["SoundService::play", ["audio_spin_mbet"]],
+                        ["SoundService::play", ["audio_reel_rotate", null, {"loop": true}]]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["self::Handler::changeWinValue"],
+                        ["self::Handler::changeBalanceValue"],
+                        ["self::Controller::checkButtonsActive"]
+                    ],
+                    "services": [
+                        ["SoundService::stop", ["audio_reel_rotate"]]
+                    ]
+                },
+                "fastStop": {
+
+                },
+                "quickSpinOn": {
+
+                },
+                "quickSpinOff": {
+
+                },
+                "wait": {
+
+                }
+            }
+        },
+        "spins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Handler::hideFreePanel"],
+                        ["self::Handler::showAdditionalButtons"],
+                        ["self::Handler::enableAutospinButton"],
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Controller::detectAutoSpins"],
+                        ["self::Controller::checkButtonsActive"]
+                    ],
+                    "executeStates": [
+                        ["background.main"],
+                        ["control.freespins.hide"],
+                        ["settings.toolbar.fastMessage", ["fast_click_spin_message"]]
+                    ],
+                    "services": [
+                        ["TickerTapeService::spinGameInfo"]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["protocol.spins.stop"]
+                    ]
+                },
+                "wait": {
+                    "methods": [
+                        ["self::Controller::checkSpinEnd"]
+                    ]
+                }
+            }
+        },
+        "respins": {
+            "subStates": {
+                "play": {
+                    "methods": [
+                        ["self::Handler::hideSettingsButton"],
+                        ["self::Handler::changeWinValue"]
+                    ],
+                    "executeStates": [
+                        ["+protocol.respins.play"],
+                        ["reels.respins.spin"],
+                        ["lines.spin.start"],
+                        ["settings.spin.start"]
+                    ],
+                    "events": [
+                        ["spinAction"]
+                    ],
+                    "services": [
+                        ["SoundService::stopGroup", ["main"]],
+                        ["SoundService::play", ["audio_reel_rotate", null, {"loop": true}]]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["self::Handler::addWinValue"],
+                        ["self::Handler::changeWinValue"],
+                        ["self::Handler::changeBalanceValue"],
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Controller::checkButtonsActive"]
+                    ],
+                    "services": [
+                        ["SoundService::stop", ["audio_reel_rotate"]]
+                    ]
+                },
+                "wait": {
+                    "methods": [
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Controller::detectAutoSpins"],
+                        ["self::Controller::detectFreeSpins"]
+                    ],
+                    "executeStates": [
+                        ["lines.enableLines"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Handler::changeWinFreeBets"]
+                    ]
+                }
+            }
+        },
+        "freebets": {
+            "subStates": {
+                "init": {
+                    "arguments": ["count"],
+                    "methods": [
+                        ["self::Handler::initFreeBets", ["count"]]
+                    ]
+                },
+                "change": {
+                    "arguments": ["bet_per_line", "left_spins", "lines", "total_bet", "total_spins", "total_win"],
+                    "methods": [
+                        ["self::Handler::changeWinFreeBets", ["total_win"]]
+                    ],
+                    "executeStates": [
+                        ["settings.toolbar.staticFreeBetMessage", ["left_spins"]]
+                    ]
+                },
+                "end": {
+                    "executeStates": [
+                        ["lines.ended.subscribe", ["control.freebets.hide"]]
+                    ]
+                },
+                "hide": {
+                    "methods": [
+                        ["self::Handler::hideFreeBets"]
+                    ],
+                    "services": [
+                        ["SoundService::stopGroup", ["main"]]
+                    ]
+                },
+                "wait": {
+                    "executeStates": [
+                        ["control.autoSpins.stopAutoSpins"]
+                    ]
+                },
+                "nextGameSession": {
+                    "services": [
+                        ["GameActionService::next"]
+                    ]
+                }
+            }
+        },
+        "freespins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Handler::hideAdditionalButtons"],
+                        ["self::Handler::changeTotalBetValue"],
+                        ["self::Handler::disableAutospinButton"],
+                        ["self::Handler::hideSpinButton"],
+                        ["self::Handler::changeWinValue", [null]],
+                        ["self::Handler::changeTotalWinValue"],
+                        ["self::Handler::showFreePanel"]
+                    ],
+                    "services": [
+                        ["TickerTapeService::freeSpinGameInfo"]
+                    ]
+                },
+                "start": {
+                    "methods": [
+                        ["self::Handler::changeTotalWinValue", [true]],
+                        ["self::Controller::startPlayFreeSpins"],
+                        ["self::Handler::showSpinButton"]
+                    ]
+                },
+                "play": {
+                    "methods": [
+                        ["self::Handler::disableAllButtons"],
+                        ["self::Handler::changeWinValue", [null]],
+                        ["self::Handler::changeFreespinCounterBeforeSpin"]
+                    ],
+                    "executeStates": [
+                        ["+protocol.freespins.play"],
+                        ["reels.freespins.spin"],
+                        ["lines.spin.start"],
+                        ["settings.spin.start"]
+                    ],
+                    "services": [
+                        ["SoundService::play", ["audio_freespin_numbers"]],
+                        ["SoundService::stopGroup", ["main"]],
+                        ["SoundService::play", ["audio_reel_rotate", null, {"loop": true}]]
+                    ],
+                    "events": [
+                        ["spinAction"]
+                    ]
+                },
+                "spin": {
+
+                },
+                "stop": {
+                    "methods": [
+                        ["self::Handler::changeTotalWinValue"],
+                        ["self::Handler::changeWinValue"],
+                        ["self::Handler::changeBalanceValue"],
+                        ["self::Controller::checkButtonsActive"]
+                    ],
+                    "services": [
+                        ["SoundService::stop", ["audio_reel_rotate"]]
+                    ]
+                },
+                "show": {
+                    "methods": [
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Handler::showFreePanel"]
+                    ]
+                },
+                "hide": {
+                    "methods": [
+                        ["self::Handler::changeWinValue"],
+                        ["self::Handler::changeBalanceValue"]
+                    ],
+                    "executeStates": [
+                        ["reels.freespins.end"]
+                    ]
+                },
+                "wait": {
+                    "methods": [
+                        ["self::Controller::checkFreeSpinEnd"]
+                    ]
+                },
+                "showPopupStart": {
+                    "methods": [
+                        ["self::Handler::disableAllButtons"],
+                        ["self::Handler::showTotalPanelRestore"],
+                        ["self::Controller::showStartFreeSpins"]
+                    ]
+                },
+                "showPopupAdditional": {
+                    "arguments": ["count"],
+                    "methods": [
+                        ["self::Controller::showAdditionalFreeSpins", ["count"]]
+                    ]
+                },
+                "hideAddition": {
+                    "services": [
+                        ["PopupService::removeGamePopup", ["freespin"]]
+                    ],
+                    "executeStates": [
+                        ["control.freespins.play"]
+                    ],
+                    "executeOrders": ["services","executeStates"]
+                },
+                "showPopupEnd": {
+                    "arguments": ["state"],
+                    "methods": [
+                        ["self::Controller::checkButtonsActive"],
+                        ["self::Controller::showEndFreeSpins", ["state"]]
+                    ]
+                }
+            }
+        },
+        "bonus": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Handler::hideAdditionalButtons"],
+                        ["self::Handler::showBonusPanel"],
+                        ["self::Handler::disableAllButtons"],
+                        ["self::Handler::changeTotalBetValue"],
+                        ["self::Handler::changeBalanceValue"]
+                    ],
+                    "services": [
+                        ["TickerTapeService::bonusGameInfo"]
+                    ]
+                },
+                "showPopupStart": {
+                    "methods": [
+                        ["self::Handler::hideAllButtons"]
+                    ],
+                    "services": [
+                        ["PopupService::addGamePopup", ["bonus", {"states": [["popup.popups.bonusStart"]]}]],
+                        ["PopupService::addWaitGamePopup", ["bonus", 2]]
+                    ]
+                },
+                "showPanel": {
+                    "methods": [
+                        ["self::Handler::showBonusPanel"]
+                    ]
+                },
+                "picks": {
+                    "methods": [
+                        ["self::Handler::showBonusPanel"]
+                    ]
+                },
+                "showWinRound": {
+                    "methods": [
+                        ["self::Handler::showBonusRoundWin"]
+                    ]
+                },
+                "hideWinRound": {
+                    "methods": [
+                        ["self::Handler::hideBonusRoundWin"]
+                    ]
+                },
+                "hide": {
+                    "methods": [
+                        ["self::Handler::hideBonusPanel"]
+                    ],
+                    "executeStates": [
+                        ["reels.defaultBackground"]
+                    ]
+                },
+                "wait": {
+
+                },
+                "end": {
+                    "methods": [
+                        ["self::Handler::hideBonusPanel"],
+                        ["self::Handler::enableAllButtons"]
+                    ]
+                }
+            }
+        },
+        "bonus_stops": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Handler::hideBonusPanel"],
+                        ["self::Handler::enableAllButtons"]
+                    ],
+                    "executeStates": [
+                        ["protocol.bonus.end"],
+                        ["bonus.end"]
+                    ]
+                },
+                "stop": {
+
+                }
+            }
+        },
+        "autoSpins": {
+            "subStates": {
+                "start": {
+                    "methods": [
+                        ["self::Handler::disableAllButtons"]
+                    ],
+                    "executeStates": [
+                        ["control.autoSpins.spin"]
+                    ]
+                },
+                "play": {
+                    "methods": [
+
+                        ["self::Controller::playAutoSpins"]
+                    ]
+                },
+                "wait": {
+                    "methods": [
+                        ["self::Controller::playAutoSpins"]
+                    ]
+                },
+                "spin": {
+                    "executeStates": [
+                        ["+protocol.autoSpins.play"],
+                        ["reels.spins.spin"],
+                        ["lines.hideLines"]
+                    ],
+                    "methods": [
+                        ["self::Handler::changeSpinState"],
+                        ["self::Handler::changeBalanceValueBeforeSpin"],
+                        ["self::Handler::changeWinValue", [null]]
+                    ],
+                    "services": [
+                        ["SoundService::stopGroup", ["main"]],
+                        ["SoundService::play", ["audio_freespin_numbers"]],
+                        ["SoundService::play", ["audio_reel_rotate", null, {"loop": true}]]
+                    ],
+                    "events": [
+                        ["spinAction"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["self::Handler::changeWinValue"],
+                        ["self::Handler::changeBalanceValue"]
+                    ],
+                    "services": [
+                        ["SoundService::stop", ["audio_reel_rotate"]]
+                    ]
+                },
+                "stopAutoSpins": {
+                    "methods": [
+                        ["self::Handler::enableAllButtons"],
+                        ["self::Handler::changeSpinState"],
+                        ["self::Handler::stopAutoSpins"]
+                    ]
+                },
+                "resume": {
+
+                }
+            }
+        },
+        "changeBet": {
+            "subStates": {
+                "back": {
+                    "methods": [
+                        ["self::Handler::changeDecBetButton"]
+                    ]
+                },
+                "forward": {
+                    "methods": [
+                        ["self::Handler::changeIncBetButton"]
+                    ]
+                },
+                "change": {
+                    "arguments": ["numBet"],
+                    "flags": [
+                        ["currentBetLine", ["numBet"]]
+                    ]
+                }
+            }
+        },
+        "changeLines": {
+            "subStates": {
+                "back": {
+                    "methods": [
+                        ["self::Handler::changeDecLineButton"],
+                        ["LinesViewHandler::showActiveLines"]
+                    ]
+                },
+                "forward": {
+                    "methods": [
+                        ["self::Handler::changeIncLineButton"],
+                        ["LinesViewHandler::showActiveLines"]
+                    ]
+                },
+                "change": {
+                    "arguments": ["numLines"],
+                    "flags": [
+                        ["currentCountLines", ["numLines"]]
+                    ]
+                }
+            }
+        },
+        "changeToMaxBet": {
+            "methods": [
+                ["self::Handler::changeToMaxBet"]
+            ]
+        },
+        "fastMode": {
+            "subStates": {
+                "available": {
+
+                },
+                "disabled": {
+
+                }
+            }
+        },
+        "info": {
+            "subStates": {
+                "show": {
+
+                },
+                "hide": {
+
+                }
+            }
+        },
+        "help": {
+            "subStates": {
+                "show": {
+
+                },
+                "hide": {
+
+                }
+            }
+        },
+        "sound": {
+            "subStates": {
+                "available": {
+
+                },
+                "disabled": {
+
+                },
+                "backgroundOn": {
+
+                },
+                "backgroundOff": {
+
+                },
+                "effectsOn": {
+
+                },
+                "effectsOff": {
+
+                }
+            }
+        },
+        "quality": {
+            "subStates": {
+                "high": {
+
+                },
+                "medium": {
+
+                },
+                "low": {
+
+                }
+            }
+        },
+        "keyboards": {
+            "subStates": {
+                "spaceBarSpinOn": {
+
+                },
+                "spaceBarSpinOff": {
+
+                }
+            }
+        }
+    },
+    "reducers": {
+        "spin.spacePlay": {
+            ".spins.stopAnimation": {
+                "executeStates": [
+                    ["+control.spin.play"]
+                ],
+                "resume": true
+            },
+            "protocol.spins.init": {
+                "executeStates": [
+                    ["+control.spin.play"]
+                ],
+                "resume": true
+            }
+        },
+        "respins.wait": {
+            "protocol.respins.init": {
+                "indexHistory": [4,5],
+                "executeStates": [
+                    ["control.respins.end"]
+                ],
+                "resume": true
+            }
+        },
+        "freebets.wait": {
+            "protocol.freebets.reload": {
+                "executeStates": [
+                    ["lines.ended.clear"],
+                    ["control.freebets.hide"]
+                ]
+            }
+        },
+        "spins.wait": {
+            "protocol.spins.init": {
+                "executeStates": [
+                    ["settings.toolbar.fastMessage", ["fast_start_game_message"]]
+                ],
+                "resume": true
+            }
+        },
+        "freespins.wait": {
+            "protocol.freespins.init": {
+
+            }
+        }
+    }
+}

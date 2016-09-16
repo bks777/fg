@@ -1,0 +1,139 @@
+{
+    "data": {
+        "preloader_bonus_description": {
+            "ru": {
+                "text": "3 символа Bonus\nзапускают бонус игру."
+            },
+            "en": {
+                "text": "3 Bonus symbols\ntrigger Bonus Game."
+            },
+            "it": {
+                "text": "3 simboli Bonus\nattivano il gioco Bonus."
+            },
+            "zh": {
+                "text": "3 个 Bonus 图案激活\nBonus 回合。",
+                "lineHeight": 16
+            },
+            "tr": {
+                "text": "3 Bonus sembolü,\n Bonus Oyunu\n başlatır."
+            },
+            "es": {
+                "text": "3 símbolos Bonus\n activan el Juego Bonus."
+            },
+            "fr": {
+                "text": "3 symboles Bonus\n déclenchent le Jeu Bonus."
+            }
+        },
+        "preloader_scatter_top_description": {
+            "ru": {
+                "text": "3 символа Scatter\nзапускают 15 бесплатных вращений."
+            },
+            "en": {
+                "text": "3 symbols Scatter\ntrigger 15 Free Spins."
+            },
+            "it": {
+                "text": "3 simboli Scatter\nattivano 15 Free Spin."
+            },
+            "zh": {
+                "text": "3 个 Scatter 图案激活\n15 次免费转盘。",
+                "lineHeight": 16
+            },
+            "tr": {
+                "text": "3 sembol Scatter\n15 Bedava Döndürme başlatır."
+            },
+            "es": {
+                "text": "3 símbolos Scatter\nactivan 15 Giros Gratis."
+            },
+            "fr": {
+                "text": "3 symboles Scatter\ndéclenchent 15 Tours Gratuits."
+            }
+        },
+
+        "preloader_scatter_bottom_description": {
+            "ru": {
+                "text": "При выпадении на барабанах более 3х\nсимволов Scatter, за каждый\nдополнительный Scatter получите +3\nбесплатных вращения."
+            },
+            "en": {
+                "text": "When 3 or more Scatter\nsymbol on the reel\nget +3 Free Spins for\neach additional Scatter."
+            },
+            "it": {
+                "text": "Quando sul rullo compaiono\n3 o più simboli Scatter\nottieni +3 Free Spin\nper ogni ulteriore Scatter."
+            },
+            "zh": {
+                "text": "当 3 个或更多  Scatter\n图案出现在滚轴上，每多一个\nScatter 图案，可获得\n+3 次免费转盘。",
+                "lineHeight": 16
+            },
+            "tr": {
+                "text": "Çarkta 3 veya daha fazla\nScatter sembolü varsa,\nher ilave Scatter için\n+ 3 Bedava Döndürme kazanılır."
+            },
+            "es": {
+                "text": "Si aparecen 3 o más símbolos\nde Scatter en el carrete,\nobtendrás +3 Giros Gratis\npor cada Scatter adicional."
+            },
+            "fr": {
+                "text": "Lorsqu’il y a au moins\n3 symboles Scatter sur la bobine,\nvous obtenez +3 Tours Gratuits\npour chaque Scatter supplémentaire."
+            }
+        },
+
+        "preloader_wilds": {
+            "ru": {
+                "text": "Wild заменяет все символы, кроме символов Scatter и Bonus \n Участвуя в выигрышной комбинации, \nумножает выигрыш по ней на x2, x3 и x5."
+            }
+        },
+
+        "preloader_choose_wilds": {
+            "ru": {
+                "text": "Выберите режим бесплатных вращений:"
+            }
+        },
+
+        "preloader_wild_top_description": {
+            "ru": {
+                "text": "При одновременном выпадении\nна барабанах 2 и 4 в любой позиции."
+            },
+            "en": {
+                "text": "When appearing simultaneously\non reels 2 and 4 in any position."
+            },
+            "it": {
+                "text": "Quando compare simultaneamente\nsui rulli 2 e 4 in qualsiasi posizione."
+            },
+            "zh": {
+                "text": "在第 2 和第 4\n滚轴上任意位置同时出现。",
+                "lineHeight": 16
+            },
+            "tr": {
+                "text": "2. ve 4. çarkta herhangi\nbir konumda aynı anda gözüktüklerinde."
+            },
+            "es": {
+                "text": "Si aparece a la vez en cualquier\nposición en los carretes 2 y 4."
+            },
+            "fr": {
+                "text": "Lorsqu’il apparaît simultanément\nsur les bobines 2 et 4 à n’importe quel endroit."
+            }
+        },
+
+        "preloader_wild_bottom_description": {
+            "ru": {
+                "text": "Expanding Wild расширяется на барабанах\n2 и 4 и дает +1 бесплатное вращение."
+            },
+            "en": {
+                "text": "Expanding Wild expands on reels\n2 and 4, and gives +1 free respin."
+            },
+            "it": {
+                "text": "Expanding Wild si espande sui\nrulli 2 e 4, e assegna +1 free respin."
+            },
+            "zh": {
+                "text": "Expanding Wild 在第 2 和第 4\n轴上扩展，将获得 +1 次免费再次转盘。",
+                "lineHeight": 16
+            },
+            "tr": {
+                "text": "Expanding Wild 2. ve 4. çarkta\ngenişler ve +1 bedava yeniden döndürme verir."
+            },
+            "es": {
+                "text": "Expanding Wild se expande en los\ncarretes 2 y 4, y otorga +1 giro adicional gratis."
+            },
+            "fr": {
+                "text": "Expanding Wild s’étend sur les bobines\n2 et 4 et donne droit à un tour gratuit supplémentaire."
+            }
+        }
+    }
+}

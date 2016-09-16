@@ -1,0 +1,27 @@
+{
+    "name": "Settings for slot LL games",
+    "typeLoading": "main",
+    "alias": "settings",
+    "type": "component",
+    "partition": ["desktop"],
+    "controllers": {
+        "SettingsDesktopController": {
+            "path": "SettingsDesktopController.es6.js"
+        }
+    },
+    "events": {
+        "SettingsDesktopEvent": {
+            "path": "SettingsDesktopEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "SettingsDesktopViewHandler": {
+            "path": "SettingsDesktopViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    },
+    "signals": true,
+    "translations": true
+}

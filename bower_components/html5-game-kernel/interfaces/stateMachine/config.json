@@ -1,0 +1,9 @@
+{
+    "name": "Services Classes",
+    "type": "classes",
+    "classes": {
+        "StateMachine": {
+            "path": "stateMachine.es6.js"
+        }
+    }
+}

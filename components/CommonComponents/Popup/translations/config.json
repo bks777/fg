@@ -1,0 +1,14 @@
+{
+    "name": "Translations for control Component",
+    "type": "translations",
+    "files": {
+        "translation" : {
+            "path": "translation.json",
+            "languages": ["en", "ru", "tr", "it", "es", "fr", "zh"]
+        },
+        "translation_popups" : {
+            "path": "popups_translation.json",
+            "languages": ["en", "ru", "tr", "it", "es", "fr", "zh"]
+        }
+    }
+}

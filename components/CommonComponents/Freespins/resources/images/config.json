@@ -1,0 +1,23 @@
+{
+    "name": "Images for freespins",
+    "type": "images",
+    "images": {
+        "bonus_numbers": {
+            "path": "numbers_big.png"
+        },
+        "cut_line": {
+            "path": "Cut_line.png"
+        },
+        "freespinsAtlas": {
+            "path": "freespins.png"
+        },
+        "starParticle": {
+            "path": "star_particle_big.png"
+        },
+        "corner": {
+            "path": "freespin_corner.png"
+        }
+
+    }
+
+}

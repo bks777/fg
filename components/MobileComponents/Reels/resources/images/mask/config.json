@@ -1,0 +1,15 @@
+{
+    "name": "Images for reel",
+    "type": "images",
+    "images": {
+        "mask_up": {
+            "path": "mainform_mask_up.png",
+            "typeLoading": "main"
+        },
+        "mask_down": {
+            "path": "mainform_mask_down.png",
+            "typeLoading": "main"
+        }
+    }
+
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "sound_1": {
+            "path": "Sound_1.wav"
+        },
+        "sound_2": {
+            "path": "Sound_2.wav"
+        },
+        "sound_3": {
+            "path": "Sound_3.wav"
+        },
+        "sound_4": {
+            "path": "Sound_4.wav"
+        },
+        "sound_5": {
+            "path": "Sound_5.wav"
+        },
+        "sound_6": {
+            "path": "Sound_6.wav"
+        },
+        "sound_7": {
+            "path": "Sound_7.wav"
+        },
+        "sound_8": {
+            "path": "Sound_8.wav"
+        },
+        "sound_9": {
+            "path": "Sound_9.wav"
+        },
+        "sound_10": {
+            "path": "Sound_10.wav"
+        },
+        "sound_11": {
+            "path": "Sound_11.wav"
+        }
+
+    }
+}

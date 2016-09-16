@@ -1,0 +1,61 @@
+{
+    "name": "Router for settings component",
+    "alias": "settings",
+    "type": "signals",
+    "signals": {
+        "spin": {
+            "subStates": {
+                "start": {
+
+                },
+                "stop": {
+
+                }
+            }
+
+        },
+        "toolbar": {
+            "subStates": {
+                "staticMessage": {
+                    "arguments": ["message"],
+                    "methods": [
+                        ["SettingsDesktopViewHandler::showStaticToolbarMessage", ["message"]]
+                    ]
+                },
+                "dynamicMessages": {
+                    "arguments": ["messages"],
+                    "methods": [
+                        ["SettingsDesktopViewHandler::showDynamicToolbarMessage", ["messages"]]
+                    ]
+                },
+                "staticFreeBetMessage": {
+                    "arguments": ["count"],
+                    "methods": [
+                        ["SettingsDesktopViewHandler::showFreeBetToolbarMessage", ["count"]]
+                    ]
+                },
+                "fastMessage": {
+                    "arguments": ["aliasText"],
+                    "methods": [
+                        ["SettingsDesktopViewHandler::showFastToolbarMessage", ["aliasText"]]
+                    ]
+                }
+            }
+        },
+
+        "quickMode": {
+            "subStates": {
+                "enable": {
+                    "methods": [
+                        ["SettingsDesktopViewHandler::quickSpinCheck"]
+                    ]
+                },
+                "disable": {
+                    "methods": [
+                        ["SettingsDesktopViewHandler::quickSpinUncheck"]
+                    ]
+                }
+            }
+        }
+    }
+}

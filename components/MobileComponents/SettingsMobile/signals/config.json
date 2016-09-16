@@ -1,0 +1,60 @@
+{
+    "name": "Router for settings component",
+    "alias": "settings",
+    "type": "signals",
+    "signals": {
+        "spin": {
+            "subStates": {
+                "start": {
+
+                },
+                "stop": {
+
+                }
+            }
+
+        },
+        "toolbar": {
+            "subStates": {
+                "staticMessage": {
+                    "arguments": ["message"],
+                    "methods": [
+                        ["self::Handler::showStaticToolbarMessage", ["message"]]
+                    ]
+                },
+                "dynamicMessages": {
+                    "arguments": ["messages"],
+                    "methods": [
+                        ["self::Handler::showDynamicToolbarMessage", ["messages"]]
+                    ]
+                },
+                "staticFreeBetMessage": {
+                    "arguments": ["count"],
+                    "methods": [
+                        ["self::Handler::showFreeBetToolbarMessage", ["count"]]
+                    ]
+                },
+                "fastMessage": {
+                    "arguments": ["aliasText"],
+                    "methods": [
+                        ["self::Handler::showFastToolbarMessage", ["aliasText"]]
+                    ]
+                }
+            }
+        },
+        "quickMode": {
+            "subStates": {
+                "enable": {
+                    "methods": [
+
+                    ]
+                },
+                "disable": {
+                    "methods": [
+
+                    ]
+                }
+            }
+        }
+    }
+}

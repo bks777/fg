@@ -1,0 +1,11 @@
+{
+    "name": "Images for reel",
+    "type": "images",
+    "images": {
+        "reels_animations": {
+            "path": "reels_animation.png",
+            "typeLoading": "main"
+        }
+    }
+
+}

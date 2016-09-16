@@ -1,0 +1,28 @@
+{
+    "name": "Spin States",
+    "alias": "freespins",
+    "type": "states",
+    "orders": ["STATE_FREE_SPINS_INTRO","STATE_FREE_SPINS_SPINNING","STATE_FREE_SPINS_RESULT","STATE_FREE_SPINS_OUTRO"],
+    "states": {
+        "FreeSpinIntroState": {
+            "alias": "STATE_FREE_SPINS_INTRO",
+            "path": "freeSpinIntroState.es6.js"
+        },
+        "FreeSpinAddedState": {
+            "alias": "STATE_FREE_SPINS_ADDED",
+            "path": "freeSpinAddedState.es6.js"
+        },
+        "FreeSpinSpinninsState": {
+            "alias": "STATE_FREE_SPINS_SPINNING",
+            "path": "freeSpinSpinninsState.es6.js"
+        },
+        "FreeSpinResultState": {
+            "alias": "STATE_FREE_SPINS_RESULT",
+            "path": "freeSpinResultState.es6.js"
+        },
+        "FreeSpinOutroState": {
+            "alias": "STATE_FREE_SPINS_OUTRO",
+            "path": "freeSpinOutroState.es6.js"
+        }
+    }
+}

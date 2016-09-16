@@ -1,0 +1,459 @@
+{
+    "data": {
+        "Sticky Scatter": {
+            "ru": {
+                "text": "Sticky Scatter"
+            },
+            "en": {
+                "text": "Sticky Scatter"
+            },
+            "it": {
+                "text": "Sticky Scatter"
+            },
+            "zh": {
+                "text": "Sticky Scatter"
+            },
+            "tr": {
+                "text": "Yapışkan Scatter"
+            },
+            "es": {
+                "text": "Sticky Scatter"
+            },
+            "fr": {
+                "text": "Le Scatter collant"
+            }
+        },
+        "bonus_description": {
+            "ru": {
+                "text": "3 символа\n открывают\n бонусную игру"
+            },
+            "en": {
+                "text": "3 Bonus symbols\n trigger\n Bonus Game."
+            },
+            "it": {
+                "text": "3 simboli Bonus\n attivano\n il gioco Bonus."
+            },
+            "zh": {
+                "text": "3 个 Bonus\n图案激活\n Bonus 回合。"
+            },
+            "tr": {
+                "text": "3 Bonus sembolü,\n Bonus Oyunu\n başlatır."
+            },
+            "es": {
+                "text": "3 símbolos Bonus\n activan\n el Juego Bonus."
+            },
+            "fr": {
+                "text": "3 symboles Bonus\n déclenchent\n le Jeu Bonus."
+            }
+
+        },
+
+        "wild_title": {
+            "ru": {
+                "text": "WILD"
+            },
+            "en": {
+                "text": "WILD"
+            },
+            "it": {
+                "text": "WILD"
+            },
+            "zh": {
+                "text": "WILD"
+            },
+            "tr": {
+                "text": "WILD"
+            },
+            "es": {
+                "text": "WILD"
+            },
+            "fr": {
+                "text": "WILD"
+            }
+        },
+
+        "wild_description": {
+            "ru": {
+                "text": "Wild заменяет любой символ, кроме Scatter и Bonus!"
+            },
+            "en": {
+                "text": "Wild substitutes all symbols except Bonus and Scatter!"
+            },
+            "it": {
+                "text": "Wild sostituisce tutti i simboli, eccetto Bonus e Scatter!"
+            },
+            "zh": {
+                "text": "Wild 图案能替换除 Bonus 和  Scatter 外的所有图案！"
+            },
+            "tr": {
+                "text": "Wild, Bonus ve Scatter haricindeki tüm sembollerin alternatifidir!"
+            },
+            "es": {
+                "text": "La imagen de Wild sustituye todos los símbolos salvo el de Bonus y Scatter."
+            },
+            "fr": {
+                "text": "Wild remplace tous les symboles, à l’exception du Bonus et de Scatter !"
+            }
+        },
+
+        "wild_bottom_text": {
+            "ru": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "en": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "it": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "zh": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "tr": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "es": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            },
+            "fr": {
+                "text": "Умножает выигрышную комбинацию на своей линии на x2, x3, x5."
+            }
+        },
+
+        "paytable_title": {
+            "ru": {
+                "text": "Таблица выплат"
+            },
+            "en": {
+                "text": "Paytable"
+            },
+            "it": {
+                "text": "Tabella delle vincite"
+            },
+            "zh": {
+                "text": "赔付表"
+            },
+            "tr": {
+                "text": "Ödeme Tablosu"
+            },
+            "es": {
+                "text": "Tabla de pagos"
+            },
+            "fr": {
+                "text": "Table des gains"
+            }
+        },
+        "paytable_prompt": {
+            "ru": {
+                "text": "Выигрышные линии считаются слева направо.\n Количество линий фиксированно 20."
+            },
+            "en": {
+                "text": "Win lines pay from left to right.\n The number of lines is fixed: 20 lines."
+            },
+            "it": {
+                "text": "Le linee di vincita pagano da sinistra a destra.\n Il numero delle linee è fisso: 20 linee."
+            },
+            "zh": {
+                "text": "从左到右赔付奖金线。\n 固定线条数量： 20 条线。"
+            },
+            "tr": {
+                "text": "Kazanç hatları, soldan sağa olacak şekilde öder.\n Sabit olan hat sayısı: 20 hat."
+            },
+            "es": {
+                "text": "Las líneas ganadoras se pagan de izquierda a derecha.\n El número de líneas es fijo:  20 líneas."
+            },
+            "fr": {
+                "text": "Les lignes gagnantes sont remportées de gauche à droite.\n Le nombre de lignes est défini : 20 lignes."
+            }
+        },
+
+        "free_spins": {
+            "ru": {
+                "text": "БЕСПЛАТНЫЕ ВРАЩЕНИЯ"
+            },
+            "en": {
+                "text": "FREE SPINS"
+            },
+            "it": {
+                "text": "FREE SPINS"
+            },
+            "zh": {
+                "text": "次免费转盘。"
+            },
+            "tr": {
+                "text": "BEDAVA DÖNDÜRME BAŞLATIR"
+            },
+            "es": {
+                "text": "GIROS GRATIS"
+            },
+            "fr": {
+                "text": "TOURS GRATUITS"
+            }
+        },
+
+        "scatter_freespins": {
+            "ru": {
+                "text": "3 символа запускают бесплатные вращения."
+            },
+            "en": {
+                "text": "3 symbols trigger Free Spins."
+            },
+            "it": {
+                "text": "3 simboli attivano Free Spin."
+            },
+            "zh": {
+                "text": "3 个图案激活 次免费转盘。"
+            },
+            "tr": {
+                "text": "3 sembol Bedava Döndürme başlatır."
+            },
+            "es": {
+                "text": "3 símbolos activan Giros Gratis."
+            },
+            "fr": {
+                "text": "3 symboles déclenchent Tours Gratuits."
+            }
+        },
+
+        "scatter_desc_freespins": {
+            "ru": {
+                "text": "Выберите тип бесплатной игры:"
+            },
+            "en": {
+                "text": "Select the type of free games:"
+            },
+            "it": {
+                "text": "Selezionare il tipo di giochi gratis:"
+            },
+            "zh": {
+                "text": "選擇免費遊戲類型："
+            },
+            "tr": {
+                "text": "Ücretsiz oyunlar türünü seçin:"
+            },
+            "es": {
+                "text": "Seleccione el tipo de juegos gratis:"
+            },
+            "fr": {
+                "text": "Sélectionnez le type de jeux gratuits:"
+            }
+        },
+
+        "scatters_tb": {
+            "ru": {
+                "text": "ОС"
+            },
+            "en": {
+                "text": "TB"
+            },
+            "it": {
+                "text": "TS"
+            },
+            "zh": {
+                "text": "TB"
+            },
+            "tr": {
+                "text": "TB"
+            },
+            "es": {
+                "text": "AT"
+            },
+            "fr": {
+                "text": "PT"
+            }
+        },
+
+        "sticky_scatter_text": {
+            "ru": {
+                "text": "Одновременное выпадение символов |Wild| и |Scatter|\n на барабанах в любой позиции превращают\n последний в |Sticky Scatter|."
+            },
+            "en": {
+                "text": "Simultaneous appearance of |Wild| and |Scatter|\n symbols on the reels in any position change\n the latter into |Sticky Scatter|."
+            },
+            "it": {
+                "text": "La comparsa simultanea dei simboli |Wild| e |Scatter|\n in una qualsiasi posizione sui rulli modifica\n quest’ultimo in |Sticky Scatter|."
+            },
+            "zh": {
+                "text": "|Wild| 和 |Scatter|\n 图案同时出现在滚轴上的任何位置，\n Scatter 即可变成 |Sticky Scatter|。"
+            },
+            "tr": {
+                "text": "Çarkta |Wild| ve |Scatter| sembolleri\nherhangi bir pozisyonda aynı anda göründüğünde,\n sonda gözüken, |Yapışkan Scatter| olacak şekilde değişir."
+            },
+            "es": {
+                "text": "Si los símbolos de |Wild| y |Scatter| aparecen\nsimultáneamente en cualquier posición en el\ncarrete, el último se convierte en |Sticky Scatter|."
+            },
+            "fr": {
+                "text": "L’apparence simultanée des symboles |Wild| et |Scatter|\n à n’importe quel endroit sur les bobines transforme\n ce dernier en |Scatter collant|."
+            }
+        },
+
+        "sticky_scatter_text2": {
+            "ru": {
+                "text": "Sticky Scatter| остается на барабане вместе с\n  |Expanding WILD| при респине  - это дает шанс\n на выигрыш бесплатных вращений."
+            },
+            "en": {
+                "text": "Sticky Scatter| stays on the reel\n on the |Expanding WILD| respin - it's increase chance\n of winning  free spins."
+            },
+            "it": {
+                "text": "Sticky Scatter| è situato sul rullo\n sul respin |Expanding WILD|: aumenta le possibilità\n di vincere free spin."
+            },
+            "zh": {
+                "text": "Sticky Scatter|\n 停留在滚轴 |Expanding WILD| 可转一次 - \n增加赢得免费转盘的机会。"
+            },
+            "tr": {
+                "text": "Yapışkan Scatter|, |Genişleyen WILD| yeniden\ndöndürmesinde çarkın üzerinde durur - bedava\ndöndürme kazanma şansını artırır."
+            },
+            "es": {
+                "text": "Sticky Scatter| permanece en el carrete en el\ngiro adicional  |Expanding WILD| y aumenta\nlas posibilidades de ganar giros gratis."
+            },
+            "fr": {
+                "text": "Le Scatter| collant reste sur la bobine lors du nouveau\ntour du |WILD en expansion| - il augmente les chances\n de gagner des tours gratuits."
+            }
+        },
+
+        "scatter_prompt": {
+            "ru": {
+                "text": "При выпадении на барабанах более |3х| символов |Scatter|,\n за каждый дополнительный |Scatter| получите |+3| бесплатных вращения."
+            },
+            "en": {
+                "text": "When |3| or more |Scatter| symbol on the reel\n get |+3| Free Spins for each additional |Scatter|."
+            },
+            "it": {
+                "text": "Quando sul rullo compaiono |3| o più simboli |Scatter|\n ottieni |+3| Free Spin per ogni ulteriore |Scatter|."
+            },
+            "zh": {
+                "text": "当 |3| 个或更多  |Scatter|  图案出现在滚轴上\n，每多一个 |Scatter| 图案，可获得 |+3| 次免费转盘。"
+            },
+            "tr": {
+                "text": "Çarkta |3| veya daha fazla |Scatter| sembolü varsa,\n her ilave |Scatter| için |+ 3| Bedava Döndürme kazanılır."
+            },
+            "es": {
+                "text": "Si aparecen |3| o más símbolos |de Scatter| en el carrete,\n obtendrás |+3| Giros Gratis por cada |Scatter| adicional."
+            },
+            "fr": {
+                "text": "Lorsqu’il y a au moins |3| symboles |Scatter| sur la bobine,\n vous obtenez |+3| Tours Gratuits pour chaque |Scatter| supplémentaire."
+            }
+        },
+
+        "tb_description": {
+            "ru": {
+                "text": "*ОС - общая ставка"
+            },
+            "en": {
+                "text": "*TB - total bet"
+            },
+            "it": {
+                "text": "*TS - Totale scommessa"
+            },
+            "zh": {
+                "text": "*TB - 总赌注"
+            },
+            "tr": {
+                "text": "*TB - Toplam Bahis"
+            },
+            "es": {
+                "text": "*AT - Apuesta Total"
+            },
+            "fr": {
+                "text": "*PT - Pari Total"
+            }
+        },
+
+        "bonus_title": {
+            "ru": {
+                "text": "Бонусная игра"
+            },
+            "en": {
+                "text": "Bonus Game"
+            },
+            "it": {
+                "text": "Gioco Bonus"
+            },
+            "zh": {
+                "text": "Bonus 回合"
+            },
+            "tr": {
+                "text": "Bonus Oyunu"
+            },
+            "es": {
+                "text": "Juego Bonus"
+            },
+            "fr": {
+                "text": "Jeu Bonus"
+            }
+        },
+
+        "bonus_prompt": {
+            "ru": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "en": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "it": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "zh": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "tr": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "es": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            },
+            "fr": {
+                "text": "Открывайте тайники которые скрывают выигрыши, дополнительные жизни и смертоносных мумий. Попробуйте пройти все комнаты."
+            }
+        },
+
+        "trigger_bonus_game": {
+            "ru": {
+                "text": "3 символа Bonus запускают бонус игру."
+            },
+            "en": {
+                "text": "3 Bonus symbols trigger Bonus Game."
+            },
+            "it": {
+                "text": "3 simboli Bonus attivano il gioco Bonus."
+            },
+            "zh": {
+                "text": "3 个 Bonus 图案激活 Bonus 回合。"
+            },
+            "tr": {
+                "text": "3 Bonus sembolü, Bonus Oyunu başlatır."
+            },
+            "es": {
+                "text": "3 símbolos Bonus activan el Juego Bonus."
+            },
+            "fr": {
+                "text": "3 symboles Bonus déclenchent le Jeu Bonus."
+            }
+        },
+
+        "lines_title": {
+            "ru": {
+                "text": "Линии"
+            },
+            "en": {
+                "text": "Lines"
+            },
+            "it": {
+                "text": "Linee"
+            },
+            "zh": {
+                "text": "线数"
+            },
+            "tr": {
+                "text": "Hatlar"
+            },
+            "es": {
+                "text": "Líneas"
+            },
+            "fr": {
+                "text": "Lignes"
+            }
+        }
+
+    }
+}

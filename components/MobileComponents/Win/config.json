@@ -1,0 +1,21 @@
+{
+    "name": "Win component",
+    "typeLoading": "main",
+    "alias": "win",
+    "type": "component",
+    "partition": ["mobile"],
+    "resources": {
+        "folders": ["images"]
+    },
+    "events": {
+        "WinMobileEvent": {
+            "path": "WinMobileEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "winMobileViewHandler": {
+            "path": "winMobileViewHandler.es6.js"
+        }
+    },
+    "signals": true
+}

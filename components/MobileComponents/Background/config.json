@@ -1,0 +1,15 @@
+{
+    "name": "Backgrounds for game",
+    "typeLoading": "main",
+    "alias": "background",
+    "type": "component",
+    "partition": ["mobile"],
+    "viewHandlers": {
+        "BackgroundMobileHandler": {
+            "path": "backgroundMobileHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    }
+}

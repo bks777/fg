@@ -1,0 +1,24 @@
+{
+    "name": "Spin States",
+    "alias": "spin",
+    "type": "states",
+    "orders": ["STATE_BONUS_INTRO","STATE_BONUS_IDLE","STATE_BONUS_RESULT","STATE_BONUS_OUTRO"],
+    "states": {
+        "BonusIntroState": {
+            "alias": "STATE_BONUS_INTRO",
+            "path": "bonusIntroState.es6.js"
+        },
+        "BonusIdleState": {
+            "alias": "STATE_BONUS_IDLE",
+            "path": "bonusIdleState.es6.js"
+        },
+        "BonusResultState": {
+            "alias": "STATE_BONUS_RESULT",
+            "path": "bonusResultState.es6.js"
+        },
+        "BonusOutroState": {
+            "alias": "STATE_BONUS_OUTRO",
+            "path": "bonusOutroState.es6.js"
+        }
+    }
+}

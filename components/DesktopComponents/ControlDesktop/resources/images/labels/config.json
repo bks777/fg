@@ -1,0 +1,31 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "btn_autogame_label": {
+            "path": "UI_btn_autogame.png"
+        },
+        "fastspin_back_label": {
+            "path": "UI_fastspin_back.png"
+        },
+        "FG_meters_win_label": {
+            "path": "UI_FG_meters_win.png"
+        },
+        "MG_meters_balance_label": {
+            "path": "UI_MG_meters_balance.png"
+        },
+        "MG_meters_bet_label": {
+            "path": "UI_MG_meters_bet.png"
+        },
+        "MG_meters_lines_label": {
+            "path": "UI_MG_meters_lines.png"
+        },
+        "MG_meters_totalbet": {
+            "path": "UI_MG_meters_totalbet.png"
+        },
+        "MG_meters_win": {
+            "path": "UI_MG_meters_win.png"
+        }
+    }
+
+}

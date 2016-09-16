@@ -1,0 +1,21 @@
+{
+  "name": "html5-game-kernel",
+  "description": "The game engine for html5 games",
+  "keywords": [
+    "html5-kernel"
+  ],
+  "authors": [
+    "Anton Lavrenko <toxa@mailsot.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://clonefish.com",
+  "_release": "3c07d28cac",
+  "_resolution": {
+    "type": "branch",
+    "branch": "dev",
+    "commit": "3c07d28cac5f7ec48270a6c495b3163507d5d7f3"
+  },
+  "_source": "git@git.slygods.com:game-html5/html5_game_kernel.git",
+  "_target": "dev",
+  "_originalSource": "git@git.slygods.com:game-html5/html5_game_kernel.git"
+}

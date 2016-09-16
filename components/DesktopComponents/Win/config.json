@@ -1,0 +1,21 @@
+{
+    "name": "Win component",
+    "typeLoading": "main",
+    "alias": "win",
+    "type": "component",
+    "partition": ["desktop"],
+    "resources": {
+        "folders": ["images"]
+    },
+    "events": {
+        "WinDesktopEvent": {
+            "path": "WinDesktopEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "winDesktopViewHandler": {
+            "path": "winDesktopViewHandler.es6.js"
+        }
+    },
+    "signals": true
+}

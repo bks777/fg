@@ -1,0 +1,78 @@
+{
+    "name": "Router for protocol component",
+    "alias": "audio",
+    "type": "signals",
+
+    "signals": {
+        "lineAudio": {
+            "subStates": {
+                "one": {
+                    "arguments": ["winLine", "hasWild", "resolve"],
+                    "methods": [
+                        ["AudioController::playLineCombination", ["winLine", "hasWild", "resolve"]]
+                    ]
+                },
+                "max": {
+                    "arguments": ["winLines", "hasWild","resolve"],
+                    "methods": [
+                        ["AudioController::playMaxOfLineCombination", ["winLines", "hasWild", "resolve"]]
+                    ]
+                },
+                "bonusLine": {
+                    "arguments": ["symbolID", "resolve"],
+                    "methods": [
+                        ["AudioController::playLineBonusCombination", ["symbolID", "resolve"]]
+                    ]
+                }
+            }
+        },
+        "play": {
+            "subStates": {
+                "normal": {
+                    "arguments": ["name", "resolve", "volume"],
+                    "methods": [
+                        ["AudioController::playSound", ["name", "resolve", "volume"]]
+                    ]
+                },
+                "loop": {
+                    "arguments": ["name", "resolve", "volume"],
+                    "methods": [
+                        ["AudioController::playSound", ["name", "resolve", "volume", true]]
+                    ]
+                }
+            }
+        },
+        "background": {
+            "subStates": {
+                "change": {
+                    "arguments": ["action"],
+                    "methods": [
+                        ["AudioController::changeBackgroundSound", ["action"]]
+                    ]
+                },
+                "fadeIn": {
+                    "arguments": ["resolve"],
+                    "methods": [
+                        ["AudioController::backgroundSoundFadeIn", ["resolve"]]
+                    ]
+                },
+                "fadeOut": {
+                    "arguments": ["resolve", "volume"],
+                    "methods": [
+                        ["AudioController::backgroundSoundFadeOut", ["resolve", "volume"]]
+                    ]
+                }
+            }
+        }
+    },
+
+    "reducers": {
+
+    },
+
+    "listeners": {
+        "protocol.spins.init": {
+
+        }
+    }
+}

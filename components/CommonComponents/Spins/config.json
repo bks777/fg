@@ -1,0 +1,7 @@
+{
+    "name": "Spin Component",
+    "typeLoading": "main",
+    "alias": "spin",
+    "type": "component",
+    "states": true
+}

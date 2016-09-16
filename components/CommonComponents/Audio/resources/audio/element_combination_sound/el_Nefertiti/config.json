@@ -1,0 +1,10 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "el_Nefertiti": {
+            "path": "el_Nefertiti.wav"
+        }
+    }
+}

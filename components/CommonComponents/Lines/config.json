@@ -1,0 +1,20 @@
+{
+    "name": "Carrebian Lines",
+    "typeLoading": "main",
+    "alias": "lines",
+    "type": "component",
+    "events": {
+        "LinesEvent": {
+            "path": "linesEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "LinesViewHandler": {
+            "path": "linesViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": [ "images"]
+    },
+    "signals": true
+}

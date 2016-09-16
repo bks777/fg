@@ -1,0 +1,26 @@
+{
+    "name": "Mobile Preloader",
+    "typeLoading": "preloader",
+    "alias": "preloader",
+    "type": "component",
+    "controllers": {
+        "PreloaderController": {
+            "path": "preloaderController.es6.js"
+        }
+    },
+    "events": {
+        "PreloaderInitEvent": {
+            "path": "preloaderInitEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "PreloaderCommonViewHandler": {
+            "path": "preloaderCommonViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["css"]
+    },
+    "signals": true,
+    "states": true
+}

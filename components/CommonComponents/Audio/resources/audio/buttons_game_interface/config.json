@@ -1,0 +1,40 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "auto_play": {
+            "path": "auto_play.wav"
+        },
+        "button_all_onMouseOver": {
+            "path": "button_all_onMouseOver.wav"
+        },
+        "line": {
+            "path": "line.wav"
+        },
+        "line_onMouseOver": {
+            "path": "line_onMouseOver.wav"
+        },
+        "options": {
+            "path": "options.wav"
+        },
+        "paytable": {
+            "path": "paytable.wav"
+        },
+        "paytable_buttons_on_MouseOver": {
+            "path": "paytable_buttons_on_MouseOver.wav"
+        },
+        "paytable_slide": {
+            "path": "paytable_slide.wav"
+        },
+        "quick_spin": {
+            "path": "quick spin.wav"
+        },
+        "spin_mbet": {
+            "path": "spin_mbet.wav"
+        },
+        "mini_paytable": {
+            "path": "mini_paytable.wav"
+        }
+    }
+}

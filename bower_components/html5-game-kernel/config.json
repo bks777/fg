@@ -1,0 +1,12 @@
+{
+    "name": "Vendor folders of kernel game application",
+    "type": "folder",
+    "folders": {
+        "eventListener": "eventListener",
+        "interfaces": "interfaces",
+        "required": "required",
+        "views": "views",
+        "libs": "libs"
+    }
+
+}

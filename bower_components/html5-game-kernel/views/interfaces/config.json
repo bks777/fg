@@ -1,0 +1,23 @@
+{
+    "name": "View Controller",
+    "type": "views",
+    "bodyID": "wrapper",
+    "classes": {
+        "CanvasParser": {
+            "path": "CanvasParser.js"
+        },
+        "ViewMainCanvas": {
+            "path": "ViewMainCanvas.es6.js",
+            "instanceName": "$_view_canvas",
+            "init": {
+                "canvasID": "wrapper",
+                "titleGame" : "buffer::TITLE",
+                "translate" : "script::window[\"$_t\"]",
+                "frameSize": "buffer::FRAME_SIZE"
+            }
+        },
+        "ViewCanvasHandler": {
+            "path": "ViewCanvasHandler.es6.js"
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "data": {
+        "Congratulations!": {
+            "ru": {
+                "text": "Поздравляем!"
+            },
+            "en": {
+                "text": "Congratulations!"
+            },
+            "it": {
+                "text": "Complimenti!"
+            },
+            "zh": {
+                "text": "恭喜！"
+            },
+            "tr": {
+                "text": "Tebrikler!"
+            },
+            "es": {
+                "text": "Felicidades!"
+            },
+            "fr": {
+                "text": "Félicitations!"
+            }
+        },
+        "Big Win!": {
+            "ru": {
+                "text": "Крупный выигрыш!"
+            },
+            "en": {
+                "text": "Big win!"
+            },
+            "it": {
+                "text": "Grande vincita!"
+            },
+            "zh": {
+                "text": "大额奖金！"
+            },
+            "tr": {
+                "text": "Büyük kazanç!"
+            },
+            "es": {
+                "text": "Gran ganancia!"
+            },
+            "fr": {
+                "text": "Gros gains!"
+            }
+        }
+
+    }
+}

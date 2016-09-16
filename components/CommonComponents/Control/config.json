@@ -1,0 +1,11 @@
+{
+    "name": "Control Panel for Novomatic games",
+    "typeLoading": "main",
+    "alias": "control",
+    "type": "component",
+    "controllers": {
+        "ControlCommonController": {
+            "path": "controlCommonController.es6.js"
+        }
+    }
+}

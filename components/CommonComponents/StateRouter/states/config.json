@@ -1,0 +1,10 @@
+{
+    "name": "Spin States",
+    "alias": "spin",
+    "type": "states",
+    "routers": {
+        "RouterState": {
+            "path": "routerState.es6.js"
+        }
+    }
+}

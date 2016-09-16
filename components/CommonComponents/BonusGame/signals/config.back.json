@@ -1,0 +1,31 @@
+{
+    "name": "Router for bonus component",
+    "alias": "bonus",
+    "type": "states",
+    "states": {
+
+        "init": {
+            "methods": [
+                ["BonusGameViewHandler::initBonusGame"]
+            ]
+        },
+        "showResult": {
+            "methods": [
+                ["BonusGameViewHandler::showResult"]
+            ],
+            "executeStates": [
+                ["control.bonus.picks"]
+            ]
+        },
+        "end": {
+            "executeStates": [
+                ["control.bonus.end"],
+                ["reels.bonus.end"],
+                ["lines.bonus.end"]
+            ],
+            "methods": [
+                ["BonusGameViewHandler::endBonus"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "el_black_cat": {
+            "path": "el_black_cat.wav"
+        }
+    }
+}

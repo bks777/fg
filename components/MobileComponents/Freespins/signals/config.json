@@ -1,0 +1,131 @@
+{
+    "name": "Router for freespins component",
+    "alias": "freespins",
+    "type": "signals",
+    "signals": {
+
+        "initLayout": {
+            "methods": [
+                ["self::Handler::initHandler"]
+            ]
+        },
+
+        "intro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Controller::startIntro"]
+                    ],
+                    "executeStates": [
+                        ["freespins.game.init"],
+                        ["control.freespins.init"]
+                    ],
+                    "executeOrders": ["methods", "executeStates"]
+                },
+
+                "play": {
+                    "arguments": ["symbolID"],
+                    "executeStates": [
+                        ["protocol.freespin_init.play", ["symbolID"]]
+                    ]
+                },
+
+                "stop": {
+                    "methods": [
+                        ["self::Controller::endIntro"]
+                    ],
+                    "executeStates": [
+                        ["control.freespins.init"]
+                    ]
+                }
+            }
+        },
+
+        "game": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["control.freespins.init"],
+                        ["reels.freespin.init"],
+                        ["lines.freespins.init"],
+                        ["background.freespins"],
+                        ["audio.background.change", ["freespins"]]
+                    ],
+                    "flags": [
+                        ["freeSpinsEnabled", [true]]
+                    ],
+                    "methods": [
+                        ["self::Handler::showLayout"],
+                        ["self::Handler::showSelectedHeader"]
+                    ],
+                    "services": [
+                        ["TickerTapeService::freeSpinGameInfo"]
+                    ],
+                    "executeOrders": ["flags", "executeStates", "methods", "services"]
+                },
+
+                "start": {
+                    "methods": [
+                        ["self::Controller::startGame"]
+                    ]
+                },
+
+                "play": {
+                    "executeStates": [
+                        ["reels.freespin.spin"],
+                        ["control.freespins.play"],
+                        ["lines.spin.start"],
+                        ["settings.spin.start"],
+                        ["+protocol.freespin.play"]
+                    ],
+                    "services": [
+                        ["SoundService::stopGroup", ["main"]],
+                        ["SoundService::play", ["audio_freespin_numbers"]],
+                        ["SoundService::play", ["audio_reel_rotate", null, {"loop": true}]]
+                    ],
+                    "events": [
+                        ["spinAction"]
+                    ]
+                },
+
+                "stop": {
+                    "executeStates": [
+                        ["control.freespins.stop"],
+                        ["reels.freespin.stop"]
+                    ]
+                },
+
+                "wait": {
+                    "methods": [
+                        ["self::Controller::checkFreeSpinEnd"]
+                    ]
+                },
+
+                "restore": {
+                    "methods": [
+                        ["self::Controller::restoreGame"]
+                    ],
+                    "executeStates": [
+                        ["freespins.game.init"]
+                    ],
+                    "executeOrders": ["executeStates", "methods"]
+                }
+            }
+        },
+
+        "outro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Controller::startOutro"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["self::Controller::endOutro"]
+                    ]
+                }
+            }
+        }
+    }
+}

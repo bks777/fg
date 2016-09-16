@@ -1,0 +1,9 @@
+{
+    "name": "Components Images",
+    "type": "folder",
+    "folders": {
+        "lines": "lines",
+        "markers": "markers"
+    }
+
+}

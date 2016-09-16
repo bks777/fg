@@ -1,0 +1,211 @@
+{
+    "name": "Router for reels component",
+    "alias": "reels",
+    "type": "signals",
+    "signals": {
+        "default": {
+            "methods": [
+                ["ReelHandler::initGameReels"]
+            ]
+        },
+        "defaultBackground": {
+            "methods": [
+                ["ReelHandler::initDefaultBackground"]
+            ],
+            "executeStates": [
+                ["background.main"]
+            ]
+        },
+        "updateReelsSets": {
+            "methods": [
+                ["ReelHandler::updateReelsSets"]
+            ]
+        },
+        "spins": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["ReelHandler::showLayout"],
+                        ["ReelHandler::initDefaultBackground"]
+                    ]
+                },
+                "spin":{
+                    "methods": [
+                        ["ReelHandler::startReels"]
+                    ]
+                },
+                "fastStop":{
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stopAnimation": {
+                    "executeStates": [
+                        ["control.spin.stop"],
+                        ["win.lines.checkBigWin", ["!lines.spin.stop"]],
+                        ["settings.spin.stop"],
+                        ["protocol.freebets.check"]
+                    ],
+                    "methods": [
+                        ["ReelHandler::setWinElements"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["ReelHandler::hideLayout"]
+                    ],
+                    "executeStates": [
+                        ["paytable.hideMiniPaytable"]
+                    ]
+                }
+            }
+        },
+        "respins": {
+            "subStates": {
+                "spin": {
+                    "methods": [
+                        ["ReelHandler::startRespinReels"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stopAnimation": {
+                    "methods": [
+                        ["ReelHandler::stopRespinReels"]
+                    ],
+                    "executeStates": [
+                        ["win.lines.checkBigWin", ["!lines.respins.stop"]],
+                        ["control.respins.stop"]
+                    ]
+                }
+            }
+        },
+        "freespin": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["ReelHandler::showLayout"],
+                        ["ReelHandler::showFreeSpinBackground"]
+                    ]
+                },
+                "spin": {
+                    "methods": [
+                        ["ReelHandler::startReels"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stopAnimation": {
+                    "executeStates": [
+                        ["control.freespins.stop"],
+                        ["win.lines.checkBigWin", ["!lines.freespins.stop"]]
+                    ],
+                    "methods": [
+                        ["ReelHandler::setWinElements"]
+                    ]
+                },
+                "end": {
+                    "methods": [
+                        ["ReelHandler::hideFreeSpinBackground"]
+                    ]
+                }
+            }
+        },
+        "bonus": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["ReelHandler::hideLayout"]
+                    ],
+                    "executeStates": [
+                        ["paytable.hideMiniPaytable"]
+                    ]
+                },
+                "end": {
+                    "executeStates": [
+                        ["reels.spins.init"]
+                    ]
+                }
+            }
+        },
+        "autoSpins": {
+            "subStates": {
+                "spin":{
+                    "methods": [
+                        ["ReelHandler::startReels"]
+                    ]
+                },
+                "fastStop":{
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stop": {
+                    "methods": [
+                        ["ReelHandler::stopReels"]
+                    ]
+                },
+                "stopAnimation": {
+                    "executeStates": [
+                        ["control.autoSpins.stop"],
+                        ["win.lines.checkBigWin", ["!lines.autoSpins.stop"]],
+                        ["protocol.freebets.check"]
+                    ],
+                    "methods": [
+                        ["ReelHandler::setWinElements"]
+                    ]
+                }
+            }
+        },
+        "sounds": {
+            "subStates": {
+                "stopReel": {
+                    "arguments": ["number"],
+                    "methods": [
+                        ["self::Handler::stopReelSound", ["number"]]
+                    ]
+                }
+            }
+        }
+    },
+    "reducers": {
+        "fastStop" : [".spin.play"],
+        "spins.stopAnimation": {
+            "protocol.freebets.reload": {
+                "indexHistory": [1,2,3],
+                "executeStates": [
+                    ["control.freebets.end"]
+                ],
+                "resume": true
+            }
+        },
+        "autoSpins.stopAnimation": {
+            "protocol.freebets.reload": {
+                "indexHistory": [1,2,3],
+                "executeStates": [
+                    ["control.freebets.end"]
+                ],
+                "resume": true
+            }
+        },
+        "freespins.stop": {
+            "preloader.initGame": {
+                "indexHistory": [1],
+                "executeStates": [
+                    ["reels.freespins.stopAnimation"]
+                ]
+            }
+        }
+    }
+}

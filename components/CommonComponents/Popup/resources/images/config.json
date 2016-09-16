@@ -1,0 +1,9 @@
+{
+  "name": "Images for popup",
+  "type": "folder",
+  "folders": {
+    "popup_buttons": "popup_buttons",
+    "popup_labels": "popup_labels"
+  }
+
+}

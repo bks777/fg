@@ -1,0 +1,10 @@
+{
+  "name": "Images for settings",
+  "type": "folder",
+  "folders": {
+    "toolbar_buttons": "toolbar_buttons",
+    "toolbar_labels": "toolbar_labels",
+    "UI_panels": "UI_panels"
+  }
+
+}

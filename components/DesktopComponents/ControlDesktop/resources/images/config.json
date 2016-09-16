@@ -1,0 +1,10 @@
+{
+    "name": "Images for control",
+    "type": "folder",
+    "folders": {
+        "buttons": "buttons",
+        "labels": "labels",
+        "UI_panels": "UI_panels"
+    }
+
+}

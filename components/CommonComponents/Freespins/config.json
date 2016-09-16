@@ -1,0 +1,27 @@
+{
+    "name": "Freespins for SoF",
+    "typeLoading": "main",
+    "alias": "freespins",
+    "type": "component",
+    "controllers": {
+        "FreespinsController": {
+            "path": "FreespinsController.es6.js"
+        }
+    },
+    "events": {
+        "FreespinsEvent": {
+            "path": "FreespinsEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "FreespinsViewHandler": {
+            "path": "FreespinsViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    },
+    "signals": true,
+    "states": true,
+    "translations": true
+}

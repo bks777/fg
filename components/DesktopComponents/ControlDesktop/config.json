@@ -1,0 +1,27 @@
+{
+    "name": "Control Panel",
+    "typeLoading": "main",
+    "alias": "control",
+    "type": "component",
+    "partition": ["desktop"],
+    "controllers": {
+        "ControlDesktopController": {
+            "path": "controlDesktopController.es6.js"
+        }
+    },
+    "events": {
+        "ControlDesktopEvent": {
+            "path": "controlDesktopEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "ControlDesktopViewHandler": {
+            "path": "controlDesktopViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": [ "images"]
+    },
+    "signals": true,
+    "translations": true
+}

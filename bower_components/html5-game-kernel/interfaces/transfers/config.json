@@ -1,0 +1,15 @@
+{
+    "name": "Transfers Interface",
+    "type": "classes",
+    "classes": {
+        "TransferInterface": {
+            "path": "transferInterface.es6.js"
+        },
+        "TransferFetch": {
+            "path": "transferFetch.es6.js"
+        },
+        "TransferJSONP": {
+            "path": "transferJSONP.es6.js"
+        }
+    }
+}

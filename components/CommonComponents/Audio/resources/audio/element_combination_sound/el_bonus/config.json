@@ -1,0 +1,10 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "el_bonus": {
+            "path": "el_bonus.wav"
+        }
+    }
+}

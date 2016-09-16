@@ -1,0 +1,75 @@
+{
+    "data": {
+        "freespins_start_popup_bottom_text": {
+            "ru": {
+                "text": "БЕСПЛАТНЫХ ВРАЩЕНИЙ"
+            },
+            "en": {
+                "text": "FREESPINS"
+            },
+            "it": {
+                "text": "FREESPINS"
+            },
+            "zh": {
+                "text": "FREESPINS"
+            },
+            "tr": {
+                "text": "FREESPINS"
+            },
+            "es": {
+                "text": "FREESPINS"
+            },
+            "fr": {
+                "text": "FREESPINS"
+            }
+        },
+
+        "freespins_start_popup_top_text": {
+            "ru": {
+                "text": "ВЫБЕРИТЕ РЕЖИМ БЕСПЛАТНЫХ ВРАЩЕНИЙ:"
+            },
+            "en": {
+                "text": "CHOOSE FREESPINS MODE:"
+            },
+            "it": {
+                "text": "FREESPINS"
+            },
+            "zh": {
+                "text": "FREESPINS"
+            },
+            "tr": {
+                "text": "FREESPINS"
+            },
+            "es": {
+                "text": "FREESPINS"
+            },
+            "fr": {
+                "text": "FREESPINS"
+            }
+        },
+
+        "free_spins_end_popup_congratulations": {
+            "ru": {
+                "text": "Congratulations!"
+            },
+            "en": {
+                "text": "Congratulations!"
+            },
+            "it": {
+                "text": "Congratulations!"
+            },
+            "zh": {
+                "text": "Congratulations!"
+            },
+            "tr": {
+                "text": "Congratulations!"
+            },
+            "es": {
+                "text": "Congratulations!"
+            },
+            "fr": {
+                "text": "Congratulations!"
+            }
+        }
+    }
+}

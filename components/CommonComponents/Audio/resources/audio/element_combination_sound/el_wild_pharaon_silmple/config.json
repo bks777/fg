@@ -1,0 +1,10 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "groupSpriteName": "main",
+    "audio": {
+        "el_wild_pharaon_silmple": {
+            "path": "el_wild_pharaon_silmple.wav"
+        }
+    }
+}

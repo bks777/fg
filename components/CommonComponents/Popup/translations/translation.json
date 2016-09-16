@@ -1,0 +1,203 @@
+{
+    "data": {
+        "Congratulations!": {
+            "ru": {
+                "text": "Поздравляем!"
+            },
+            "en": {
+                "text": "Congratulations!"
+            },
+            "it": {
+                "text": "Complimenti!"
+            },
+            "zh": {
+                "text": "恭喜！"
+            },
+            "tr": {
+                "text": "Tebrikler!"
+            },
+            "es": {
+                "text": "Felicidades!"
+            },
+            "fr": {
+                "text": "Félicitations!"
+            }
+        },
+        "You won Bonus game!": {
+            "ru": {
+                "text": "Вы выиграли Бонус игру!"
+            },
+            "en": {
+                "text": "You won Bonus game!"
+            },
+            "it": {
+                "text": "Hai vinto un gioco Bonus!"
+            },
+            "zh": {
+                "text": "您在 Bonus 回合获胜！"
+            },
+            "tr": {
+                "text": "Bonus oyun kazandınız!"
+            },
+            "es": {
+                "text": "¡Has ganado un juego Bonus!"
+            },
+            "fr": {
+                "text": "Vous avez gagné le jeu Bonus !"
+            }
+        },
+
+        "Free Spins!": {
+
+            "ru": {
+                "top": 207,
+                "left": 518,
+                "font": "20pt Calibri",
+                "text": "Бесплатных Вращений!"
+            },
+            "en": {
+                "text": "Free Spins!"
+            },
+            "it": {
+                "text": "Free Spin!"
+            },
+            "zh": {
+                "text": "免费转盘！"
+            },
+            "tr": {
+                "text": "Ücretsiz Döndürme başlatır!"
+            },
+            "es": {
+                "text": "de Giros Gratis!"
+            },
+            "fr": {
+                "text": "de Tours Gratuits!"
+            }
+        },
+        "additional Free Spins!": {
+            "ru": {
+                "lineHeight": 23,
+                "top": 157,
+                "text": "дополнительных\nБесплатных Вращений!"
+            },
+            "en": {
+                "text": "additional Free Spin!"
+            },
+            "it": {
+                "top": 166,
+                "text": "ulteriori Free Spin!"
+            },
+            "zh": {
+                "top": 164,
+                "text": "额外免费转盘！"
+            },
+            "tr": {
+                "top": 162,
+                "text": "ek Bedava Döndürme!"
+            },
+            "es": {
+                "top": 162,
+                "text": "giros gratis adicionales!"
+            },
+            "fr": {
+                "top": 160,
+                "text": "tours gratuits supplémentaires !"
+            }
+        },
+        "Better luck next time!": {
+            "ru": {
+                "text": "Повезет в следующий раз!"
+            },
+            "en": {
+                "text": "Better luck next time!"
+            },
+            "it": {
+                "text": "Sarai più fortunato la prossima volta!"
+            },
+            "zh": {
+                "text": "祝下次好运！"
+            },
+            "tr": {
+                "text": "Sonraki sefere bol şans!"
+            },
+            "es": {
+                "text": "Mejor suerte para la próxima!"
+            },
+            "fr": {
+                "text": "La prochaine sera la bonne !"
+            }
+        },
+        "dd": {
+            "ru": {
+                "text": ""
+            },
+            "en": {
+                "text": ""
+            },
+            "it": {
+                "text": ""
+            },
+            "zh": {
+                "text": ""
+            },
+            "tr": {
+                "text": ""
+            },
+            "es": {
+                "text": ""
+            },
+            "fr": {
+                "text": ""
+            }
+        },
+
+        "Spins made:": {
+            "ru": {
+                "left": 0,
+                "text": "Сделано спинов:"
+            },
+            "en": {
+                "text": "Spins made:"
+            },
+            "it": {
+                "text": "Spin effettuati:"
+            },
+            "zh": {
+                "text": "转动转盘："
+            },
+            "tr": {
+                "text": "Yapılan döndürme:"
+            },
+            "es": {
+                "text": "Giros realizados:"
+            },
+            "fr": {
+                "text": "Tours effectués:"
+            }
+        },
+
+        "Resume autoplay?": {
+            "ru": {
+                "text": "Продолжить автоигру?"
+            },
+            "en": {
+                "text": "Resume autoplay?"
+            },
+            "it": {
+                "text": "Ricominciare l’Autoplay?"
+            },
+            "zh": {
+                "text": "重启自动模式？"
+            },
+            "tr": {
+                "text": "Otomatik oyun devam etsin mi?"
+            },
+            "es": {
+                "text": "Continuar con Juego Automático?"
+            },
+            "fr": {
+                "text": "Reprendre le jeu auto ?"
+            }
+        }
+    }
+}

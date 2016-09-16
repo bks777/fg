@@ -1,0 +1,230 @@
+{
+  "resources": [
+    "au_sp_main_main.ogg",
+    "au_sp_main_main.m4a",
+    "au_sp_main_main.mp3",
+    "au_sp_main_main.ac3"
+  ],
+  "spritemap": {
+    "auto_play": {
+      "start": 0,
+      "end": 0.5,
+      "loop": false
+    },
+    "button_all_onMouseOver": {
+      "start": 2,
+      "end": 2.5,
+      "loop": false
+    },
+    "line": {
+      "start": 4,
+      "end": 4.5,
+      "loop": false
+    },
+    "line_onMouseOver": {
+      "start": 6,
+      "end": 6.5,
+      "loop": false
+    },
+    "options": {
+      "start": 8,
+      "end": 8.5,
+      "loop": false
+    },
+    "paytable": {
+      "start": 10,
+      "end": 10.5,
+      "loop": false
+    },
+    "paytable_buttons_on_MouseOver": {
+      "start": 12,
+      "end": 12.5,
+      "loop": false
+    },
+    "paytable_slide": {
+      "start": 14,
+      "end": 14.5,
+      "loop": false
+    },
+    "quick spin": {
+      "start": 16,
+      "end": 16.5,
+      "loop": false
+    },
+    "spin_mbet": {
+      "start": 18,
+      "end": 18.5,
+      "loop": false
+    },
+    "mini_paytable": {
+      "start": 20,
+      "end": 20.5,
+      "loop": false
+    },
+    "el_10": {
+      "start": 22,
+      "end": 24.31251700680272,
+      "loop": false
+    },
+    "el_A": {
+      "start": 26,
+      "end": 28.31251700680272,
+      "loop": false
+    },
+    "el_black_cat": {
+      "start": 30,
+      "end": 32.12501133786848,
+      "loop": false
+    },
+    "el_bonus": {
+      "start": 34,
+      "end": 36.12501133786848,
+      "loop": false
+    },
+    "el_cobra": {
+      "start": 38,
+      "end": 40.12501133786848,
+      "loop": false
+    },
+    "el_J": {
+      "start": 42,
+      "end": 44.31251700680272,
+      "loop": false
+    },
+    "el_K": {
+      "start": 46,
+      "end": 48.31251700680272,
+      "loop": false
+    },
+    "el_Nefertiti": {
+      "start": 50,
+      "end": 52.12501133786848,
+      "loop": false
+    },
+    "el_Q": {
+      "start": 54,
+      "end": 56.31251700680272,
+      "loop": false
+    },
+    "el_scatter": {
+      "start": 58,
+      "end": 60,
+      "loop": false
+    },
+    "el_scorpion": {
+      "start": 61,
+      "end": 63.12501133786848,
+      "loop": false
+    },
+    "el_wild_pharaon_gold": {
+      "start": 65,
+      "end": 67.25,
+      "loop": false
+    },
+    "el_wild_pharaon_red": {
+      "start": 69,
+      "end": 71.25,
+      "loop": false
+    },
+    "el_wild_pharaon_silmple": {
+      "start": 73,
+      "end": 75.25,
+      "loop": false
+    },
+    "reel_rotate": {
+      "start": 77,
+      "end": 78.75,
+      "loop": false
+    },
+    "reel_stop_v5": {
+      "start": 80,
+      "end": 80.5,
+      "loop": false
+    },
+    "reel_short": {
+      "start": 82,
+      "end": 83.14063492063492,
+      "loop": false
+    },
+    "Sound_1": {
+      "start": 85,
+      "end": 87.80630385487528,
+      "loop": false
+    },
+    "Sound_2": {
+      "start": 89,
+      "end": 91.70408163265306,
+      "loop": false
+    },
+    "Sound_3": {
+      "start": 93,
+      "end": 95.12090702947846,
+      "loop": false
+    },
+    "Sound_4": {
+      "start": 97,
+      "end": 99.26975056689342,
+      "loop": false
+    },
+    "Sound_5": {
+      "start": 101,
+      "end": 103.36682539682539,
+      "loop": false
+    },
+    "Sound_6": {
+      "start": 105,
+      "end": 108.34092970521542,
+      "loop": false
+    },
+    "Sound_7": {
+      "start": 110,
+      "end": 112.37448979591836,
+      "loop": false
+    },
+    "Sound_8": {
+      "start": 114,
+      "end": 116.37448979591836,
+      "loop": false
+    },
+    "Sound_9": {
+      "start": 118,
+      "end": 120.37448979591836,
+      "loop": false
+    },
+    "Sound_10": {
+      "start": 122,
+      "end": 124.3821768707483,
+      "loop": false
+    },
+    "Sound_11": {
+      "start": 126,
+      "end": 128.7510430839002,
+      "loop": false
+    },
+    "popup": {
+      "start": 130,
+      "end": 131.37501133786847,
+      "loop": false
+    },
+    "pop_up": {
+      "start": 133,
+      "end": 134.37501133786847,
+      "loop": false
+    },
+    "popup_text": {
+      "start": 136,
+      "end": 138,
+      "loop": false
+    },
+    "sound_multipier": {
+      "start": 139,
+      "end": 139.5,
+      "loop": false
+    },
+    "sound_numbers": {
+      "start": 141,
+      "end": 142.28126984126985,
+      "loop": false
+    }
+  }
+}

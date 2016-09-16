@@ -1,0 +1,22 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "popup_back": {
+            "path": "pop_up_back.png"
+        },
+        "UI_MG_popup_normal": {
+            "path": "popup.png"
+        },
+        "UI_MG_popup_system": {
+            "path": "UI_MG_popup_system.png"
+        },
+        "popup_shape": {
+            "path": "popup_shape.png"
+        },
+        "popup_star": {
+            "path": "popup_star.png"
+        }
+    }
+
+}

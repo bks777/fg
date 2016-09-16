@@ -1,0 +1,34 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "spin_expand_bg": {
+            "path": "expand_BG.png"
+        },
+        "spin_expand": {
+            "path": "expand_btn-sprite.png"
+        },
+        "spin_btn": {
+            "path": "spin-sprite_o.png"
+        },
+        "spin_btn_states": {
+            "path": "spin-sprite-btn.png"
+        },
+        "spin_states": {
+            "path": "ext-spin-btn-sprite_o.png"
+        },
+        "spin_states_close": {
+            "path": "ext-close-sprite_o.png"
+        },
+        "spin_menu_fast": {
+            "path": "expand_BG_mini.png"
+        },
+        "spin_menu_normal": {
+            "path": "expand_BG_mini.png"
+        },
+        "spin_state_global": {
+            "path": "arrow_sprite_o.png"
+        }
+    }
+
+}

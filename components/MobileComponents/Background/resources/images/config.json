@@ -1,0 +1,22 @@
+{
+    "name": "Images for background",
+    "type": "images",
+    "images": {
+        "background_main": {
+            "path": "Secret_of_Nefertiti_mainform.jpg"
+        },
+        "background_free_spins": {
+            "path": "background_freespins.jpg"
+        },
+        "main_back_anim": {
+            "path": "main_back_anim.png"
+        },
+        "logo": {
+            "path": "logo.png"
+        },
+        "lucky_logo": {
+            "path": "Lucky_logo.png"
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "typeLoading": "overload",
+    "groupSpriteName": "main",
+    "audio": {
+        "freespin_numbers": {
+            "path": "freespin_numbers.wav"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Spin States",
+    "alias": "spins",
+    "type": "states",
+    "orders": ["STATE_SPINS_INTRO","STATE_SPINS_IDLE","STATE_SPINS_SPINNING","STATE_SPINS_RESULT","STATE_SPINS_OUTRO"],
+    "states": {
+        "SpinIntroState": {
+            "alias": "STATE_SPINS_INTRO",
+            "path": "spinIntroState.es6.js"
+        },
+        "SpinIdleState": {
+            "alias": "STATE_SPINS_IDLE",
+            "path": "spinIdleState.es6.js"
+        },
+        "SpinSpinningState": {
+            "alias": "STATE_SPINS_SPINNING",
+            "path": "spinSpinningState.es6.js"
+        },
+        "SpinResultState": {
+            "alias": "STATE_SPINS_RESULT",
+            "path": "spinResultState.es6.js"
+        },
+        "SpinOutroState": {
+            "alias": "STATE_SPINS_OUTRO",
+            "path": "spinOutroState.es6.js"
+        }
+    }
+}

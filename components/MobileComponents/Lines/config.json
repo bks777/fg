@@ -1,0 +1,13 @@
+{
+    "name": "Lines",
+    "typeLoading": "main",
+    "alias": "lines",
+    "type": "component",
+    "partition": ["mobile"],
+    "viewHandlers": {
+        "MobileLinesViewHandler": {
+            "path": "mobileLinesViewHandler.es6.js",
+            "extend": "LinesViewHandler"
+        }
+    }
+}

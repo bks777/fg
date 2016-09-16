@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>{{ game_title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <style>
+        canvas {
+            margin: auto;
+            display: block;
+        }
+    </style>
+
+    {{ css_links }}
+
+    <script>
+        /*
+         Game parameters
+         */
+        var $_gameSettings = {
+            "gamePath": "{$games_root}",
+            "gameName": "{$game_short_name}",
+            "gameToken": "{$swf_flashvars.customVars}",
+            "backUrl": "{$backurl}",
+            "cashUrl": "{$cashurl}",
+            "defRoot": "{$games_root}{$game_short_name}/app/",
+            "actionUrl": "{$action_url}",
+            "language": "{$language}",
+            "alias": "{$alias}",
+
+            endpoint: "actionUrl",
+            fail_timeout: 3,
+            max_fails: 3,
+            game_path: '/'
+        };
+
+    </script>
+
+    <script>
+
+        var $_args = {};
+        window.location.search.substr(1).split('&').map(function(item){
+            var r = item.split("=");
+            $_args[r[0]] = r[1];
+        });
+
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', 'src/game.js?build_ts=' + $_args.build_ts);
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
+
+    {{ js_libs }}
+
+</head>
+<body>
+
+<canvas id="wrapper">canvas is not supported</canvas>
+
+{{ js_links }}
+
+</body>
+</html>

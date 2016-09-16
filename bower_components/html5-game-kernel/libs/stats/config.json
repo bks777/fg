@@ -1,0 +1,12 @@
+{
+    "name": "Libs for statistics of CPU application",
+    "type": "libs",
+    "libs": {
+        "Stats": {
+            "path": "stats.min.js",
+            "onlyTestDev": true,
+            "instanceName": "$_stats"
+        }
+    }
+
+}

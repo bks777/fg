@@ -1,0 +1,10 @@
+{
+    "name": "Components Images",
+    "type": "folder",
+    "folders": {
+        "atlas": "atlas",
+        "animations": "animations",
+        "blends": "blends"
+    }
+
+}

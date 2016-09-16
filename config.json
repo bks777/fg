@@ -1,0 +1,71 @@
+{
+    "name": "Game folders",
+    "title": "Nifertiti",
+    "frameSize": {
+        "mobile": {
+            "canvas": {
+                "maxWidth": 1280,
+                "maxHeight": 720
+            },
+            "gameContainer": {
+                "width": 960,
+                "height": 540
+            }
+        },
+        "tablet": {
+            "canvas": {
+                "maxWidth": 1280,
+                "maxHeight": 720
+            },
+            "gameContainer": {
+                "width": 960,
+                "height": 540
+            }
+        },
+        "desktop": {
+            "canvas": {
+                "maxWidth": 1280,
+                "maxHeight": 720
+            },
+            "gameContainer": {
+                "width": 960,
+                "height": 720
+            }
+        }
+    },
+    "gamePartitions": {
+        "conditions": [
+            {
+                "condition": "$_args.mobile == '1' || ($_args.opt && $_args.opt.mobile == '1') || HelpersCheckBrowser.detect().mobile === true || HelpersCheckBrowser.detect().ios === true || HelpersCheckBrowser.detect().android === true || HelpersCheckBrowser.detect().tablet === true",
+                "exec": ["mobile"]
+            },
+            {
+                "condition": "HelpersCheckBrowser.detect().mobile !== true && HelpersCheckBrowser.detect().ios !== true && HelpersCheckBrowser.detect().android !== true",
+                "exec": ["desktop"]
+            }
+        ]
+    },
+    "gameSettings": {
+        "title": "Secret of Nefertiti",
+        "variablePageSettings": "$_args",
+        "exit_url": "http://google.com.ua",
+        "actionCurlUrl": "http://10.16.30.54/game_kernel_v2_creates/app/curl_request.php?url={0}", //"actionCurlUrl": "http://10.16.99.171/game_kernel_v2_creates/app/curl_request.php?url={0}",
+        "endpoint": "http://betman-sharks.dev.booongo.com/gs/{0}/{1}/prod/",
+        "alias": "secret_of_nefertiti",
+        "token": "",
+        "lang": "en",
+        "max_fails": 3,
+        "max_timeout": 3000
+    },
+    "type": "folder",
+    "folders": {
+        "bower_components": "bower_components",
+        "components": "components"
+    },
+    "compile": {
+        "libs": [
+            "HHSShifter"
+        ]
+    },
+    "dist": true
+}

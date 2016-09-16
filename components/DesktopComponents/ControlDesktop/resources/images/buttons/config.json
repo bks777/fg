@@ -1,0 +1,31 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "back_button": {
+            "path": "back-button-sprite.png"
+        },
+        "forward_button": {
+            "path": "forward-button-sprite.png"
+        },
+        "info_button": {
+            "path": "info-button-sprite.png"
+        },
+        "quick_spin_on_button": {
+            "path": "quickspin-on-button-sprite.png"
+        },
+        "quick_spin_off_button": {
+            "path": "quickspin-off-button-sprite.png"
+        },
+        "spin_default_button": {
+            "path": "spin-default-button-sprite.png"
+        },
+        "free_spin_button": {
+            "path": "spin-freespin-button-sprite.png"
+        },
+        "default-button": {
+            "path": "default-button-sprite.png"
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Event Listener",
+    "type": "listener",
+    "classes": {
+        "ConditionInterface": {
+            "path": "conditionInterface.es6.js"
+        },
+        "ReelsConditions": {
+            "path": "reelsConditions.es6.js"
+        },
+        "ReelsAnimationConditions": {
+            "path": "reelsAnimationConditions.es6.js"
+        },
+        "StartConditions": {
+            "path": "startConditions.es6.js"
+        },
+        "AudioConditions": {
+            "path": "audioConditions.es6.js"
+        }
+    }
+}

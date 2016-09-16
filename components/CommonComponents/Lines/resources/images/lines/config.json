@@ -1,0 +1,67 @@
+{
+    "name": "Images for line",
+    "type": "images",
+    "images": {
+        "line_1": {
+            "path": "1.png"
+        },
+        "line_2": {
+            "path": "1.png"
+        },
+        "line_3": {
+            "path": "1.png"
+        },
+        "line_4": {
+            "path": "4.png"
+        },
+        "line_5": {
+            "path": "5.png"
+        },
+        "line_6": {
+            "path": "6.png"
+        },
+        "line_7": {
+            "path": "7.png"
+        },
+        "line_8": {
+            "path": "8.png"
+        },
+        "line_9": {
+            "path": "9.png"
+        },
+        "line_10": {
+            "path": "10.png"
+        },
+        "line_11": {
+            "path": "11.png"
+        },
+        "line_12": {
+            "path": "12.png"
+        },
+        "line_13": {
+            "path": "13.png"
+        },
+        "line_14": {
+            "path": "14.png"
+        },
+        "line_15": {
+            "path": "15.png"
+        },
+        "line_16": {
+            "path": "16.png"
+        },
+        "line_17": {
+            "path": "17.png"
+        },
+        "line_18": {
+            "path": "18.png"
+        },
+        "line_19": {
+            "path": "19.png"
+        },
+        "line_20": {
+            "path": "20.png"
+        }
+    }
+
+}

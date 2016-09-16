@@ -1,0 +1,35 @@
+{
+    "name": "Router for paytable component",
+    "alias": "paytable",
+    "type": "signals",
+    "signals": {
+        "show": {
+            "methods": [
+                ["PaytableDesktopViewHandler::show"]
+            ],
+            "services": [
+                ["SoundService::play", ["audio_paytable"]]
+            ],
+            "executeStates": [
+                ["lines.hideLines", [true]],
+                ["lines.enableLines"],
+                ["win.hideBigWin"],
+                ["control.paytable"]
+            ]
+        },
+        "hide": {
+            "methods": [
+                ["PaytableDesktopViewHandler::hide"]
+            ],
+            "services": [
+                ["SoundService::play", ["audio_paytable"]]
+            ]
+
+        },
+        "hideMiniPaytable": {
+            "methods": [
+                ["PaytableDesktopViewHandler::hideMiniPaytable"]
+            ]
+        }
+    }
+}

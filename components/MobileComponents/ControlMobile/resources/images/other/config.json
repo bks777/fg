@@ -1,0 +1,13 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "home_btn": {
+            "path": "home_btn.png"
+        },
+        "settings_btn": {
+            "path": "set_btn.png"
+        }
+    }
+
+}

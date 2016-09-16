@@ -1,0 +1,15 @@
+{
+    "name": "State initialization Interface",
+    "type": "classes",
+    "classes": {
+        "SignalInitializationInterface": {
+            "path": "signalInitializationInterface.es6.js"
+        },
+        "SignalRouterInterface": {
+            "path": "signalRouterInterface.es6.js"
+        },
+        "SignalReduceInterface": {
+            "path": "signalReduceInterface.es6.js"
+        }
+    }
+}

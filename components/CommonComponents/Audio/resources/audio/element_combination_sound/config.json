@@ -1,0 +1,24 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "el_10": "el_10",
+        "el_A": "el_A",
+        "el_black_cat": "el_black_cat",
+        "el_bonus": "el_bonus",
+        "el_cobra": "el_cobra",
+        "el_J": "el_J",
+        "el_K": "el_K",
+        "el_Nefertiti": "el_Nefertiti",
+        "el_Q": "el_Q",
+        "el_scatter": "el_scatter",
+        "el_scorpion": "el_scorpion",
+        "el_wild_pharaon_gold": "el_wild_pharaon_gold",
+        "el_wild_pharaon_red": "el_wild_pharaon_red",
+        "el_wild_pharaon_silmple": "el_wild_pharaon_silmple",
+        "reel_rotate": "reel_rotate",
+        "reel_stop": "reel_stop",
+        "jangl": "jangl"
+    }
+
+}

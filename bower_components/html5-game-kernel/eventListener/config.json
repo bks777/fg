@@ -1,0 +1,14 @@
+{
+    "name": "Event Listener",
+    "type": "listener",
+    "classes": {
+        "EventHandleListener": {
+            "path": "eventHandleListener.es6.js",
+            "instanceName": "$_event"
+        },
+        "EventBlockedListener": {
+            "path": "eventBlockedListener.es6.js",
+            "instanceName": "$_event_blocked"
+        }
+    }
+}

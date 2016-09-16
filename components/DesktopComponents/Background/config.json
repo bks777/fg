@@ -1,0 +1,10 @@
+{
+    "name": "Backgrounds for game",
+    "typeLoading": "main",
+    "alias": "background",
+    "type": "component",
+    "partition": ["desktop"],
+    "resources": {
+        "folders": ["images"]
+    }
+}

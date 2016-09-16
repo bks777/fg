@@ -1,0 +1,12 @@
+{
+    "name": "Preloader States",
+    "alias": "preloader",
+    "type": "states",
+    "orders": ["STATE_LOADING", "START_ROUTER"],
+    "states": {
+        "StateLoading": {
+            "alias": "STATE_LOADING",
+            "path": "stateLoading.es6.js"
+        }
+    }
+}

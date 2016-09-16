@@ -1,0 +1,57 @@
+{
+    "name": "Router for control component",
+    "alias": "preloader",
+    "type": "signals",
+    "signals": {
+        "startLoading": {
+            "events": [
+                ["startLoading"]
+            ],
+            "executeStates": [
+                ["protocol.init"]
+            ]
+        },
+        "endPreload": {
+            "methods": [
+                ["self::Controller::readyInc"]
+            ]
+        },
+        "initGame": {
+            "methods": [
+                ["self::Controller::readyInc"]
+            ],
+            "executeStates": [
+                ["popup.errors.hideSystem"]
+            ]
+        },
+        "ready": {
+            "events": [
+                ["initGame", [true]]
+            ],
+            "flags": [
+                ["gameReady", [true]]
+            ],
+            "executeOrders": ["flags", "events"]
+        },
+        "ready_": {
+            "events": [
+                ["initGame", [true]]
+            ],
+            "flags": [
+                ["gameReady", [true]]
+            ],
+            "executeStates": [
+                ["reels.init"],
+                ["lines.init"],
+                ["control.init"],
+                ["popup.init"],
+                ["freespins.initLayout"],
+                ["bonus.initLayout"]
+            ],
+            "methods": [
+                ["self::Handler::hide"]
+            ],
+            "executeOrders": ["flags","services","methods", "events", "executeStates"]
+        }
+    }
+}

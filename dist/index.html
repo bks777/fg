@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Secret of Nefertiti</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!--meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /-->
+
+    <style>
+        canvas {
+            margin: auto;
+            display: block;
+        }
+    </style>
+
+    
+
+
+
+</head>
+<body>
+
+<canvas id="wrapper">canvas is not supported</canvas>
+
+    
+
+    <script type="text/javascript">
+
+        /*
+         Game parameters
+         */
+        var $_args = {
+            "game_path": "../secret_of_nefertiti/",
+            "variablePageSettings": "$_args",
+            "token": "",
+            "exit_url": "http://google.com.ua",
+            "endpoint": "http://betman-sharks.dev.booongo.com/gs/{0}/{1}/prod/",
+            "lang": "en",
+            "alias": "secret_of_nefertiti",
+            "build_ts": +new Date(),
+            "wl": "wl",
+            "env": "dist",
+            "fail_timeout": 3,
+            "max_fails": 3,
+            "max_timeout": "3000",
+            "sound": true
+        };
+
+        window.location.search.substr(1).split('&').map(function(item){
+            var r = item.split("=");
+            $_args[r[0]] = r[1];
+        });
+
+        var style = document.createElement('link');
+        style.setAttribute('rel', 'stylesheet');
+        style.setAttribute('href', './game.css?build_ts=' + $_args.build_ts);
+        document.head.appendChild(style);
+
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', './game.js?build_ts=' + $_args.build_ts);
+        document.body.appendChild(script);
+    </script>
+
+    
+
+
+
+</body>
+</html>

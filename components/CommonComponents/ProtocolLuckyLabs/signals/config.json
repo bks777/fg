@@ -1,0 +1,533 @@
+{
+    "name": "Router for protocol component",
+    "alias": "protocol",
+    "type": "signals",
+    "dependence": ["init"],
+    "signals": {
+        "init": {
+            "methods": [
+                ["self::Controller::authAction"]
+            ]
+        },
+        "checkInit": {
+            "methods": [
+                ["self::Controller::checkInitProtocol"]
+            ]
+        },
+        "loaded": {
+            "methods": [
+                ["self::Controller::readyGame"]
+            ],
+            "services": [
+                ["GameActionService::setActivate"]
+            ],
+            "executeStates": [
+                ["lines.initRestoreWin"]
+            ],
+            "flags": [
+                ["gameLoaded", [true]]
+            ],
+            "executeOrders": ["flags","methods","services","executeStates"]
+        },
+        "async": {
+            "subStates": {
+                "restartSession": {
+                    "methods": [
+                        ["self::Controller::restartSession"]
+                    ]
+                },
+                "changeBalance": {
+                    "executeStates": [
+                        ["control.async.changeBalance"]
+                    ]
+                }
+            }
+        },
+        "freebets": {
+            "subStates": {
+                "reload": {
+                    "methods": [
+                        ["self::Controller::updateStartAction"]
+                    ],
+                    "services": [
+                        ["AutoPlayService::suspend"]
+                    ]
+                },
+                "stop": {
+                    "arguments": ["bet_per_line", "left_spins", "lines", "total_bet", "total_spins", "total_win"],
+                    "executeStates": [
+                        ["control.freebets.init", ["left_spins"]],
+                        ["control.freebets.change", ["bet_per_line", "left_spins", "lines", "total_bet", "total_spins", "total_win"]]
+                    ]
+                },
+                "remove": {
+                    "executeStates": [
+                        ["lines.ended.execute"]
+                    ]
+                },
+                "check": {
+                    "methods": [
+                        ["self::Controller::checkFreeBets"]
+                    ]
+                }
+            }
+        },
+        "ready": {
+            "subStates": {
+                "spins": {
+                    "executeStates": [
+                        ["+protocol.spins.init"]
+                    ]
+                },
+                "respin": {
+                    "executeStates": [
+                        ["+protocol.spins.init"],
+                        ["protocol.respins.play"]
+                    ]
+                },
+                "freebets": {
+                    "arguments": ["bet_per_line", "left_spins", "lines", "total_bet", "total_spins", "total_win"],
+                    "executeStates": [
+                        ["protocol.freebets.stop", ["bet_per_line", "left_spins", "lines", "total_bet", "total_spins", "total_win"]]
+                    ]
+                },
+                "freespin_init": {
+                    "executeStates": [
+                        ["+protocol.freespin_init.init"]
+                    ]
+                },
+                "freespins": {
+                    "executeStates": [
+                        ["protocol.spins.init"],
+                        ["+protocol.freespin.restore"]
+                    ]
+                },
+                "freespins_stops": {
+                    "executeStates": [
+                        ["protocol.freespin.init"],
+                        ["+protocol.freespins_stops.init"]
+                    ]
+                },
+                "bonus": {
+                    "executeStates": [
+                        ["protocol.spins.init"],
+                        ["bonus.game.restore"]
+                    ]
+                },
+                "bonus_init": {
+                    "executeStates": [
+                        ["protocol.spins.init"],
+                        ["+protocol.bonus_init.init"]
+                    ]
+                },
+                "bonus_stop": {
+                    "executeStates": [
+                        ["protocol.spins.init"],
+                        ["protocol.bonus.init"],
+                        ["+protocol.bonus_stop.init"]
+                    ]
+                }
+            }
+        },
+        "spin": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["protocol.spins.init"]
+                    ]
+                }
+            }
+        },
+        "spins": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["reels.spins.init"],
+                        ["lines.spins.init"],
+                        ["control.spins.init"],
+                        ["background.main"],
+                        ["audio.background.change", ["spins"]]
+                    ],
+                    "services": [
+                        ["AutoPlayService::resume"]
+                    ],
+                    "flags": [
+                        ["freeSpinsEnabled", [false]]
+                    ],
+                    "executeOrders": ["services", "flags", "executeStates"]
+                },
+                "play": {
+                    "methods": [
+                        ["self::Controller::spinSendAction"]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["reels.spins.stop"]
+                    ]
+                },
+                "end": {
+                    "executeStates": [
+                        ["reels.spins.end"],
+                        ["lines.spins.end"]
+                    ]
+                }
+            }
+        },
+        "autoSpins": {
+            "subStates": {
+                "play": {
+                    "methods": [
+                        ["self::Controller::spinSendAction"]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["+reels.autoSpins.stop"]
+                    ]
+                }
+            }
+        },
+        "respin": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["protocol.spins.init"],
+                        ["protocol.respins.init"]
+                    ]
+                }
+            }
+        },
+        "respins": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["+control.respins.play"]
+                    ]
+                },
+                "play": {
+                    "methods": [
+                        ["self::Controller::spinSendAction", ["respin"]]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["reels.respins.stop"]
+                    ]
+                }
+            }
+        },
+        "freespin_init": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["freespins.intro.init"]
+                    ]
+                },
+                "play": {
+                    "arguments": ["symbolID"],
+                    "methods": [
+                        ["self::Controller::freeSpinInitSendAction", ["symbolID"]]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["freespins.intro.stop"]
+                    ]
+                }
+            }
+        },
+
+        "freespin": {
+            "subStates": {
+
+                "init": {
+                    "executeStates": [
+                        ["freespins.game.init"]
+                    ]
+                },
+
+                "play": {
+                    "methods": [
+                        ["self::Controller::freespinSendAction"]
+                    ]
+                },
+
+                "stop": {
+                    "executeStates": [
+                        ["freespins.game.stop"]
+                    ]
+                },
+
+                "restore": {
+                    "executeStates": [
+                        ["freespins.game.restore"]
+                    ]
+                }
+            }
+        },
+
+        "freespin_stop": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["freespins.outro.init"]
+                    ]
+                },
+                "play": {
+                    "methods": [
+                        ["self::Controller::freeSpinEndSendAction"]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["freespins.outro.end"]
+                    ]
+                }
+            }
+        },
+
+        "bonus_init": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["bonus.intro.init"]
+                    ]
+                },
+                "play": {
+                    "methods": [
+                        ["self::Controller::bonusStartSendAction"]
+                    ]
+                },
+                "stop": {
+                    "executeStates": [
+                        ["bonus.intro.end"]
+                    ]
+                }
+            }
+        },
+
+        "bonus": {
+            "subStates": {
+
+                "init": {
+                    "executeStates": [
+                        ["bonus.game.init"]
+                    ]
+                },
+
+                "play": {
+                    "arguments": ["choose"],
+                    "methods": [
+                        ["self::Controller::bonusSendAction", ["choose"]]
+                    ]
+                },
+
+                "stop": {
+                    "executeStates": [
+                        ["bonus.game.play"]
+                    ]
+                },
+
+                "restore": {
+                    "executeStates": [
+                        ["bonus.game.restore"]
+                    ]
+                }
+
+            }
+        },
+
+        "bonus_stop": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["bonus.outro.init"]
+                    ]
+                },
+
+                "play": {
+                    "methods": [
+                        ["self::Controller::bonusEndSendAction"]
+                    ]
+                },
+
+                "stop": {
+                    "executeStates": [
+                        ["bonus.outro.end"]
+                    ]
+                }
+            }
+        },
+
+
+        "gamble": {
+            "subStates": {
+                "start": {
+                    "methods": [
+                        ["ProtocolController::sendStartDoubleAction"]
+                    ]
+                },
+                "choose": {
+                    "arguments": ["cardID"],
+                    "methods": [
+                        ["ProtocolController::sendPlayDoubleAction", ["cardID"]]
+                    ]
+                }
+            }
+        }
+    },
+
+    "reducers": {
+        "spins.init": {
+            ".freespins.stopAnimation": {
+                "executeStates": [
+                    ["control.freespins.showPopupEnd"],
+                    ["audio.background.change", ["spins"]]
+                ]
+            },
+            ".freespin_stops.sendStop": {
+                "executeStates": [
+                    ["settings.toolbar.fastMessage", ["fast_start_game_message"]]
+                ],
+                "resume": true
+            },
+            "control.freebets.nextGameSession": {
+                "indexHistory": [0,1,2],
+                "executeStates": [
+                    ["reels.updateReelsSets"]
+                ],
+                "resume": true
+            }
+        },
+        "freespin_init.init": {
+            "protocol.spins.stop": {
+
+            },
+            ".spins.stopAnimation": {
+                "executeStates": [
+                    ["freespins.intro.init"]
+                ]
+            },
+            "reels.autoSpins.stopAnimation": {
+                "executeStates": [
+                    ["freespins.intro.init"]
+                ],
+                "services": [
+                    ["AutoPlayService::suspend"]
+                ],
+                "executeOrders": ["services", "executeStates"]
+            },
+            "reels.respins.stopAnimation": {
+                "executeStates": [
+                    ["freespins.intro.init"]
+                ]
+            },
+            "control.freebets.nextGameSession": {
+                "indexHistory": [0,1,2],
+                "executeStates": [
+                    ["freespins.intro.init"]
+                ]
+            }
+        },
+        "freespin.init": {
+            ".spins.stopAnimation": {
+                "executeStates": [
+                    ["freespins.game.init"]
+                ]
+            },
+            "reels.respins.stopAnimation": {
+                "executeStates": [
+                    ["control.freespins.play"]
+                ]
+            },
+            "control.freebets.nextGameSession": {
+                "indexHistory": [0,1,2],
+                "executeStates": [
+                    ["lines.ended.clear"],
+                    ["reels.updateReelsSets"],
+
+                    ["freespins.game.resume"]
+                ],
+
+                "flags": [
+                    ["freeSpinsEnabled", [true]]
+                ],
+                "executeOrders": ["flags", "executeStates", "services"]
+            }
+        },
+
+        "freespin_stops.init": {
+            "control.freebets.nextGameSession": {
+                "indexHistory": [0,1,2],
+
+                "executeStates": [
+                    ["lines.ended.clear"],
+                    ["reels.updateReelsSets"],
+
+                    ["control.freespins.init"],
+                    ["reels.freespins.init"],
+                    ["lines.freespins.init"],
+                    ["background.freespins"],
+                    ["audio.background.change", ["freespins"]],
+
+                    ["control.freespins.showPopupEnd", ["protocol.freespin_stops.sendStop"]]
+                ]
+
+            }
+        },
+
+        "freespins.stop": {
+            "preloader.initGame": {
+                "executeStates": [
+                    ["control.freespins.init"],
+                    ["background.freespins"]
+                ]
+            }
+        },
+        "bonus.init": {
+
+
+            "reels.spins.stopAnimation": {
+                "indexHistory":[1],
+                "executeStates": [
+                    ["bonus.game.resume"]
+                ]
+            },
+            "reels.autoSpins.stopAnimation": {
+                "executeStates": [
+                    ["bonus.game.resume"]
+                ],
+                "services": [
+                    ["AutoPlayService::suspend"]
+                ],
+                "executeOrders": ["services", "executeStates"]
+            },
+            "control.freebets.nextGameSession": {
+                "executeStates": [
+                    ["bonus.game.resume"]
+                ]
+
+            }
+        },
+        "bonus_init.init": {
+            "reels.autoSpins.stopAnimation": {
+                "executeStates": [
+                    ["bonus.intro.init"]
+                ],
+                "services": [
+                    ["AutoPlayService::suspend"]
+                ],
+                "executeOrders": ["services", "executeStates"]
+            },
+            "control.freebets.nextGameSession": {
+                "indexHistory": [0,1,2],
+                "executeStates": [
+                    ["protocol.spin.init"],
+                    ["bonus.intro.init"]
+                ]
+            }
+        }
+
+    }
+}

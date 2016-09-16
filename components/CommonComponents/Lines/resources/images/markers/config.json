@@ -1,0 +1,25 @@
+{
+    "name": "Images for line",
+    "type": "images",
+    "images": {
+        "marker_on": {
+            "path": "number_rectangle.png"
+        },
+        "marker_off": {
+            "path": "number_rectangle_disable.png"
+        },
+        "marker_over_on": {
+            "path": "number_over_rectangle.png"
+        },
+        "marker_over_off": {
+            "path": "number_over_rectangle_disable.png"
+        },
+        "winLineAmountBackground": {
+            "path": "win_border_numbers.png"
+        },
+        "star": {
+            "path": "star.png"
+        }
+    }
+
+}

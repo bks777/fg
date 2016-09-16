@@ -1,0 +1,20 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "Background": "Background",
+        "Popup": "Popup",
+        "ProtocolLuckyLabs": "ProtocolLuckyLabs",
+        "BonusGame": "BonusGame",
+        "Freespins": "Freespins",
+        "Win": "Win",
+        "Audio": "Audio",
+        "Control": "Control",
+        "Preloader": "Preloader",
+        "Reels": "Reels",
+        "Lines": "Lines",
+        "Spins": "Spins",
+        "StateRouter": "StateRouter"
+    }
+
+}

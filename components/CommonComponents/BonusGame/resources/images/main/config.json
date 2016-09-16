@@ -1,0 +1,106 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "background": {
+            "path": "background.png"
+        },
+        "basket": {
+            "path": "basket.png"
+        },
+        "basket_close": {
+            "path": "basket_close.png"
+        },
+        "basket_open": {
+            "path": "basket_open.png"
+        },
+        "princess": {
+            "path": "bonus_princess_small.png"
+        },
+        "princess_big": {
+            "path": "princess_bonus.png"
+        },
+        "princess_eye": {
+            "path": "princess_bonus_eye.png"
+        },
+        "chest_1": {
+            "path": "chest_1.png"
+        },
+        "chest_1_close": {
+            "path": "chest_1_close.png"
+        },
+        "chest_1_open": {
+            "path": "chest_1_open.png"
+        },
+        "chest_2": {
+            "path": "chest_2.png"
+        },
+        "chest_2_open": {
+            "path": "chest_open_2.png"
+        },
+        "column": {
+            "path": "colum.png"
+        },
+        "heart": {
+            "path": "heart.png"
+        },
+        "heart_disable": {
+            "path": "heart_disable.png"
+        },
+        "level_map": {
+            "path": "level_map.png"
+        },
+        "light": {
+            "path": "light.png"
+        },
+        "mummy": {
+            "path": "mummy.png"
+        },
+        "smoke": {
+            "path": "smoke.png"
+        },
+        "papirus": {
+            "path": "papirus.png"
+        },
+        "pattern_floor": {
+            "path": "pattern_floor.png"
+        },
+        "room_future": {
+            "path": "room_future.png"
+        },
+        "room_now": {
+            "path": "room_now.png"
+        },
+        "sarcophagus": {
+            "path": "sarcophagus.png"
+        },
+        "sarcophagus_open": {
+            "path": "sarcophagus_open.png"
+        },
+        "shape": {
+            "path": "shape.png"
+        },
+        "star": {
+            "path": "star.png"
+        },
+        "star_particle": {
+            "path": "star_particle_anim.png"
+        },
+        "urn": {
+            "path": "urn.png"
+        },
+        "urn_open": {
+            "path": "urn_open.png"
+        },
+        "vase": {
+            "path": "vase.png"
+        },
+        "start_big": {
+            "path": "star_particle_big.png"
+        },
+        "vase_open": {
+            "path": "vase_open.png"
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Interfaces state",
+    "type": "folder",
+    "folders": {
+        "history": "history",
+        "interface": "interface",
+        "initialization": "initialization",
+        "reducer": "reducer",
+        "router": "router"
+    }
+
+}

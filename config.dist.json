@@ -1,0 +1,5 @@
+{
+    "gameSettings": {
+        "actionCurlUrl": "http://localhost/game_kernel_v2_creates/app/curl_request.php?url={0}",
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "html5-game-kernel",
+    "description" : "The game engine for html5 games",
+    "version" : "1.0.0",
+    "keywords": [
+        "html5-kernel"
+    ],
+    "authors": [
+        "Anton Lavrenko <toxa@mailsot.com>"
+    ],
+    "license": "MIT",
+    "homepage": "http://clonefish.com"
+}

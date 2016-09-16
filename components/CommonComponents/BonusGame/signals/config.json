@@ -1,0 +1,89 @@
+{
+    "name": "Router for bonus component",
+    "alias": "bonus",
+    "type": "signals",
+    "signals": {
+
+        "intro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Controller::startIntro"]
+                    ],
+
+                    "executeOrders": ["methods"]
+                },
+
+                "end": {
+                    "methods": [
+                        ["self::Controller::endIntro"]
+                    ]
+                }
+            }
+        },
+
+        "game": {
+            "subStates": {
+                "init": {
+                    "executeStates": [
+                        ["control.bonus.init"],
+                        ["reels.bonus.init"],
+                        ["lines.bonus.init"],
+                        ["audio.background.change", ["bonus"]]
+                    ],
+                    "methods": [
+                        ["self::Handler::initBonusGame"]
+                    ],
+                    "executeOrders": ["executeStates", "methods"]
+                },
+
+                "start": {
+                    "methods": [
+                        ["self::Controller::startGame"]
+                    ]
+                },
+
+                "play": {
+                    "methods": [
+                        ["self::Handler::showResult"]
+                    ],
+                    "executeStates": [
+                        ["control.bonus.picks"]
+                    ]
+                },
+
+                "restore": {
+                    "methods": [
+                        ["self::Controller::restoreGame"]
+                    ],
+                    "executeStates": [
+                        ["bonus.game.init"]
+                    ],
+                    "executeOrders": [ "executeStates", "methods" ]
+                }
+            }
+        },
+
+        "outro": {
+            "subStates": {
+                "init": {
+                    "methods": [
+                        ["self::Controller::startOutro"]
+                    ]
+                },
+                "end": {
+                    "executeStates": [
+                        ["control.bonus.end"],
+                        ["reels.bonus.end"],
+                        ["lines.bonus.end"]
+                    ],
+                    "methods": [
+                        ["self::Controller::endOutro"]
+                    ],
+                    "executeOrders": ["executeStates", "methods"]
+                }
+            }
+        }
+
+    }
+}

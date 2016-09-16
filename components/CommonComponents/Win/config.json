@@ -1,0 +1,22 @@
+{
+    "name": "Win component",
+    "typeLoading": "main",
+    "alias": "win",
+    "type": "component",
+    "controllers": {
+        "WinController": {
+            "path": "WinController.es6.js"
+        }
+    },
+    "events": {
+        "WinCommonEvent": {
+            "path": "WinCommonEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "WinCommonViewHandler": {
+            "path": "winCommonViewHandler.es6.js"
+        }
+    },
+    "translations": true
+}

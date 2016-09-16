@@ -1,0 +1,23 @@
+{
+    "name": "Settings Panel for mobile control",
+    "typeLoading": "main",
+    "alias": "settings",
+    "type": "component",
+    "partition": ["mobile"],
+    "controllers": {
+        "SettingsMobileController": {
+            "path": "settingsMobileController.es6.js"
+        }
+    },
+    "events": {
+        "SettingsMobileEvent": {
+            "path": "settingsMobileEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "SettingsMobileViewHandler": {
+            "path": "settingsMobileViewHandler.es6.js"
+        }
+    },
+    "signals": true
+}

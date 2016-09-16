@@ -1,0 +1,13 @@
+{
+    "name": "Bonus game for Hunting party",
+    "typeLoading": "main",
+    "alias": "bonus",
+    "type": "component",
+    "partition": ["mobile"],
+    "viewHandlers": {
+        "MobileBonusGameViewHandler": {
+            "path": "mobileBonusGameViewHandler.es6.js",
+            "extend": "BonusGameViewHandler"
+        }
+    }
+}

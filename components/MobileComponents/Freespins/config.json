@@ -1,0 +1,13 @@
+{
+    "name": "Freespins mobile",
+    "typeLoading": "main",
+    "alias": "freespins",
+    "type": "component",
+    "partition": ["mobile"],
+    "viewHandlers": {
+        "FreespinsMobileViewHandler": {
+            "path": "FreespinsMobileViewHandler.es6.js"
+        }
+    },
+    "signals": true
+}

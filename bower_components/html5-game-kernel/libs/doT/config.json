@@ -1,0 +1,10 @@
+{
+    "name": "Template Handler Library",
+    "type": "libs",
+    "libs": {
+        "doT": {
+            "path": "doT.min.js"
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Backgrounds for game",
+    "typeLoading": "main",
+    "type": "component",
+    "alias": "background",
+    "viewHandlers": {
+        "BackgroundHandler": {
+            "path": "backgroundHandler.es6.js"
+        }
+    },
+    "events": {
+        "BackgroundEvent": {
+            "path": "backgroundEvent.es6.js"
+        }
+    },
+    "signals": true
+}

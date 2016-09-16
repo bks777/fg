@@ -1,0 +1,7 @@
+{
+    "name": "State Router Component",
+    "alias": "stateRouter",
+    "typeLoading": "main",
+    "type": "component",
+    "states": true
+}

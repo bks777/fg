@@ -1,0 +1,19 @@
+{
+    "name": "Images for settings",
+    "type": "images",
+    "images": {
+        "toolbar_help_button": {
+            "path": "help-sprite.png"
+        },
+        "toolbar_setting_button": {
+            "path": "setting-sprite.png"
+        },
+        "toolbar_sound_on": {
+            "path": "sound-on-sprite.png"
+        },
+        "toolbar_sound_off": {
+            "path": "sound-off-sprite.png"
+        }
+    }
+
+}

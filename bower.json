@@ -1,0 +1,30 @@
+{
+    "name": "html5/game-book-of-ra-mobile",
+    "version": "0.0.0",
+    "authors": [
+        "Anton Lavrenko <toxa@mailsot.com>"
+    ],
+    "description": "Book of Ra Game - paradise on the new engine html5",
+    "main": "",
+    "moduleType": [],
+    "license": "MIT",
+    "homepage": "http://clonefish.com",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "html5-game-kernel": "git@git.slygods.com:game-html5/html5_game_kernel.git#dev",
+        "component-double-mobile": "git@git.slygods.com:game-html5/component_double_mobile.git#dev",
+        "component-protocol-hhs": "git@git.slygods.com:game-html5/component_protocol_hhs_mobile.git#dev",
+        "component-control-mobile": "git@git.slygods.com:game-html5/component-control-mobile.git#dev",
+        "component-lines-1-mobile": "git@git.slygods.com:game-html5/component-lines-1-mobile.git#dev",
+        "component-panel-mobile": "git@git.slygods.com:game-html5/component-panel-mobile.git#dev",
+        "component-preloader-mobile": "git@git.slygods.com:game-html5/component-preloader-mobile.git#dev",
+        "component-reels-book-mobile": "git@git.slygods.com:game-html5/component-reels-book-mobile.git#dev"
+    }
+}

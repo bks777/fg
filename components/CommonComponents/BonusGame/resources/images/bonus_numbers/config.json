@@ -1,0 +1,25 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "bonus_numbers": {
+            "path": "numbers_big.png"
+        },
+        "bonus_numbers_small": {
+            "path": "numbers_small.png"
+        },
+        "bonus_x2": {
+            "path": "x2-sprite.png"
+        },
+        "bonus_x3": {
+            "path": "x3-sprite.png"
+        },
+        "bonus_x4": {
+            "path": "x4-sprite.png"
+        },
+        "bonus_x_numbers": {
+            "path": "x-numbs-sprite.png"
+        }
+    }
+
+}

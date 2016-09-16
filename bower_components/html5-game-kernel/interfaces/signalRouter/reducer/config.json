@@ -1,0 +1,9 @@
+{
+    "name": "Signal reducer",
+    "type": "classes",
+    "classes": {
+        "SignalReducer": {
+            "path": "signalReducer.es6.js"
+        }
+    }
+}

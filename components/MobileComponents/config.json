@@ -1,0 +1,17 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "Background": "Background",
+        "Preloader": "Preloader",
+        "ControlMobile":"ControlMobile",
+        "Reels": "Reels",
+        "Lines": "Lines",
+        "BonusGame": "BonusGame",
+        "Freespins": "Freespins",
+        "SettingsMobile": "SettingsMobile",
+        "Win": "Win",
+        "Popup": "Popup"
+    }
+
+}

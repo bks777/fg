@@ -1,0 +1,46 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "settings_back_btn": {
+            "path": "back-sprite.png"
+        },
+        "settings_bet_btn": {
+            "path": "bet-sprite.png"
+        },
+        "settings_fast_spin_btn": {
+            "path": "fast_spin-sprite.png"
+        },
+        "settings_info_btn": {
+            "path": "info-sprite.png"
+        },
+        "settings_paytable_btn": {
+            "path": "paytable-sprite.png"
+        },
+        "settings_sound_btn": {
+            "path": "sound-sprite.png"
+        },
+        "settings_top_line": {
+            "path": "shape_settings.png"
+        },
+        "setting_slide_button_bg": {
+            "path": "slide_button_bg.png"
+        },
+        "setting_slide_button_element": {
+            "path": "slide_button_element.png"
+        },
+        "settings_slide_swipe_button": {
+            "path": "active_slide_elem.png"
+        },
+        "setting_slide_flow": {
+            "path": "value_line_slider.png"
+        },
+        "setting_slide_flow_active": {
+            "path": "value_line_slider_active.png"
+        },
+        "settings_bg_value": {
+            "path": "bg_number_value.png"
+        }
+    }
+
+}

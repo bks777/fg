@@ -1,0 +1,41 @@
+{
+    "name": "Audio for application",
+    "type": "audioSprite",
+    "typeLoading": "overload",
+    "groupSpriteName": "main",
+    "audio": {
+        "bg_choice": {
+            "path": "bg_choice.wav"
+        },
+        "bg_final": {
+            "path": "bg_final.wav"
+        },
+        "bg_final_win": {
+            "path": "bg_final_win.wav"
+        },
+        "bg_item_show_v2": {
+            "path": "bg_item_show v2.wav"
+        },
+        "bg_live_found": {
+            "path": "bg_live_found.wav"
+        },
+        "bg_live_lost": {
+            "path": "bg_live_lost.wav"
+        },
+        "bg_live_plus": {
+            "path": "bg_live_plus.wav"
+        },
+        "bg_move_v2": {
+            "path": "bg_move v2.wav"
+        },
+        "bg_mummy": {
+            "path": "bg_mummy.wav"
+        },
+        "bg_win": {
+            "path": "bg_win.wav"
+        },
+        "btn_select_popup": {
+            "path": "btn_select_popup.wav"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Images for bonus",
+    "type": "folder",
+    "folders": {
+        "bonus_numbers": "bonus_numbers",
+        "main": "main"
+    }
+
+}

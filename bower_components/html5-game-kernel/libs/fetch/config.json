@@ -1,0 +1,11 @@
+{
+    "name": "Fetch for ajax requests",
+    "type": "libs",
+    "libs": {
+        "fetch": {
+            "path": "fetch.js",
+            "always": true
+        }
+    }
+
+}

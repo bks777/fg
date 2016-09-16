@@ -1,0 +1,10 @@
+{
+    "name": "Desktop Preloader",
+    "typeLoading": "preloader",
+    "alias": "preloader",
+    "type": "component",
+    "partition": ["mobile"],
+    "resources": {
+        "folders": ["images"]
+    }
+}

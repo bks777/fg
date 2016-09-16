@@ -1,0 +1,10 @@
+{
+    "name": "Translations for control Component",
+    "type": "translations",
+    "files": {
+        "translation" : {
+            "path": "translations.json",
+            "languages": ["en", "ru", "tr", "it", "es", "fr", "zh"]
+        }
+    }
+}

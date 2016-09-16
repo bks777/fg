@@ -1,0 +1,9 @@
+{
+    "name": "Helper Check browser agent",
+    "type": "classes",
+    "classes": {
+        "HelpersCheckBrowser": {
+            "path": "helpersCheckBrowser.js"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "Background": "Background",
+        "ControlDesktop": "ControlDesktop",
+        "Reels": "Reels",
+        "Settings": "Settings",
+        "Lines": "Lines",
+        "BonusGame": "BonusGame",
+        "Preloader": "Preloader",
+        "Paytable": "Paytable",
+        "Win": "Win",
+        "Popup": "Popup"
+    }
+}

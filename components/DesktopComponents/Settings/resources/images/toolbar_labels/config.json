@@ -1,0 +1,13 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "toolbar_message_bg": {
+            "path": "message_bg.png"
+        },
+        "toolbar_label": {
+            "path": "message_label.png"
+        }
+    }
+
+}

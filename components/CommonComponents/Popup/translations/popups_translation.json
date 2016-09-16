@@ -1,0 +1,485 @@
+{
+    "data": {
+        "free_spins_start_congratulations": {
+            "ru": {
+                "text": "Поздравляем!",
+                "top": 76
+            },
+            "en": {
+                "text": "Congratulations!"
+            },
+            "it": {
+                "text": "Complimenti!"
+            },
+            "zh": {
+                "text": "恭喜！"
+            },
+            "tr": {
+                "text": "Tebrikler!",
+                "top": 76
+            },
+            "es": {
+                "text": "Felicidades!"
+            },
+            "fr": {
+                "text": "Félicitations!",
+                "top": 76
+            }
+        },
+
+        "free_spins_start_you_won": {
+            "ru": {
+                "text": "Вы выиграли",
+                "top": 120,
+                "left": "50%"
+            },
+            "en": {
+                "text": "You won"
+            },
+            "it": {
+                "text": "Hai vinto"
+            },
+            "zh": {
+                "text": "您赢得"
+            },
+            "tr": {
+                "text": "Kazandınız",
+                "top": 120,
+                "left": "50%"
+            },
+            "es": {
+                "left": 150,
+                "text": "Has ganado"
+            },
+            "fr": {
+                "text": "Vous avez gagné",
+                "top": 120,
+                "left": "50%"
+            }
+        },
+
+        "free_spins_start_free_spins": {
+            "ru": {
+                "text": "Бесплатных Вращений!",
+                "top": 180,
+                "left": "50%"
+            },
+            "en": {
+                "text": "Free Spins!"
+            },
+            "it": {
+                "text": "Free Spin!"
+            },
+            "zh": {
+                "text": "免费转盘！"
+            },
+            "tr": {
+                "text": "Bedava Döndürme!",
+                "top": 184,
+                "left": "50%"
+            },
+            "es": {
+                "text": "Giros Gratis!"
+            },
+            "fr": {
+                "text": "des tours gratuits!",
+                "top": 180,
+                "left": "50%"
+            }
+        },
+
+        "free_spin_add_you_won": {
+            "ru": {
+                "text": "Вы выиграли"
+            },
+            "en": {
+                "text": "You won"
+            },
+            "it": {
+                "text": "Hai vinto"
+            },
+            "zh": {
+                "text": "您赢得"
+            },
+            "tr": {
+                "text": "Kazandınız"
+            },
+            "es": {
+                "text": "Has ganado"
+            },
+            "fr": {
+                "text": "Vous avez gagné"
+            }
+        },
+
+        "free_spins_end_you_won": {
+            "ru": {
+                "text": "Вы выиграли!"
+            },
+            "en": {
+                "text": "You won!"
+            },
+            "it": {
+                "text": "Hai vinto!"
+            },
+            "zh": {
+                "text": "您赢得!"
+            },
+            "tr": {
+                "text": "Kazandınız!"
+            },
+            "es": {
+                "text": "Has ganado!"
+            },
+            "fr": {
+                "text": "Vous avez gagné!"
+            }
+        },
+        "free_spins_end_you_lose": {
+            "ru": {
+                "text": "Вы проиграли!"
+            },
+            "en": {
+                "text": "You loose!"
+            },
+            "it": {
+                "text": "Hai vinto!"
+            },
+            "zh": {
+                "text": "您赢得!"
+            },
+            "tr": {
+                "text": "Kazandınız!"
+            },
+            "es": {
+                "text": "Has ganado!"
+            },
+            "fr": {
+                "text": "Vous avez gagné!"
+            }
+        },
+
+        "You won": {
+            "ru": {
+                "text": "Вы выиграли"
+            },
+            "en": {
+                "text": "You won"
+            },
+            "it": {
+                "text": "Hai vinto"
+            },
+            "zh": {
+                "text": "您赢得"
+            },
+            "tr": {
+                "text": "Kazandınız"
+            },
+            "es": {
+                "text": "Has ganado"
+            },
+            "fr": {
+                "text": "Vous avez gagné"
+            }
+        },
+
+
+        "free_spins_start_{0}": {
+            "ru": {
+                "lineWidth": 600,
+                "text": "Поздравляем!\nВы выиграли {0} Бесплатных Вращений!"
+            },
+            "en": {
+                "lineWidth": 600,
+                "text": "Congratulations!\nYou won {0} Free Spins!"
+            },
+            "it": {
+                "lineWidth": 600,
+                "text": "Complimenti!\nHai vinto {0} Free Spin!"
+            },
+            "zh": {
+                "lineWidth": 600,
+                "text": "恭喜！\n您赢得免费转盘 {0} ！"
+            },
+            "tr": {
+                "lineWidth": 600,
+                "text": "Tebrikler!\n{0} Bedava Döndürme kazandınız!"
+            },
+            "es": {
+                "lineWidth": 600,
+                "text": "Felicidades!\nHas ganado {0}  giros gratis!"
+            },
+            "fr": {
+                "lineWidth": 600,
+                "text": "Félicitations !\nVous avez gagné {0} tours gratuits !"
+            }
+        },
+        "free_spins_ok": {
+            "ru": {
+                "text": "Начать"
+            },
+            "en": {
+                "text": "Begin"
+            },
+            "it": {
+                "text": "Inizio"
+            },
+            "zh": {
+                "text": "开始"
+            },
+            "tr": {
+                "text": "Başla"
+            },
+            "es": {
+                "text": "Empezar"
+            },
+            "fr": {
+                "text": "Commencer"
+            }
+        },
+        "free_spin_end_{0}": {
+            "ru": {
+                "lineWidth": 600,
+                "text": "Поздравляем!\nВы выиграли {0}."
+            },
+            "en": {
+                "lineWidth": 600,
+                "text": "Congratulations!\nYou won {0}"
+            },
+            "it": {
+                "lineWidth": 600,
+                "text": "Complimenti!\nHai vinto: {0}."
+            },
+            "zh": {
+                "lineWidth": 600,
+                "text": "恭喜！\n您赢得： {0}。"
+            },
+            "tr": {
+                "lineWidth": 600,
+                "text": "Tebrikler!\nKazandığınız tutar: {0}."
+            },
+            "es": {
+                "lineWidth": 600,
+                "text": "Felicidades!\nHas ganado: {0}."
+            },
+            "fr": {
+                "lineWidth": 600,
+                "text": "Félicitations !\nVous avez gagné : {0}."
+            }
+        },
+        "free_spin_end_no_win": {
+            "ru": {
+                "text": "Повезет в следующий раз!"
+            },
+            "en": {
+                "text": "Better luck next time!"
+            },
+            "it": {
+                "text": "Sarai più fortunato la prossima volta!"
+            },
+            "zh": {
+                "text": "祝下次好运！"
+            },
+            "tr": {
+                "text": "Sonraki sefere bol şans!"
+            },
+            "es": {
+                "text": "Mejor suerte para la próxima!"
+            },
+            "fr": {
+                "text": "La prochaine sera la bonne !"
+            }
+        },
+        "free_spins_hide": {
+            "ru": {
+                "text": "Закрыть"
+            },
+            "en": {
+                "text": "Close"
+            },
+            "it": {
+                "text": "Chiudi"
+            },
+            "zh": {
+                "text": "结束"
+            },
+            "tr": {
+                "text": "Kapat"
+            },
+            "es": {
+                "text": "Cerrar"
+            },
+            "fr": {
+                "text": "Fermer"
+            }
+        },
+        "free_spins_add_{0}": {
+            "ru": {
+                "lineWidth": 600,
+                "text": "Поздравляем!\nВы выиграли {0} дополнительных Бесплатных Вращений!"
+            },
+            "en": {
+                "lineWidth": 600,
+                "text": "Congratulations!\nYou won: {0} additional Free Spin!"
+            },
+            "it": {
+                "lineWidth": 600,
+                "text": "Complimenti!\nHai vinto {0} ulteriori Free Spin!"
+            },
+            "zh": {
+                "lineWidth": 600,
+                "text": "恭喜！\n您获得 {0} 额外免费转盘！"
+            },
+            "tr": {
+                "lineWidth": 600,
+                "text": "Tebrikler!\n{0}  ek Bedava Döndürme Kazandınız!"
+            },
+            "es": {
+                "lineWidth": 600,
+                "text": "Felicidades!\nHas ganado {0}  giros gratis adicionales!"
+            },
+            "fr": {
+                "lineWidth": 600,
+                "text": "Félicitations !\nVous avez gagné {0} tours gratuits supplémentaires !"
+            }
+        },
+        "auto_game_end_{0}": {
+            "ru": {
+                "text": "Сделано спинов: {0}.\nПродолжить автоигру?"
+            },
+            "en": {
+                "text": "Spins made: {0}.\nResume autoplay?"
+            },
+            "it": {
+                "text": "Spin effettuati: {0}.\nRicominciare l’Autoplay?"
+            },
+            "zh": {
+                "text": "转动转盘： {0}。\n重启自动模式？"
+            },
+            "tr": {
+                "text": "Yapılan döndürme: {0}.\nOtomatik oyun devam etsin mi?"
+            },
+            "es": {
+                "text": "Giros realizados: {0}.\nContinuar con Juego Automático?"
+            },
+            "fr": {
+                "text": "Tours effectués : {0}.\nReprendre le jeu auto ?"
+            }
+        },
+        "ans_no": {
+            "ru": {
+                "text": "НЕТ"
+            },
+            "en": {
+                "text": "NO"
+            },
+            "it": {
+                "text": "NO"
+            },
+            "zh": {
+                "text": "否"
+            },
+            "tr": {
+                "text": "HAYIR"
+            },
+            "es": {
+                "text": "NO"
+            },
+            "fr": {
+                "text": "NON"
+            }
+        },
+        "ans_yes": {
+            "ru": {
+                "text": "ДА"
+            },
+            "en": {
+                "text": "YES"
+            },
+            "it": {
+                "text": "SÌ"
+            },
+            "zh": {
+                "text": "是"
+            },
+            "tr": {
+                "text": "EVET"
+            },
+            "es": {
+                "text": "SI"
+            },
+            "fr": {
+                "text": "OUI"
+            }
+        },
+        "bonus_popup_start": {
+            "ru": {
+                "text": "Поздравляем!\nВы выиграли Бонус игру!"
+            },
+            "en": {
+                "text": "Congratulations!\nYou won Bonus game!"
+            },
+            "it": {
+                "text": "Complimenti!\nHai vinto un gioco Bonus!"
+            },
+            "zh": {
+                "text": "恭喜！\n您在 Bonus 回合获胜！"
+            },
+            "tr": {
+                "text": "Tebrikler!\nBonus oyun kazandınız!"
+            },
+            "es": {
+                "text": "Félicitations !\n¡Has ganado un juego Bonus!"
+            },
+            "fr": {
+                "text": "Congratulations!\nVous avez gagné le jeu Bonus !"
+            }
+        },
+        "fast_bonus_popup_start": {
+            "ru": {
+                "text": "Поздравляем! Вы выиграли Бонус игру!"
+            },
+            "en": {
+                "text": "Congratulations! You won Bonus game!"
+            },
+            "it": {
+                "text": "Complimenti!Hai vinto un gioco Bonus!"
+            },
+            "zh": {
+                "text": "恭喜！您在 Bonus 回合获胜！"
+            },
+            "tr": {
+                "text": "Tebrikler! Bonus oyun kazandınız!"
+            },
+            "es": {
+                "text": "Félicitations! ¡Has ganado un juego Bonus!"
+            },
+            "fr": {
+                "text": "Congratulations! Vous avez gagné le jeu Bonus!"
+            }
+        },
+        "dd": {
+            "ru": {
+                "text": ""
+            },
+            "en": {
+                "text": ""
+            },
+            "it": {
+                "text": ""
+            },
+            "zh": {
+                "text": ""
+            },
+            "tr": {
+                "text": ""
+            },
+            "es": {
+                "text": ""
+            },
+            "fr": {
+                "text": ""
+            }
+        }
+    }
+}

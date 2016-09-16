@@ -1,0 +1,9 @@
+{
+    "name": "Controller Interface",
+    "type": "classes",
+    "classes": {
+        "Controller": {
+            "path": "Controller.es6.js"
+        }
+    }
+}

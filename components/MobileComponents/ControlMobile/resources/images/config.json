@@ -1,0 +1,12 @@
+{
+    "name": "Images for control",
+    "type": "folder",
+    "folders": {
+        "settings": "settings",
+        "spin": "spin",
+        "background": "background",
+        "other": "other",
+        "paytable": "paytable"
+    }
+
+}

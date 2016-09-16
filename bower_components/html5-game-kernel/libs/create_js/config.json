@@ -1,0 +1,12 @@
+{
+    "name": "Libs for application",
+    "type": "libs",
+    "libs": {
+        "create_js": {
+            "path": "createjs-2015.11.26.min.js",
+            "minified": true,
+            "always": true
+        }
+    }
+
+}

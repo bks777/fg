@@ -1,0 +1,10 @@
+{
+    "name": "Components",
+    "type": "folder",
+    "folders": {
+        "CommonComponents":"CommonComponents",
+        "DesktopComponents": "DesktopComponents",
+        "MobileComponents": "MobileComponents"
+    }
+
+}

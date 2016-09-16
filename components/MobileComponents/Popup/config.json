@@ -1,0 +1,16 @@
+{
+    "name": "Popups for slot LL games",
+    "typeLoading": "preloader",
+    "alias": "popup",
+    "type": "component",
+    "partition": ["mobile"],
+    "viewHandlers": {
+        "MobilePopupViewHandler": {
+            "path": "MobilePopupViewHandler.es6.js",
+            "extend": "PopupViewHandler"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    }
+}

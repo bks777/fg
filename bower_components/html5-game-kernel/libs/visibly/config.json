@@ -1,0 +1,9 @@
+{
+    "name": "Cross browser visibilitychange support",
+    "type": "classes",
+    "classes": {
+        "Visibly": {
+            "path": "visibly.min.js"
+        }
+    }
+}

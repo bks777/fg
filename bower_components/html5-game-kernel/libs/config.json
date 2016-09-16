@@ -1,0 +1,16 @@
+{
+    "name": "Libs for application",
+    "type": "folder",
+    "folders": {
+        "extent": "extend",
+        "cookies": "cookies",
+        "create_js": "create_js",
+        "hhs_shifter": "hhs_shifter",
+        "visibly": "visibly",
+        "jquery": "jquery",
+        "fetch": "fetch",
+        "doT": "doT",
+        "stats": "stats",
+        "proton": "proton"
+    }
+}

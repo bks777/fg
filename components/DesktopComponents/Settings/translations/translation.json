@@ -1,0 +1,626 @@
+{
+    "data": {
+        "INFO_DEMO_1": {
+            "en": {
+              "text": "Demo Mode. No real winnings."
+            },
+            "ru": {
+              "text": "Демо режим. Выигрыши виртуальны."
+            },
+            "it": {
+                "text": "Modalità divertente! Nessuna vincita reale."
+            },
+            "zh": {
+                "text": "娱乐模式！ 无真实奖金。"
+            },
+            "tr": {
+                "text": "Eğlence modu! Gerçek kazanç yok."
+            },
+            "es": {
+                "text": "Modo diversión! Sin ganancias reales."
+            },
+            "fr": {
+                "text": "Mode démo ! Pas de gains réels."
+            }
+        },
+        "INFO_DEMO_2": {
+            "en": {
+              "text": "You play for fun."
+            },
+            "ru": {
+              "text": "Вы играете для удовольствия."
+            },
+            "it": {
+                "text": "Stai giocando per divertirti."
+            },
+            "zh": {
+                "text": "为消遣而玩。"
+            },
+            "tr": {
+                "text": "Eğlenmek için oynuyorsunuz."
+            },
+            "es": {
+                "text": "Está jugando para divertirse."
+            },
+            "fr": {
+                "text": "Vous jouez pour vous amuser."
+            }
+        },
+        "INFO_SPINS_1": {
+            "ru": {
+                "text": "Попробуйте режим Автоигры!"
+            },
+            "en": {
+                "text": "Try Autoplay regime!"
+            },
+            "it": {
+                "text": "Prova il regime Autoplay!"
+            },
+            "zh": {
+                "text": "试玩自动模式！"
+            },
+            "tr": {
+                "text": "Oto oyna sistemini deneyin!"
+            },
+            "es": {
+                "text": "Trata de jugar en régimen de auto play!"
+            },
+            "fr": {
+                "text": "Essayez le régime Jeu Auto!"
+            }
+        },
+        "INFO_SPINS_2": {
+            "ru": {
+                "text": "Wild заменяет все символы, кроме символов Scatter и Bonus."
+            },
+            "en": {
+                "text": "Wild substitutes all symbols except Scatter and Bonus."
+            },
+            "it": {
+                "text": "Wild sostituisce tutti i simboli, eccetto Scatter e Bonus."
+            },
+            "zh": {
+                "text": "Wild  图案能替换除 Scatter 和 Bonus 外的所有图案。"
+            },
+            "tr": {
+                "text": "Wild, Scatter ve Bonus haricindeki tüm sembollerin alternatifidir."
+            },
+            "es": {
+                "text": "La imagen de Wild sustituye todos los símbolos salvo el de Scatter y Bonus."
+            },
+            "fr": {
+                "text": "Wild remplace tous les symboles, à l’exception de Scatter et du Bonus."
+            }
+        },
+        "INFO_SPINS_3": {
+            "ru": {
+                "text": "3 и более символов Scatter запустят 15 Бесплатных Вращений!"
+            },
+            "en": {
+                "text": "3 or more Scatters trigger 15 Free Spins!"
+            },
+            "it": {
+                "text": "3 o più Scatter attivano 15 Free Spin!"
+            },
+            "zh": {
+                "text": "3 个或以上 Scatters 可激活 15 免费转盘！"
+            },
+            "tr": {
+                "text": "3 veya daha fazla Scatter, 15 Ücretsiz Döndürme başlatır!"
+            },
+            "es": {
+                "text": "¡3 más Scatters activan 15 de Giros Gratis!"
+            },
+            "fr": {
+                "text": "3 Scatters ou plus déclenchent 15 de Tours Gratuits."
+            }
+        },
+        "INFO_SPINS_4": {
+            "ru": {
+                "text": "Выигрыши выплачиваются слева направо!"
+            },
+            "en": {
+                "text": "Wins are paid from left to right!"
+            },
+            "it": {
+                "text": "Le vincite vengono pagate da sinistra a destra!"
+            },
+            "zh": {
+                "text": "从左到右赔付奖金线!"
+            },
+            "tr": {
+                "text": "Kazançlar, soldan sağa olacak şekilde ödenir!"
+            },
+            "es": {
+                "text": "¡Las ganancias se pagan de izquierda a derecha!"
+            },
+            "fr": {
+                "text": "Les gains sont remportés de gauche à droite !"
+            }
+        },
+        "INFO_SPINS_5": {
+            "ru": {
+                "text": "Максимальная ставка - максимальные выплаты!"
+            },
+            "en": {
+                "text": "Max bet - max payout!"
+            },
+            "it": {
+                "text": "Scommessa massima - payout massimo!"
+            },
+            "zh": {
+                "text": "最大赌注 - 最大赔付！"
+            },
+            "tr": {
+                "text": "Maks. bahis - maks. ödeme!"
+            },
+            "es": {
+                "text": "¡Apuesta Máxima – Pago Máximo!"
+            },
+            "fr": {
+                "text": "Pari max. - gains max !"
+            }
+        },
+        "INFO_SPINS_6": {
+            "ru": {
+                "text": "Expanding WILD расширяется при выпадении на 2 и 4 барабане."
+            },
+            "en": {
+                "text": "Expanding Wild expands when appear on reels 2 and 4."
+            },
+            "it": {
+                "text": "Expanding Wild si estende quando compare sui rulli 2 e 4."
+            },
+            "zh": {
+                "text": "当 Expanding Wild  出现在第 2 和第 4 滚轴上时，开始扩展。"
+            },
+            "tr": {
+                "text": "Genişleyen Wild, 2. ve 4. çarkta gözüktüğünde genişler."
+            },
+            "es": {
+                "text": "El Expanding Wild se expande cuando aparece en los carretes 2 y 4."
+            },
+            "fr": {
+                "text": "Le Wild en Expansion s’étend lorsqu’il apparaît sur les bobines 2 et 4."
+            }
+        },
+        "INFO_SPINS_7": {
+            "ru": {
+                "text": "Expanding WILD запустит повторное вращение!"
+            },
+            "en": {
+                "text": "Expanding Wild gives a respin!"
+            },
+            "it": {
+                "text": "Expanding Wild assegna un respin!"
+            },
+            "zh": {
+                "text": "Expanding Wild 可以再转一次！"
+            },
+            "tr": {
+                "text": "Genişleyen Wild bir yeniden döndürme verir!"
+            },
+            "es": {
+                "text": "¡El Expanding Wild concede un giro adicional!"
+            },
+            "fr": {
+                "text": "Le Wild en Expansion donne droit à un autre tour !"
+            }
+
+        },
+        "INFO_SPINS_8": {
+            "ru": {
+                "text": "Вам сегодня повезёт!"
+            },
+            "en": {
+                "text": "Feeling lucky!"
+            },
+            "it": {
+                "text": "Ti senti fortunato!"
+            },
+            "zh": {
+                "text": "感到幸运!"
+            },
+            "tr": {
+                "text": "Şanslı hissediyor musunuz!"
+            },
+            "es": {
+                "text": "Te sientes con suerte!"
+            },
+            "fr": {
+                "text": "La chance vous sourit-elle!"
+            }
+        },
+        "INFO_FS_1": {
+            "ru": {
+                "text": "Вы можете выиграть дополнительные Бесплатные Вращения!"
+            },
+            "en": {
+                "text": "You can trigger additional Free Spins!"
+            },
+            "it": {
+                "text": "Puoi attivare ulteriori Free Spin!"
+            },
+            "zh": {
+                "text": "您可以激活额外免费转盘！"
+            },
+            "tr": {
+                "text": "Puede activar Giros Gratis adicionales!"
+            },
+            "es": {
+                "text": "Puede activar Giros Gratis adicionales!"
+            },
+            "fr": {
+                "text": "Vous pouvez déclencher des Tours Gratuits supplémentaires!"
+            }
+        },
+        "INFO_BONUS_1": {
+            "ru": {
+                "text": "Разбей лед и получи выигрыш."
+            },
+            "en": {
+                "text": "Crash the ice and get a reward."
+            },
+            "it": {
+                "text": "Rompi il ghiaccio e ottieni una ricompensa."
+            },
+            "zh": {
+                "text": "撞破冰块并获得奖励。"
+            },
+            "tr": {
+                "text": "Buzu kırın ve bir ödül alın."
+            },
+            "es": {
+                "text": "Rompe el hielo y gana un premio."
+            },
+            "fr": {
+                "text": "Brisez la glace et obtenez une récompense."
+            }
+        },
+        "fast_start_game_message": {
+            "ru": {
+                "text": "Жмите на Старт, чтобы начать выигрывать!"
+            },
+            "en": {
+                "text": "Press Spin to start winning!"
+            },
+            "it": {
+                "text": "Premi Spin per iniziare a vincere!"
+            },
+            "zh": {
+                "text": "点击转盘开始赢取奖金！"
+            },
+            "tr": {
+                "text": "Kazanmaya başlamak için Döndür tuşuna basın!"
+            },
+            "es": {
+                "text": "Pulse Jugadas para empezar a ganar!"
+            },
+            "fr": {
+                "text": "Appuyez sur Tour pour commencer à gagner!"
+            }
+        },
+        "fast_click_spin_message": {
+            "ru": {
+                "text": "Удачи!"
+            },
+            "en": {
+                "text": "Good luck!"
+            },
+            "it": {
+                "text": "Buona fortuna!"
+            },
+            "zh": {
+                "text": "祝您好运！"
+            },
+            "tr": {
+                "text": "İyi şanslar!"
+            },
+            "es": {
+                "text": "Buena suerte!"
+            },
+            "fr": {
+                "text": "Bonne chance!"
+            }
+        },
+        "fast_win": {
+            "ru": {
+                "text": "Поздравляем!"
+            },
+            "en": {
+                "text": "Congratulations!"
+            },
+            "it": {
+                "text": "Complimenti!"
+            },
+            "zh": {
+                "text": "恭喜！"
+            },
+            "tr": {
+                "text": "Tebrikler!"
+            },
+            "es": {
+                "text": "Felicidades!"
+            },
+            "fr": {
+                "text": "Félicitations!"
+            }
+        },
+        "fast_big_win": {
+            "ru": {
+                "text": "Крупный выигрыш! Поздравляем!"
+            },
+            "en": {
+                "text": "Big win! Congratulations!"
+            },
+            "it": {
+                "text": "Grande vincita! Complimenti!"
+            },
+            "zh": {
+                "text": "大额奖金！ 恭喜！"
+            },
+            "tr": {
+                "text": "Büyük kazanç! Tebrikler!"
+            },
+            "es": {
+                "text": "Gran ganancia! Felicidades!"
+            },
+            "fr": {
+                "text": "Gros gains! Félicitations!"
+            }
+        },
+        "fast_respin_win": {
+            "ru": {
+                "text": "Получите повторное вращение!"
+            },
+            "en": {
+                "text": "Get a respin!"
+            },
+            "it": {
+                "text": "Ottieni un respin!"
+            },
+            "zh": {
+                "text": "获得一次再次转盘机会！"
+            },
+            "tr": {
+                "text": "Çift sembolle daha fazla kazanç elde edin!"
+            },
+            "es": {
+                "text": "Obtén un Giro Adicional!"
+            },
+            "fr": {
+                "text": "Obtenez un tour supplémentaire!"
+            }
+        },
+        "fast_respin_more_win": {
+            "ru": {
+                "text": "Получите больше выигрышей с Expanding Wild."
+            },
+            "en": {
+                "text": "Get more wins with Expanding Wild."
+            },
+            "it": {
+                "text": "Ottieni più vincite con Expanding Wild."
+            },
+            "zh": {
+                "text": "Expanding Wild 可获得更多获胜机会。"
+            },
+            "tr": {
+                "text": "Genişleyen Wild ile daha fazla kazanç elde edin."
+            },
+            "es": {
+                "text": "Obtén más ganancias con Expanding Wild."
+            },
+            "fr": {
+                "text": "Obtenez plus de gains avec Wild en Expansion."
+            }
+        },
+        "fast_max_bet": {
+            "ru": {
+                "text": "Установлена максимальная ставка!"
+            },
+            "en": {
+                "text": "The max bet has been chosen!"
+            },
+            "it": {
+                "text": "La scommessa massima è stata scelta!"
+            },
+            "zh": {
+                "text": "已选最大赌注！"
+            },
+            "tr": {
+                "text": "Maks. bahis seçildi!"
+            },
+            "es": {
+                "text": "Se ha seleccionado la apuesta máxima."
+            },
+            "fr": {
+                "text": "Le pari maximum a été choisi!"
+            }
+        },
+        "fast_freespin_init": {
+            "ru": {
+                "text": "Поздравляем! Вы выиграли Бесплатные Вращения!"
+            },
+            "en": {
+                "text": "Congratulations! You won Free Spins!"
+            },
+            "it": {
+                "text": "Complimenti! Hai vinto Free Spin!"
+            },
+            "zh": {
+                "text": "恭喜！ 您赢得免费转盘机会！"
+            },
+            "tr": {
+                "text": "Tebrikler! Bedava Döndürme Kazandınız!"
+            },
+            "es": {
+                "text": "Felicidades! Has ganado Giros Gratis!"
+            },
+            "fr": {
+                "text": "Félicitations! Vous avez gagné des tours gratuits!"
+            }
+        },
+        "fast_freespin_add": {
+            "ru": {
+                "text": "Поздравляем! Вы выиграли дополнительные Бесплатные Вращения!"
+            },
+            "en": {
+                "text": "Congratulations! You won additional Free Spins!"
+            },
+            "it": {
+                "text": "Complimenti! Hai vinto ulteriori Free Spin!"
+            },
+            "zh": {
+                "text": "恭喜！ 您赢得额外免费转盘！"
+            },
+            "tr": {
+                "text": "Tebrikler! Ek Bedava Döndürme Kazandınız!"
+            },
+            "es": {
+                "text": "Felicidades! Has ganado Giros Gratis Adicionales!"
+            },
+            "fr": {
+                "text": "Félicitations! Vous avez gagné des Tours Gratuits supplémentaires!"
+            }
+        },
+        "fast_click_avto_spin": {
+            "ru": {
+                "text": "Автоигру можно остановить, нажав на Стоп."
+            },
+            "en": {
+                "text": "You can stop the Autoplay by clicking Stop button!"
+            },
+            "it": {
+                "text": "Puoi fermare l’Autoplay facendo clic sul tasto Termina!"
+            },
+            "zh": {
+                "text": "点击停止按钮终止自动模式！"
+            },
+            "tr": {
+                "text": "Durdur düğmesine basarak Oto Oyna’yı durdurabilirsiniz!"
+            },
+            "es": {
+                "text": "Puedes detener el Juego automático pulsando en el botón Parar!"
+            },
+            "fr": {
+                "text": "Vous pouvez arrêter le jeu Auto en cliquant sur le bouton Arrêter."
+            }
+        },
+        "GAME SETTINGS": {
+            "ru": {
+                "text": "НАСТРОЙКИ ИГРЫ"
+            },
+            "en": {
+                "text": "GAME SETTINGS"
+            },
+            "it": {
+                "text": "IMPOSTAZIONI DI GIOCO"
+            },
+            "zh": {
+                "text": "游戏设置"
+            },
+            "tr": {
+                "text": "OYUN AYARLARI"
+            },
+            "es": {
+                "text": "OPCIONES DEL JUEGO"
+            },
+            "fr": {
+                "text": "PARAMÈTRES DU JEU"
+            }
+        },
+        "Ambience sound": {
+            "ru": {
+                "text": "Звуковое окружение"
+            },
+            "en": {
+                "text": "Ambience sound"
+            },
+            "it": {
+                "text": "Ambiente sonoro"
+            },
+            "zh": {
+                "text": "环境声音"
+            },
+            "tr": {
+                "text": "Ortam sesi"
+            },
+            "es": {
+                "text": "Sonido de fondo"
+            },
+            "fr": {
+                "text": "Son d’ambiance"
+            }
+        },
+        "Sound effects": {
+            "ru": {
+                "text": "Звуковые эффекты"
+            },
+            "en": {
+                "text": "Sound effects"
+            },
+            "it": {
+                "text": "Effetti sonori"
+            },
+            "zh": {
+                "text": "声音效果"
+            },
+            "tr": {
+                "text": "Ses efektleri"
+            },
+            "es": {
+                "text": "Efectos de sonido"
+            },
+            "fr": {
+                "text": "Effets sonores"
+            }
+        },
+        "AUDIO": {
+            "ru": {
+                "text": "Звук"
+            },
+            "en": {
+                "text": "Audio"
+            },
+            "it": {
+                "text": "Audio"
+            },
+            "zh": {
+                "text": "声音"
+            },
+            "tr": {
+                "text": "Ses"
+            },
+            "es": {
+                "text": "Sonido"
+            },
+            "fr": {
+                "text": "Audio"
+            }
+        },
+        "bet_exceed_fast_message": {
+            "ru": {
+                "text": "Понизьте ставку в соответствии с вашим балансом."
+            },
+            "en": {
+                "text": "Please, reduce your bet to match your balance."
+            },
+            "it": {
+                "text": "Riduci la tua scommessa per farla corrispondere al tuo saldo."
+            },
+            "zh": {
+                "text": "请减少赌注，在您余额范围内下注。"
+            },
+            "tr": {
+                "text": "Lütfen bahsinizi, bakiyenizin karşılayacağı şekilde azaltın."
+            },
+            "es": {
+                "text": "Por favor, reduce tu apuesta para que coincida con tu saldo."
+            },
+            "fr": {
+                "text": "Veuillez réduire votre pari pour que cela corresponde à votre solde."
+            }
+        }
+    }
+}

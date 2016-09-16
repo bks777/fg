@@ -1,0 +1,20 @@
+{
+    "name": "Audio Context for Novomatic games",
+    "typeLoading": "main",
+    "alias": "audio",
+    "type": "component",
+    "controllers": {
+        "AudioController": {
+            "path": "audioController.es6.js"
+        }
+    },
+    "events": {
+        "AudioEvents": {
+            "path": "audioEvents.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["audio"]
+    },
+    "signals": true
+}

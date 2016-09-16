@@ -1,0 +1,27 @@
+{
+    "name": "Bonus game",
+    "typeLoading": "main",
+    "alias": "bonus",
+    "type": "component",
+    "controllers": {
+        "BonusGameController": {
+            "path": "bonusGameController.es6.js"
+        }
+    },
+    "events": {
+        "BonusGameEvent": {
+            "path": "bonusGameEvent.es6.js"
+        }
+    },
+    "viewHandlers": {
+        "BonusGameViewHandler": {
+            "path": "bonusGameViewHandler.es6.js"
+        }
+    },
+    "resources": {
+        "folders": ["images"]
+    },
+    "signals": true,
+    "states": true,
+    "translations": true
+}

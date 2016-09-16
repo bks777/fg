@@ -1,0 +1,36 @@
+{
+    "name": "Big Win Sprite",
+    "type": "images",
+    "images": {
+        "big_win_sprite": {
+            "path": "big_win_coin.png"
+        },
+        "big_": {
+            "path": "big_.png"
+        },
+        "mega_": {
+            "path": "mega_.png"
+        },
+        "super_": {
+            "path": "super_.png"
+        },
+        "_win": {
+            "path": "_win.png"
+        },
+        "shape": {
+            "path": "star_pat_2.png"
+        },
+        "shape_super": {
+            "path": "star_pat_2_superwin.png"
+        },
+        "shape_mega": {
+            "path": "star_pat_2_megawin.png"
+        },
+        "shape_super_mega": {
+            "path": "star_pat_2_super_megawin.png"
+        },
+        "bonus_numbers": {
+            "path": "numbers_big.png"
+        }
+    }
+}

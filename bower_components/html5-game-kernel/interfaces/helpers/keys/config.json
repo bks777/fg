@@ -1,0 +1,9 @@
+{
+    "name": "Helper Key Action",
+    "type": "classes",
+    "classes": {
+        "HelperKeyEvent": {
+            "path": "helperKeyEvent.js"
+        }
+    }
+}

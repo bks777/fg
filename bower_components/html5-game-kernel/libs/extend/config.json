@@ -1,0 +1,11 @@
+{
+    "name": "Libs for application",
+    "type": "libs",
+    "libs": {
+        "extend": {
+            "path": "extend.js",
+            "always": true
+        }
+    }
+
+}

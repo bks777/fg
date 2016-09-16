@@ -1,0 +1,10 @@
+{
+    "name": "State router",
+    "type": "classes",
+    "classes": {
+        "SignalInitialization": {
+            "path": "signalInitialization.es6.js",
+            "instanceName": "$_signal_init"
+        }
+    }
+}

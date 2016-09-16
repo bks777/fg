@@ -1,0 +1,426 @@
+{
+    "typeLoading": "preloader",
+    "data": {
+        "GAME_NOT_ALLOWED": {
+            "en": {
+                "text": "You can't play this game now.\nPlease contact support."
+            },
+            "ru": {
+                "text": "Вы не можете играть в эту игру сейчас.\nПожалуйста, обратитесь в службу поддержки."
+            },
+            "tr": {
+                "text": "Bu oyunu şimdi oynayamazsınız.\nLütfen destekle iletişim kurun."
+            },
+            "it": {
+                "text": "Non puoi giocare a questo gioco adesso.\nContattare l’assistenza."
+            },
+            "es": {
+                "text": "No puedes jugar este juego ahora.\nFavor de contactar a Soporte."
+            },
+            "fr": {
+                "text": "Vous ne pouvez pas jouer à ce jeu actuellement.\nVeuillez contacter le service clientèle."
+            },
+            "zh": {
+                "text": "您现在不能玩 这个游戏。\n请联系客服。"
+            }
+        },
+        "INVALID_TOKEN": {
+            "aliases": [
+                "EXPIRED_TOKEN"
+            ],
+            "en": {
+                "text": "Security alert.\nPlease reload the game."
+            },
+            "ru": {
+                "text": "Предупреждение системы безопасности.\nПожалуйста, перезапустите игру. "
+            },
+            "tr": {
+                "text": "Güvenlik uyarısı.\nLütfen oyunu yeniden yükleyin."
+            },
+            "it": {
+                "text": "Allarme di sicurezza.\nCaricare nuovamente il gioco."
+            },
+            "es": {
+                "text": "Alerta de seguridad.\nPor favor, vuelva a cargar el juego."
+            },
+            "fr": {
+                "text": "Alerte de sécurité.\nVeuillez recharger ce jeu."
+            },
+            "zh": {
+                "text": "安全提示。\n请重新加载游戏。"
+            }
+        },
+        "CURRENCY_NOT_SUPPORTED": {
+            "en": {
+                "text": "Currency is not supported.\nPlease contact support."
+            },
+            "ru": {
+                "text": "Валюта не поддерживается.\nПожалуйста, обратитесь в службу поддержки."
+            },
+            "tr": {
+                "text": "Şu anda desteklenmiyor.\nLütfen destekle iletişim kurun."
+            },
+            "it": {
+                "text": "La valuta non è supportata.\nContattare l’assistenza."
+            },
+            "es": {
+                "text": "El tipo de moneda no es cerrado.\nFavor de contactar a Soporte."
+            },
+            "fr": {
+                "text": "Cette monnaie n’est pas prise en charge.\nVeuillez contacter le service clientèle."
+            },
+            "zh": {
+                "text": "货币无效。\n请联系客服。"
+            }
+        },
+        "MODE_NOT_SUPPORTED": {
+            "aliases": [
+                "PLAYER_LOCKOUT",
+                "BET_LIMIT_ERROR",
+                "FREEBET_NOT_ALLOWED",
+                "API_PROTOCOL_ERROR",
+                "SESSION_LOST",
+                "SERVER_ERROR"
+            ],
+            "en": {
+                "text": "Internal Error.\nPlease contact support."
+            },
+            "ru": {
+                "text": "Внутренняя ошибка.\nПожалуйста, обратитесь в службу поддержки."
+            },
+            "tr": {
+                "text": "Dahili Hata.\nLütfen destekle iletişim kurun."
+            },
+            "it": {
+                "text": "Errore interno.\nContattare l’assistenza."
+            },
+            "es": {
+                "text": "Error interno.\nPor favor, contacten a Soporte."
+            },
+            "fr": {
+                "text": "Erreur interne.\nVeuillez contacter le service clientèle."
+            },
+            "zh": {
+                "text": "内部错误。\n请 联系客服。"
+            }
+        },
+        "GAME_SETTINGS_CHANGED": {
+            "en": {
+                "text": "New version of the game is available.\nPlease reload the game."
+            },
+            "ru": {
+                "text": "Доступна новая версия игры.\nПожалуйста, перезапустите игру."
+            },
+            "tr": {
+                "text": "Oyunun yeni bir versiyonu mevcut.\nLütfen oyunu yeniden yükleyin."
+            },
+            "it": {
+                "text": "È disponibile una nuova versione del gioco.\nCaricare nuovamente il gioco."
+            },
+            "es": {
+                "text": "Una nueva versión del juego está disponible.\nPor favor, vuelva a cargar el juego."
+            },
+            "fr": {
+                "text": "Une nouvelle version du jeu est disponible.\nVeuillez recharger ce jeu."
+            },
+            "zh": {
+                "text": "新游戏版本已启用。\n请重新加载游戏。"
+            }
+        },
+        "PLAYER_DISCONNECTED": {
+            "aliases": [
+                "GAME_REOPENED"
+            ],
+            "en": {
+                "text": "This game session was closed.\nPlease reload the game."
+            },
+            "ru": {
+                "text": "Игровая сессия была закрыта.\nПожалуйста, перезапустите игру."
+            },
+            "tr": {
+                "text": "Bu oyun oturumu kapatıldı.\nLütfen oyunu yeniden yükleyin."
+            },
+            "it": {
+                "text": "Questa sessione di gioco era chiusa.\nCaricare nuovamente il gioco."
+            },
+            "es": {
+                "text": "Esta sesión de juego fue  cerrada.\nPor favor, vuelva a cargar el juego."
+            },
+            "fr": {
+                "text": "Cette session de jeu a été fermée.\nVeuillez recharger ce jeu."
+            },
+            "zh": {
+                "text": "本赌局结束。请重新加载游戏。"
+            }
+        },
+        "BET_EXCEED": {
+            "aliases": [
+                "not enough money for round"
+            ],
+            "en": {
+                "text": "Please make a deposit or reduce the bet."
+            },
+            "ru": {
+                "text": "Пожалуйста, пополните баланс или понизьте ставку."
+            },
+            "tr": {
+                "text": "Lütfen para yatırın veya bahis miktarını azaltın."
+            },
+            "it": {
+                "text": "Effettua un deposito o riduci la scommessa."
+            },
+            "es": {
+                "text": "Por favor, haga un depósito o reduzca la apuesta."
+            },
+            "fr": {
+                "text": "Veuillez effectuer un versement ou réduire le pari."
+            },
+            "zh": {
+                "text": "请补充余额或减少赌注。"
+            }
+        },
+        "OK": {
+            "en": {
+                "text": "OK"
+            },
+            "ru": {
+                "text": "ОК"
+            },
+            "tr": {
+                "text": "OK"
+            },
+            "it": {
+                "text": "OK"
+            },
+            "es": {
+                "text": "OK"
+            },
+            "fr": {
+                "text": "OK"
+            },
+            "zh": {
+                "text": "确定"
+            }
+        },
+        "TIME_EXCEED": {
+            "en": {
+                "text": "Wow!\n You are playing too long.\nTake a rest."
+            },
+            "ru": {
+                "text": "Ух!\n Вы играете слишком долго, отдохните."
+            },
+            "tr": {
+                "text": "Vay canına!\n Çok uzun süredir oynuyorsunuz.\nBiraz dinlenin."
+            },
+            "it": {
+                "text": "Wow!\n Stai giocando da troppo tempo.\nFai una pausa."
+            },
+            "es": {
+                "text": "Wow!\n Ha estado jugando durante mucho.\nToma un descanso."
+            },
+            "fr": {
+                "text": "Ouah!\n Vous jouez depuis trop longtemps.\nReposez-vous."
+            },
+            "zh": {
+                "text": "哇！\n 您玩太久了。\n休息一会。"
+            }
+        },
+        "LOSS_EXCEED": {
+            "en": {
+                "text": "Attention!\nYou have exceeded loss limit."
+            },
+            "ru": {
+                "text": "Внимание!\nВы превысили лимит на проигрыш."
+            },
+            "tr": {
+                "text": "Dikkat!\nKayıp sınırını aştınız."
+            },
+            "it": {
+                "text": "Attenzione!\nHai superato il limite di perdita."
+            },
+            "es": {
+                "text": "Atención!\nHas excedido los niveles de pérdida."
+            },
+            "fr": {
+                "text": "Attention!\nVous avez dépassé la limite des pertes."
+            },
+            "zh": {
+                "text": "注意！\n您已超过损失限额。"
+            }
+        },
+        "FUNDS_EXCEED": {
+            "en": {
+                "text": "Balance has run out.\nPlease make a deposit."
+            },
+            "ru": {
+                "text": "Баланс исчерпан.\nПожалуйста, пополните счёт."
+            },
+            "tr": {
+                "text": "Bakiye tükendi.\nLütfen para yatırın."
+            },
+            "it": {
+                "text": "Il saldo è esaurito.\nEffettua un deposito."
+            },
+            "es": {
+                "text": "Se ha agotado su saldo.\nFavor de realizar un depósito"
+            },
+            "fr": {
+                "text": "Le solde est épuisé.\nVeuillez effectuer un versement."
+            },
+            "zh": {
+                "text": "余额不足。\n请补充余额。"
+            }
+        },
+        "OTHER_EXCEED": {
+            "en": {
+                "text": "Message from the casino: \n {0}"
+            },
+            "ru": {
+                "text": "Сообщение казино: \n {0}"
+            },
+            "tr": {
+                "text": "Casino mesajı: \n {0}"
+            },
+            "it": {
+                "text": "Messaggio del Casinò: \n {0}"
+            },
+            "es": {
+                "text": "Mensaje del casino: \n {0}"
+            },
+            "fr": {
+                "text": "Message du casino : \n {0}"
+            },
+            "zh": {
+                "text": "娱乐城消息： \n {0}"
+            }
+        },
+        "client error": {
+            "en": {
+                "text": "Something went wrong!\nPlease reload the game."
+            },
+            "ru": {
+                "text": "Что-то пошло не так.\nПожалуйста, перезапустите игру."
+            },
+            "tr": {
+                "text": "Bir şeyler yanlış gitti!\nLütfen oyunu yeniden yükleyin."
+            },
+            "it": {
+                "text": "Qualcosa è andato storto!\nCaricare nuovamente il gioco."
+            },
+            "es": {
+                "text": "Algo ha salido mal!\nPor favor, vuelva a cargar el juego."
+            },
+            "fr": {
+                "text": "Une erreur s’est produite!\nVeuillez recharger ce jeu."
+            },
+            "zh": {
+                "text": "出错了！\n请重新加载游戏。"
+            }
+        },
+        "problem with player's Internet connection": {
+            "en": {
+                "text": "Your current internet connection is slow.\nConnection Lost.\nPlease reload the game."
+            },
+            "ru": {
+                "text": "Проблемы с Интернет соединением. \nСоединение утеряно.\nПерезапустите игру."
+            },
+            "tr": {
+                "text": "Şu anda İnternet bağlantınız yavaş.\nBağlantı kesildi.\nLütfen oyunu yeniden yükleyin."
+            },
+            "it": {
+                "text": "La tua connessione Internet al momento è lenta.\nPerdita di connessione.\nCaricare nuovamente il gioco."
+            },
+            "es": {
+                "text": "Su conexión actual a internet es lenta.\nConexión perdida.\nPor favor, vuelva a cargar el juego."
+            },
+            "fr": {
+                "text": "Votre connexion internet actuelle est lente.\nPerte de la connexion.\nVeuillez recharger ce jeu."
+            },
+            "zh": {
+                "text": "您目前网络连接太慢。\n连接中断。\n请重新加载游戏。"
+            }
+        },
+        "500": {
+            "aliases": [
+                "404",
+                "503",
+                "502"
+            ],
+            "en": {
+                "text": "Server error.\nPlease try again later."
+            },
+            "ru": {
+                "text": "Сервис временно недоступен.\nПопробуйте позже."
+            },
+            "tr": {
+                "text": "Sunucu hatası.\nLütfen daha sonra tekrar deneyin."
+            },
+            "it": {
+                "text": "Errore del server.\nRiprovare più tardi."
+            },
+            "es": {
+                "text": "Error del servidor.\nPor favor inténtalo más tarde."
+            },
+            "fr": {
+                "text": "Erreur du serveur.\nVeuillez réessayer plus tard."
+            },
+            "zh": {
+                "text": "服务器错误。\n请稍后再试。"
+            }
+        },
+        "NO_ACTIVITY": {
+            "en": {
+                "text": ""
+            },
+            "ru": {
+                "text": ""
+            }
+        },
+        "MESSAGE": {
+            "ru": {
+                "text": "Системное сообщение"
+            },
+            "en": {
+                "text": "System message"
+            },
+            "it": {
+                "text": "Messaggio di sistema"
+            },
+            "zh": {
+                "text": "系统信息"
+            },
+            "tr": {
+                "text": "Sistem mesajı"
+            },
+            "es": {
+                "text": "Mensaje del sistema"
+            },
+            "fr": {
+                "text": "Message système"
+            }
+        },
+        "ERROR!": {
+            "en": {
+                "text": "ERROR!"
+            },
+            "ru": {
+                "text": "ОШИБКА!"
+            },
+            "it": {
+                "text": "ERRORE!"
+            },
+            "zh": {
+                "text": "错误！"
+            },
+            "tr": {
+                "text": "HATA!"
+            },
+            "es": {
+                "text": "¡ERROR!"
+            },
+            "fr": {
+                "text": "ERREUR!"
+            }
+        }
+    }
+}

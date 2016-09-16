@@ -1,0 +1,113 @@
+{
+    "name": "Router for popup component",
+    "alias": "popup",
+    "type": "signals",
+    "signals": {
+        "popups": {
+            "subStates": {
+                "bonusStart": {
+                    "methods": [
+                        ["self::Event::showPopupBonusStartEvent"]
+                    ]
+                },
+                "freeSpinStart": {
+                    "arguments": ["countFreeSpins"],
+                    "methods": [
+                        ["self::Event::showPopupFreeSpinsStartEvent", ["countFreeSpins"]]
+                    ]
+                },
+                "freeSpinAdd": {
+                    "arguments": ["countAdd"],
+                    "methods": [
+                        ["self::Event::showPopupFreeSpinsAdditionalEvent", ["countAdd"]]
+                    ]
+                },
+                "freeSpinFinish": {
+                    "arguments": ["amountWin", "state"],
+                    "methods": [
+                        ["self::Event::showPopupFreeSpinsFinishEvent", ["amountWin", "state"]]
+                    ]
+                },
+                "autoSpinFinish": {
+                    "arguments": ["config"],
+                    "methods": [
+                        ["self::Event::showPopupAutoSpinFinishEvent", ["config"]]
+                    ]
+                },
+                "showCustomPopup": {
+                    "arguments": ["data"],
+                    "methods": [
+                        ["self::Event::showCustomPopupEvent", ["data"]]
+                    ]
+                },
+                "systemInfo": {
+                    "arguments": ["data"],
+                    "methods": [
+                        ["self::Event::showSystemInfoPopupEvent", ["data"]]
+                    ]
+                },
+                "systemError": {
+                    "arguments": ["data"],
+                    "methods": [
+                        ["self::Event::showSystemErrorPopupEvent", ["data"]]
+                    ]
+                },
+                "emptyBlur": {
+                    "methods": [
+                        ["self::Handler::showEmptyBlur"]
+                    ]
+                },
+                "show": {
+                    "arguments": ["type", "object", "showBG", "resolve"],
+                    "methods": [
+                        ["self::Handler::showPopupLayer", ["type", "object", "showBG", "resolve"]]
+                    ]
+                },
+                "hide": {
+                    "arguments": ["type", "object", "hideBG", "resolve"],
+                    "methods": [
+                        ["self::Handler::hidePopupLayer", ["type", "object", "hideBG", "resolve"]]
+                    ]
+                }
+            }
+        },
+        "errors": {
+            "subStates": {
+                "system": {
+                    "arguments": ["data"],
+                    "methods": [
+                        ["self::Event::showSystemErrorPopupEvent", ["data"]]
+                    ]
+                },
+                "hideSystem": {
+                    "arguments": ["data"],
+                    "methods": [
+                        ["self::Handler::hideSystemPopup", ["data"]]
+                    ]
+                },
+                "hideAllSystem": {
+                    "methods": [
+                        ["self::Handler::hideAllSystemPopups"]
+                    ]
+                }
+            }
+        },
+        "loading": {
+            "subStates": {
+                "show": {
+                    "methods": [
+                        ["self::Handler::showLoadingAnimation"]
+                    ]
+                },
+                "hide": {
+                    "methods": [
+                        ["self::Handler::hideLoadingAnimation"]
+                    ]
+                }
+            }
+        }
+    },
+    "reducers": {
+
+    }
+}

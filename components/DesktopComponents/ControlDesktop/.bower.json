@@ -1,0 +1,12 @@
+{
+  "name": "component-control-mobile",
+  "_release": "1f2ad4d8fe",
+  "_resolution": {
+    "type": "branch",
+    "branch": "dev",
+    "commit": "1f2ad4d8fe7a550fc0096f99943cd45abb94136a"
+  },
+  "_source": "git@git.slygods.com:game-html5/component-control-mobile.git",
+  "_target": "dev",
+  "_originalSource": "git@git.slygods.com:game-html5/component-control-mobile.git"
+}

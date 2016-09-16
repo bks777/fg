@@ -1,0 +1,20 @@
+{
+    "name": "Required Classes",
+    "type": "classes",
+    "classes": {
+        "Required": {
+            "path": "required.es6.js",
+            "instanceName": "$_required"
+        },
+        "LoaderRequired": {
+            "path": "loaderRequired.es6.js"
+        },
+        "ControllerRequired": {
+            "path": "controllerRequired.es6.js",
+            "instanceName": "$_required_controller",
+            "init": {
+                "countStreams": 5
+            }
+        }
+    }
+}

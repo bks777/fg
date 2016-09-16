@@ -1,0 +1,10 @@
+{
+    "name": "Libs for statistics of CPU application",
+    "type": "libs",
+    "libs": {
+        "proton": {
+            "path": "proton-1.0.0-ll.js",
+            "always": true
+        }
+    }
+}

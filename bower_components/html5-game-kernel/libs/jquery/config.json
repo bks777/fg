@@ -1,0 +1,11 @@
+{
+    "name": "Libs for application",
+    "type": "libs",
+    "libs": {
+        "jquery": {
+            "path": "jquery.ajax.min.js",
+            "minified": true
+        }
+    }
+
+}

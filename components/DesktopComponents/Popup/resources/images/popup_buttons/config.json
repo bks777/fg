@@ -1,0 +1,13 @@
+{
+    "name": "Images for control",
+    "type": "images",
+    "images": {
+        "popup_ok_button": {
+            "path": "popup-ok-button.png"
+        },
+        "popup_normal_button": {
+            "path": "popup-normal-button.png"
+        }
+    }
+
+}
